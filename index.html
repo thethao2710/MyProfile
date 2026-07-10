@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="vi" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hồ sơ năng lực cá nhân của Nguyễn Thế Thảo - Trưởng phòng IT chuyên nghiệp với kinh nghiệm quản lý hệ thống IT, MES/ERP, hạ tầng mạng và chuyển đổi số.">
+  <title>Nguyễn Thế Thảo - IT System & Manager Profile</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Menu điều hướng -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="main-navbar">
+    <div class="container">
+      <a class="navbar-brand logo-text" href="#hero">
+        <span class="gradient-text">Nguyễn Thế Thảo</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggle-btn">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-nav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero" id="nav-link-hero" data-i18n="nav.home">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" id="nav-link-about" data-i18n="nav.about">Giới thiệu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience" id="nav-link-experience" data-i18n="nav.experience">Kinh nghiệm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" id="nav-link-projects" data-i18n="nav.projects">Dự án</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills" id="nav-link-skills" data-i18n="nav.skills">Kỹ năng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="nav-link-contact" data-i18n="nav.contact">Liên hệ</a>
+          </li>
+          
+          <!-- Bộ chọn ngôn ngữ -->
+          <li class="nav-item dropdown ms-lg-3 mt-3 mt-lg-0">
+            <button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center gap-1 lang-btn" type="button" id="language-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-globe text-primary"></i> <span id="current-lang-text">Tiếng Việt</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end glass-card border-0 shadow-lg p-2" aria-labelledby="language-dropdown-btn">
+              <li><button class="dropdown-item lang-option active rounded-2" data-lang="vi">Tiếng Việt</button></li>
+              <li><button class="dropdown-item lang-option rounded-2" data-lang="en">English</button></li>
+              <li><button class="dropdown-item lang-option rounded-2" data-lang="ja">日本語</button></li>
+            </ul>
+          </li>
+
+          <!-- Nút đổi theme -->
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <button class="btn-theme-toggle" id="theme-toggle-btn" aria-label="Chuyển đổi giao diện sáng tối">
+              <i class="fa-solid fa-moon theme-icon-dark"></i>
+              <i class="fa-solid fa-sun theme-icon-light d-none"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Trang chủ / Hero -->
+  <section class="hero-section d-flex align-items-center position-relative overflow-hidden" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+    </div>
+    <div class="container position-relative z-2">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6 mb-3 hero-tag" data-i18n="hero.badge">Chào mừng bạn đến với portfolio của tôi</span>
+          <h1 class="display-3 fw-extrabold mb-3 name-heading">
+            <span data-i18n="hero.iam">Tôi là</span> <span class="gradient-text">Nguyễn Thế Thảo</span>
+          </h1>
+          <h2 class="h3 fw-bold mb-4 profession-sub">
+            <span data-i18n="hero.expert">Chuyên gia</span> <span class="typing-text" id="typed-text-target"></span>
+          </h2>
+          <p class="lead text-secondary mb-5 hero-description" data-i18n="hero.description">
+            Với hơn 10 năm kinh nghiệm quản trị và vận hành hệ thống IT, MES/ERP và hạ tầng mạng trong môi trường sản xuất công nghệ cao. Định hướng thúc đẩy chuyển đổi số, tối ưu hóa quy trình doanh nghiệp và xây dựng đội ngũ IT hiệu suất cao.
+          </p>
+          <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+            <a href="#contact" class="btn btn-primary btn-lg px-4 py-3 rounded-pill shadow-lg custom-btn-primary" id="cta-contact-btn">
+              <span data-i18n="hero.btnContact">Liên hệ ngay</span> <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
+            <a href="#experience" class="btn btn-outline-secondary btn-lg px-4 py-3 rounded-pill custom-btn-outline" id="cta-experience-btn" data-i18n="hero.btnExperience">
+              Xem kinh nghiệm
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0 text-center">
+          <div class="hero-avatar-wrapper position-relative mx-auto">
+            <div class="avatar-glow"></div>
+            <div class="avatar-border">
+              <div class="avatar-placeholder d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-user-tie display-1 text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Giới thiệu / About -->
+  <section class="about-section py-100-60" id="about">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-uppercase" data-i18n="about.title">Giới thiệu bản thân</h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+      </div>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-5">
+          <div class="card border-0 h-100 glass-card p-4 shadow-sm">
+            <div class="card-body">
+              <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="about.personalInfo">Thông tin cá nhân</h3>
+              <ul class="list-unstyled contact-info-list fs-6">
+                <li class="mb-3 d-flex align-items-center">
+                  <span class="info-icon-wrapper me-3"><i class="fa-solid fa-calendar text-primary"></i></span>
+                  <div>
+                    <span class="text-secondary d-block fs-7" data-i18n="about.yob">Năm sinh</span>
+                    <strong class="info-value"><span id="personal-age-text">1992</span></strong>
+                  </div>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                  <span class="info-icon-wrapper me-3"><i class="fa-solid fa-phone text-primary"></i></span>
+                  <div>
+                    <span class="text-secondary d-block fs-7" data-i18n="about.phone">Điện thoại</span>
+                    <strong class="info-value"><a href="tel:0977574363" class="text-decoration-none text-reset">097 757 4363</a></strong>
+                  </div>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                  <span class="info-icon-wrapper me-3"><i class="fa-solid fa-envelope text-primary"></i></span>
+                  <div>
+                    <span class="text-secondary d-block fs-7" data-i18n="about.email">Thư điện tử</span>
+                    <strong class="info-value"><a href="mailto:thethao2710@gmail.com" class="text-decoration-none text-reset">thethao2710@gmail.com</a></strong>
+                  </div>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                  <span class="info-icon-wrapper me-3"><i class="fa-solid fa-location-dot text-primary"></i></span>
+                  <div>
+                    <span class="text-secondary d-block fs-7" data-i18n="about.address">Địa điểm làm việc</span>
+                    <strong class="info-value" id="personal-address-val">TP. Hồ Chí Minh & Bình Dương</strong>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <span class="info-icon-wrapper me-3"><i class="fa-solid fa-ring text-primary"></i></span>
+                  <div>
+                    <span class="text-secondary d-block fs-7" data-i18n="about.marital">Tình trạng hôn nhân</span>
+                    <strong class="info-value" id="personal-marital-val">Đã kết hôn (2 con)</strong>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="card border-0 h-100 glass-card p-4 shadow-sm">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="about.objective">Mục tiêu nghề nghiệp</h3>
+                <p class="fs-5 text-secondary mb-4 text-justify" data-i18n="about.obj1">
+                  Mong muốn phát triển sự nghiệp trong môi trường chuyên nghiệp, nơi tôi có thể phát huy tối đa khả năng quản lý hệ thống, kỹ năng lãnh đạo và tư duy đổi mới sáng tạo.
+                </p>
+                <p class="fs-5 text-secondary mb-4 text-justify" data-i18n="about.obj2">
+                  Cam kết đóng góp hết mình cho sự ổn định hệ thống, an toàn dữ liệu và tối ưu hóa hạ tầng mạng để gia tăng hiệu suất sản xuất của doanh nghiệp.
+                </p>
+              </div>
+              <div class="row g-3">
+                <div class="col-sm-4 text-center">
+                  <div class="p-3 bg-body-tertiary rounded-3 stats-item border border-secondary-subtle">
+                    <span class="h2 fw-bold text-primary mb-1 d-block">10+</span>
+                    <span class="text-secondary fs-7" data-i18n="about.stat1">Năm kinh nghiệm</span>
+                  </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                  <div class="p-3 bg-body-tertiary rounded-3 stats-item border border-secondary-subtle">
+                    <span class="h2 fw-bold text-primary mb-1 d-block">99.9%</span>
+                    <span class="text-secondary fs-7" data-i18n="about.stat2">Uptime hệ thống</span>
+                  </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                  <div class="p-3 bg-body-tertiary rounded-3 stats-item border border-secondary-subtle">
+                    <span class="h2 fw-bold text-primary mb-1 d-block">9+</span>
+                    <span class="text-secondary fs-7" data-i18n="about.stat3">Thành viên đội ngũ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kinh nghiệm làm việc / Experience -->
+  <section class="experience-section py-100-60 bg-body-tertiary" id="experience">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-uppercase" data-i18n="experience.title">Kinh nghiệm làm việc</h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+      </div>
+      
+      <!-- Timeline -->
+      <div class="timeline-container position-relative" id="experience-list-target">
+        <!-- JS sẽ render nội dung kinh nghiệm vào đây thông qua template -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Dự án tiêu biểu / Projects -->
+  <section class="projects-section py-100-60" id="projects">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-uppercase" data-i18n="projects.title">Dự án tiêu biểu</h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+      </div>
+
+      <!-- Dự án Grid -->
+      <div class="row g-4" id="projects-list-target">
+        <!-- JS sẽ render danh sách dự án vào đây thông qua template -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Kỹ năng & Học vấn / Skills & Education -->
+  <section class="skills-section py-100-60 bg-body-tertiary" id="skills">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-uppercase" data-i18n="skills.title">Năng lực & Học vấn</h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <!-- Kỹ năng -->
+        <div class="col-lg-7">
+          <div class="card border-0 h-100 glass-card p-4 shadow-sm">
+            <div class="card-body">
+              <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="skills.workskills">Kỹ năng làm việc</h3>
+              <div id="skills-list-target" class="d-flex flex-column gap-4">
+                <!-- JS sẽ render danh sách kỹ năng vào đây -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Học vấn & Khác -->
+        <div class="col-lg-5">
+          <div class="d-flex flex-column gap-4 h-100">
+            <!-- Học vấn -->
+            <div class="card border-0 glass-card p-4 shadow-sm flex-fill">
+              <div class="card-body">
+                <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="skills.education">Học vấn</h3>
+                <div class="education-item mb-4 border-start border-primary border-3 ps-3">
+                  <span class="badge bg-primary mb-2">09/2010 – 05/2014</span>
+                  <h4 class="h6 fw-bold mb-1" data-i18n="skills.degree">Cử nhân Điện tử Viễn thông</h4>
+                  <p class="text-secondary fs-7 mb-0" data-i18n="skills.school">Trường ĐH Khoa học Tự nhiên TP. HCM</p>
+                  <p class="text-secondary fs-7 mb-0" data-i18n="skills.grade">Xếp loại: Khá (Điểm TB: 7.44/10)</p>
+                </div>
+                
+                <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="skills.languages">Ngoại ngữ</h3>
+                <div class="language-list">
+                  <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                      <span class="fw-semibold" data-i18n="skills.japanese">Tiếng Nhật</span>
+                      <span class="text-primary fw-medium" data-i18n="skills.japaneseLevel">JLPT N3 / Giao tiếp N2</span>
+                    </div>
+                    <div class="progress progress-custom" style="height: 6px;">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="d-flex justify-content-between mb-1">
+                      <span class="fw-semibold" data-i18n="skills.english">Tiếng Anh</span>
+                      <span class="text-primary fw-medium" data-i18n="skills.englishLevel">Đọc hiểu tài liệu kỹ thuật</span>
+                    </div>
+                    <div class="progress progress-custom" style="height: 6px;">
+                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Sở thích -->
+            <div class="card border-0 glass-card p-4 shadow-sm flex-fill">
+              <div class="card-body">
+                <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="skills.hobbies">Sở thích cá nhân</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-3 py-2 rounded-pill"><i class="fa-solid fa-book-open me-2 text-primary"></i><span data-i18n="skills.hobbyRead">Đọc sách</span></span>
+                  <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-3 py-2 rounded-pill"><i class="fa-solid fa-plane me-2 text-primary"></i><span data-i18n="skills.hobbyTravel">Du lịch</span></span>
+                  <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-3 py-2 rounded-pill"><i class="fa-solid fa-music me-2 text-primary"></i><span data-i18n="skills.hobbyMusic">Nghe nhạc</span></span>
+                  <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-3 py-2 rounded-pill"><i class="fa-solid fa-users-line me-2 text-primary"></i><span data-i18n="skills.hobbySocial">Giao lưu xã hội</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Liên hệ / Contact -->
+  <section class="contact-section py-100-60" id="contact">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-uppercase" data-i18n="contact.title">Liên hệ</h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="card border-0 h-100 glass-card p-4 shadow-sm">
+            <div class="card-body">
+              <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="contact.infoTitle">Thông tin liên lạc</h3>
+              <p class="text-secondary mb-4" data-i18n="contact.infoDesc">
+                Hãy kết nối với tôi để trao đổi cơ hội hợp tác hoặc thảo luận giải pháp công nghệ.
+              </p>
+              
+              <div class="d-flex mb-4">
+                <div class="contact-icon bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center me-3 shadow-sm">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-secondary mb-1" data-i18n="contact.phone">Điện thoại</h4>
+                  <p class="fw-bold mb-0"><a href="tel:0977574363" class="text-decoration-none text-reset">097 757 4363</a></p>
+                </div>
+              </div>
+
+              <div class="d-flex mb-4">
+                <div class="contact-icon bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center me-3 shadow-sm">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-secondary mb-1" data-i18n="contact.email">Thư điện tử</h4>
+                  <p class="fw-bold mb-0"><a href="mailto:thethao2710@gmail.com" class="text-decoration-none text-reset">thethao2710@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="d-flex">
+                <div class="contact-icon bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center me-3 shadow-sm">
+                  <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div>
+                  <h4 class="h6 text-secondary mb-1" data-i18n="contact.address">Địa chỉ hiện tại</h4>
+                  <p class="fw-bold mb-0" id="contact-address-val">Thuận Giao, Thuận An, Bình Dương (TP. HCM)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="card border-0 glass-card p-4 shadow-sm">
+            <div class="card-body">
+              <h3 class="h4 fw-bold mb-4 card-title-custom" data-i18n="contact.formTitle">Gửi tin nhắn trực tiếp</h3>
+              <form id="contact-form" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="contact-name" class="form-label fs-7" data-i18n="contact.formName">Họ và tên</label>
+                    <input type="text" class="form-control" id="contact-name" required data-placeholder="contact.placeholderName" placeholder="Họ và tên của bạn">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="contact-email" class="form-label fs-7" data-i18n="contact.formEmail">Địa chỉ email</label>
+                    <input type="email" class="form-control" id="contact-email" required data-placeholder="contact.placeholderEmail" placeholder="name@example.com">
+                  </div>
+                  <div class="col-12">
+                    <label for="contact-subject" class="form-label fs-7" data-i18n="contact.formSubject">Tiêu đề</label>
+                    <input type="text" class="form-control" id="contact-subject" required data-placeholder="contact.placeholderSubject" placeholder="Tiêu đề tin nhắn">
+                  </div>
+                  <div class="col-12">
+                    <label for="contact-message" class="form-label fs-7" data-i18n="contact.formMessage">Nội dung</label>
+                    <textarea class="form-control" id="contact-message" rows="4" required data-placeholder="contact.placeholderMessage" placeholder="Nhập tin nhắn của bạn tại đây..."></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary w-100 py-3 rounded-pill shadow custom-btn-primary" id="contact-submit-btn">
+                      <span data-i18n="contact.btnSubmit">Gửi tin nhắn</span> <i class="fa-solid fa-paper-plane ms-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div id="form-alert-container" class="mt-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top border-secondary-subtle bg-body-tertiary">
+    <div class="container text-center">
+      <p class="mb-1 text-secondary fs-7" data-i18n="footer.copyright">&copy; 2026 Nguyễn Thế Thảo. Bảo lưu mọi quyền.</p>
+      <p class="mb-0 text-secondary fs-7-italic" data-i18n="footer.designer">Thiết kế bởi JARVIS AI với sự chỉn chu và tinh tế cao nhất.</p>
+    </div>
+  </footer>
+
+  <!-- TEMPLATES (Cho render động bằng JS) -->
+  
+  <!-- Template Kinh nghiệm làm việc -->
+  <template id="experience-card-template">
+    <div class="timeline-item position-relative mb-5 scroll-reveal">
+      <div class="timeline-dot bg-primary shadow"></div>
+      <div class="row">
+        <div class="col-md-3 text-md-end mb-2 mb-md-0">
+          <span class="timeline-date fw-bold text-primary fs-5 d-block"></span>
+          <span class="timeline-location text-secondary fs-7 d-block"></span>
+        </div>
+        <div class="col-md-9">
+          <div class="card border-0 glass-card p-4 shadow-sm timeline-card">
+            <div class="card-body">
+              <h3 class="h4 fw-extrabold mb-1 job-title"></h3>
+              <h4 class="h6 fw-semibold text-secondary mb-3 company-name"></h4>
+              <ul class="job-duties list-unstyled mb-0 text-secondary">
+                <!-- Thẻ li sẽ được chèn vào đây -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <!-- Template Dự án -->
+  <template id="project-card-template">
+    <div class="col-md-6 col-lg-4 scroll-reveal">
+      <div class="card border-0 h-100 glass-card project-card shadow-sm">
+        <div class="card-body d-flex flex-column justify-content-between p-4">
+          <div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="project-icon-box bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center shadow-sm">
+                <i class="fa-solid fa-diagram-project"></i>
+              </span>
+              <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill project-duration px-2 py-1 fs-7"></span>
+            </div>
+            <h3 class="h5 fw-bold mb-3 project-title card-title-custom"></h3>
+            <ul class="project-details list-unstyled text-secondary fs-7 mb-4">
+              <!-- Chi tiết dự án chèn vào đây -->
+            </ul>
+          </div>
+          <div class="project-technologies d-flex flex-wrap gap-1 border-top pt-3">
+            <!-- Badge công nghệ chèn vào đây -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <!-- Template Kỹ năng làm việc (dạng thanh tiến trình / hoặc list chi tiết) -->
+  <template id="skill-group-template">
+    <div class="skill-group">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <span class="fw-semibold skill-name fs-6"></span>
+        <span class="text-primary fw-medium skill-level fs-7 d-none"></span>
+      </div>
+      <div class="skill-description text-secondary fs-7">
+        <!-- Chi tiết kỹ năng -->
+      </div>
+    </div>
+  </template>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
