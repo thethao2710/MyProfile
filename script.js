@@ -218,7 +218,7 @@ const profileData = {
   vi: {
     ageText: "1992 (Tuổi: 34)",
     addressVal: "TP. Hồ Chí Minh & Đồng Nai",
-    maritalVal: "Đã kết hôn (2 con)",
+    maritalVal: "Đã kết hôn",
     contactAddressVal: "Thuận Giao, TP. HCM (Bình Dương)",
     experiences: [
       {
