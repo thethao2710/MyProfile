@@ -674,16 +674,16 @@ h1, h2, h3, h4, h5, h6 {
   100% { top: 0%; }
 }
 
-/* Zalo SVG styling */
-.zalo-svg {
+/* Zalo Icon styling */
+.zalo-icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  object-fit: contain;
   display: inline-block;
   vertical-align: middle;
 }
 
-.contact-icon .zalo-svg {
+.contact-icon .zalo-icon {
   width: 24px;
   height: 24px;
 }
