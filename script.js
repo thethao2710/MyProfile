@@ -18,10 +18,10 @@ const translations = {
     "hero.badge": "Chào mừng bạn đến với portfolio của tôi",
     "hero.iam": "Tôi là",
     "hero.expert": "Chuyên gia",
-    "hero.description": "Với hơn 10 năm kinh nghiệm quản trị và vận hành hệ thống IT, MES/ERP và hạ tầng mạng trong môi trường sản xuất công nghệ cao. Định hướng thúc đẩy chuyển đổi số, tối ưu hóa quy trình doanh nghiệp và xây dựng đội ngũ IT hiệu suất cao.",
+    "hero.description": "Với hơn 8 năm kinh nghiệm quản trị và vận hành hệ thống IT, MES/ERP và hạ tầng mạng trong môi trường sản xuất công nghệ cao. Định hướng thúc đẩy chuyển đổi số, tối ưu hóa quy trình doanh nghiệp và xây dựng đội ngũ IT hiệu suất cao.",
     "hero.btnContact": "Liên hệ ngay",
     "hero.btnExperience": "Xem kinh nghiệm",
-    "about.title": "Giới thiệu bản thân",
+    "about.title": "GIỚI THIỆU BẢN THÂN",
     "about.personalInfo": "Thông tin cá nhân",
     "about.yob": "Năm sinh",
     "about.phone": "Điện thoại",
@@ -34,9 +34,9 @@ const translations = {
     "about.stat1": "Năm kinh nghiệm",
     "about.stat2": "Uptime hệ thống",
     "about.stat3": "Thành viên đội ngũ",
-    "experience.title": "Kinh nghiệm làm việc",
-    "projects.title": "Dự án tiêu biểu",
-    "skills.title": "Năng lực & Học vấn",
+    "experience.title": "KINH NGHIỆM LÀM VIỆC",
+    "projects.title": "DỰ ÁN TIÊU BIỂU",
+    "skills.title": "NĂNG LỰC & HỌC VẤN",
     "skills.workskills": "Kỹ năng làm việc",
     "skills.education": "Học vấn",
     "skills.degree": "Cử nhân Điện tử Viễn thông",
@@ -52,7 +52,9 @@ const translations = {
     "skills.hobbyTravel": "Du lịch",
     "skills.hobbyMusic": "Nghe nhạc",
     "skills.hobbySocial": "Giao lưu xã hội",
-    "contact.title": "Liên hệ",
+    "contact.title": "LIÊN HỆ",
+    "contact.qrTitle": "Kết nối di động",
+    "contact.qrDesc": "Quét mã QR bằng thiết bị di động để truy cập nhanh phiên bản trực tuyến của portfolio này.",
     "contact.infoTitle": "Thông tin liên lạc",
     "contact.infoDesc": "Hãy kết nối với tôi để trao đổi cơ hội hợp tác hoặc thảo luận giải pháp công nghệ.",
     "contact.phone": "Điện thoại",
@@ -83,10 +85,10 @@ const translations = {
     "hero.badge": "Welcome to my portfolio",
     "hero.iam": "I am",
     "hero.expert": "Expert in",
-    "hero.description": "Over 10 years of experience managing and operating IT systems, MES/ERP, and network infrastructure in high-tech manufacturing environments. Dedicated to driving digital transformation, process optimization, and building high-performance IT teams.",
+    "hero.description": "Over 8 years of experience managing and operating IT systems, MES/ERP, and network infrastructure in high-tech manufacturing environments. Dedicated to driving digital transformation, process optimization, and building high-performance IT teams.",
     "hero.btnContact": "Contact me",
     "hero.btnExperience": "View experience",
-    "about.title": "About me",
+    "about.title": "ABOUT ME",
     "about.personalInfo": "Personal information",
     "about.yob": "Year of birth",
     "about.phone": "Phone",
@@ -99,9 +101,9 @@ const translations = {
     "about.stat1": "Years of experience",
     "about.stat2": "System uptime",
     "about.stat3": "Team members",
-    "experience.title": "Work experience",
-    "projects.title": "Key projects",
-    "skills.title": "Skills & Education",
+    "experience.title": "WORK EXPERIENCE",
+    "projects.title": "KEY PROJECTS",
+    "skills.title": "SKILLS & EDUCATION",
     "skills.workskills": "Professional skills",
     "skills.education": "Education",
     "skills.degree": "Bachelor's Degree in Electronics and Telecommunications",
@@ -117,7 +119,9 @@ const translations = {
     "skills.hobbyTravel": "Traveling",
     "skills.hobbyMusic": "Music",
     "skills.hobbySocial": "Social networking",
-    "contact.title": "Contact",
+    "contact.title": "CONTACT",
+    "contact.qrTitle": "Mobile Connection",
+    "contact.qrDesc": "Scan the QR code with your mobile device to quickly access the online version of this portfolio.",
     "contact.infoTitle": "Contact info",
     "contact.infoDesc": "Feel free to reach out to me for collaboration opportunities or technology discussions.",
     "contact.phone": "Phone",
@@ -144,11 +148,11 @@ const translations = {
     "nav.experience": "職歴",
     "nav.projects": "プロジェクト",
     "nav.skills": "スキル・学歴",
-    "nav.contact": "お問い合せ",
+    "nav.contact": "お問い合わせ",
     "hero.badge": "ポートフォリオへようこそ",
     "hero.iam": "私は",
-    "hero.expert": "専門家：",
-    "hero.description": "ハイテク製造環境におけるITシステム、MES/ERP、ネットワークインフラの管理・運用に10年以上の経験を持ちます。デジタルトランスフォーメーションの推進、業務プロセスの最適化、および高度なITチームの構築に尽力しています。",
+    "hero.expert": "専門分野：",
+    "hero.description": "ハイテク製造環境におけるITシステム、MES/ERP、ネットワークインフラの管理・運用に8年以上の経験を持ちます。デジタルトランスフォーメーションの推進、業務プロセスの最適化、および高度なITチームの構築に尽力しています。",
     "hero.btnContact": "連絡する",
     "hero.btnExperience": "職歴を見る",
     "about.title": "自己紹介",
@@ -170,7 +174,7 @@ const translations = {
     "skills.workskills": "実務スキル",
     "skills.education": "学歴",
     "skills.degree": "電子通信工学士",
-    "skills.school": "ホーチミン市国家大学理科大学",
+    "skills.school": "ホーチミン市国家大学自然科学大学",
     "skills.grade": "成績：良好 (GPA: 7.44/10)",
     "skills.languages": "語学力",
     "skills.japanese": "日本語",
@@ -183,12 +187,14 @@ const translations = {
     "skills.hobbyMusic": "音楽鑑賞",
     "skills.hobbySocial": "社交活動",
     "contact.title": "連絡先",
-    "contact.infoTitle": "お問い合せ先",
+    "contact.qrTitle": "モバイル接続",
+    "contact.qrDesc": "スマートフォンでQRコードをスキャンして、このポートフォリオのオンライン版に素早くアクセスできます。",
+    "contact.infoTitle": "お問い合わせ先",
     "contact.infoDesc": "協業のご提案や技術的なディスカッションなど、お気軽にご連絡ください。",
     "contact.phone": "電話番号",
     "contact.email": "メールアドレス",
     "contact.address": "現住所",
-    "contact.formTitle": "直接メッセージを送る",
+    "contact.formTitle": "お問い合わせフォーム",
     "contact.formName": "お名前",
     "contact.formEmail": "メールアドレス",
     "contact.formSubject": "件名",
@@ -211,15 +217,15 @@ const translations = {
 const profileData = {
   vi: {
     ageText: "1992 (Tuổi: 34)",
-    addressVal: "TP. Hồ Chí Minh & Bình Dương",
+    addressVal: "TP. Hồ Chí Minh & Đồng Nai",
     maritalVal: "Đã kết hôn (2 con)",
-    contactAddressVal: "Thuận Giao, Thuận An, Bình Dương (TP. HCM)",
+    contactAddressVal: "Thuận Giao, TP. HCM (Bình Dương)",
     experiences: [
       {
         companyName: "Công ty TNHH Sharp Manufacturing Việt Nam",
         role: "Trưởng phòng IT (Khối sản xuất)",
         period: "04/2021 – Hiện tại",
-        location: "Bình Dương",
+        location: "TP. HCM (Bình Dương)",
         duties: [
           "Quản lý và vận hành tổng thể hệ thống MES/ERP: bao gồm hạ tầng mạng, máy chủ, cơ sở dữ liệu và hệ thống điều khiển sản xuất, đảm bảo hoạt động ổn định 99.9% uptime, đáp ứng yêu cầu sản xuất liên tục 24/7.",
           "Lãnh đạo cải tiến và phát triển hệ thống: phân tích yêu cầu nghiệp vụ, xây dựng tài liệu đặc tả (spec), tổ chức phát triển, kiểm thử và triển khai các nâng cấp (server, ứng dụng, hệ thống điều khiển).",
@@ -235,14 +241,14 @@ const profileData = {
       },
       {
         companyName: "Công ty Cổ phần Nhân lực Quốc tế Việt",
-        role: "Nhân viên IT & Giáo viên tiếng Nhật (Bán thời gian)",
+        role: "Chuyên viên IT",
         period: "12/2018 – 06/2020",
         location: "TP. HCM",
         duties: [
-          "Xây dựng hệ thống Website, Internet Marketing cho doanh nghiệp.",
-          "Quản lý dữ liệu, máy tính cũng như các thiết bị công nghệ thông tin khác.",
-          "Hỗ trợ, đào tạo tin học văn phòng cho các bộ phận nội bộ.",
-          "Hỗ trợ đối tác, nhân viên phía Nhật Bản trong giao tiếp và chuyển giao công nghệ."
+          "Phát triển và duy trì trang web công ty, triển khai các giải pháp Internet Marketing nhằm nâng cao nhận diện thương hiệu.",
+          "Quản trị hệ thống máy tính, thiết bị ngoại vi và hạ tầng mạng nội bộ, đảm bảo tính sẵn sàng và an toàn dữ liệu.",
+          "Đào tạo, hỗ trợ kỹ thuật và hướng dẫn sử dụng phần mềm văn phòng cho cán bộ nhân viên.",
+          "Biên dịch tài liệu kỹ thuật, hỗ trợ đối tác Nhật Bản trong quá trình chuyển giao công nghệ và cấu hình hệ thống."
         ]
       },
       {
@@ -251,9 +257,9 @@ const profileData = {
         period: "06/2018 – 03/2019",
         location: "TP. HCM",
         duties: [
-          "Giám sát, vận hành hệ thống máy chủ (corebanking, card, internet banking...vv) đảm bảo hệ thống hoạt động ổn định, liên tục 24/7 không xảy ra sự cố thanh toán, rút tiền.",
-          "Triển khai các thay đổi, nâng cấp hệ thống đáp ứng được yêu cầu hệ thống ngân hàng.",
-          "Triển khai các dự án mới, hệ thống mới (hệ thống thanh toán quốc tế Swift).",
+          "Giám sát, vận hành hệ thống máy chủ (Core Banking, Card, Internet Banking, v.v.) đảm bảo hệ thống hoạt động ổn định, liên tục 24/7 không xảy ra sự cố thanh toán, rút tiền.",
+          "Triển khai các thay đổi, nâng cấp hệ thống đáp ứng yêu cầu của hệ thống ngân hàng.",
+          "Triển khai các dự án mới, hệ thống mới (hệ thống thanh toán quốc tế SWIFT).",
           "Nghiên cứu và triển khai các giải pháp công nghệ mới nhằm tối ưu hệ thống."
         ]
       },
@@ -275,7 +281,7 @@ const profileData = {
         details: [
           "Thiết kế và triển khai hệ thống lưu trữ hình ảnh quy mô lớn sử dụng NAS Synology (10PB).",
           "Xây dựng hạ tầng mạng băng thông cao 10Gbps phục vụ truyền tải dữ liệu thời gian thực.",
-          "Tối ưu ứng dụng xử lý realtime bằng Golang, nâng cao hiệu năng và tốc độ xử lý dữ liệu."
+          "Tối ưu ứng dụng xử lý thời gian thực (real-time) bằng Golang, nâng cao hiệu năng và tốc độ xử lý dữ liệu."
         ],
         technologies: ["NAS Synology", "Golang", "Network 10Gbps", "Real-time Storage"]
       },
@@ -305,7 +311,7 @@ const profileData = {
         duration: "Đã hoàn thành",
         details: [
           "Lập kế hoạch ngân sách, tiến độ và quản lý triển khai dự án nâng cấp mạng toàn bộ nhà máy.",
-          "Mở rộng hạ tầng mạng phục vụ thêm line sản xuất mà không ảnh hưởng hệ thống hiện tại.",
+          "Mở rộng hạ tầng mạng phục vụ thêm dây chuyền sản xuất mà không ảnh hưởng đến hệ thống hiện tại.",
           "Định hướng kiến trúc mạng dài hạn phục vụ chuyển đổi số và smart factory."
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
@@ -314,7 +320,7 @@ const profileData = {
         title: "Vận hành hệ thống MES/ERP",
         duration: "Liên tục",
         details: [
-          "Đảm bảo hệ thống MES vận hành ổn định sẵn sàng 99.9% uptime cho sản xuất 24/7.",
+          "Đảm bảo hệ thống MES vận hành ổn định đạt uptime 99.9% cho sản xuất 24/7.",
           "Xử lý sự cố và phản ứng nhanh trong vòng 8 giờ, bao gồm ngày nghỉ và ngoài giờ làm việc.",
           "Hỗ trợ chuyển đổi ứng dụng Sharp ERP sang SAP ERP-ECC 6.0 (đang triển khai)."
         ],
@@ -325,7 +331,7 @@ const profileData = {
         duration: "Liên tục",
         details: [
           "Quản lý phòng IT gồm 9 nhân sự, tổ chức thành 3 nhóm chức năng: Vận hành, Phát triển và Cải tiến.",
-          "Phân công công việc, quản lý hiệu suất và đào tạo, phát triển đội ngũ kế thừa.",
+          "Phân công công việc, quản lý hiệu suất và đào tạo, phát triển đội ngũ kế cận.",
           "Phối hợp chặt chẽ với Ban Giám đốc, nhà sản xuất và nhà cung cấp để triển khai các dự án."
         ],
         technologies: ["Agile/Scrum", "Team Leadership", "KPI Management", "Vendor Coordination"]
@@ -342,7 +348,7 @@ const profileData = {
       },
       {
         groupName: "Hạ tầng mạng & Bảo mật",
-        description: "Thiết kế, mở rộng hệ thống mạng công nghiệp phức tạp (Routing, Switching L2/L3, Firewall Sophos/Fortinet, Wifi Industrial). Tối ưu hóa băng thông truyền tải dữ liệu dung lượng lớn (10Gbps) và đảm bảo an toàn thông tin hệ thống."
+        description: "Thiết kế, mở rộng hệ thống mạng công nghiệp phức tạp (Routing, Switching L2/L3, Firewall Sophos/Fortinet, Wi-Fi công nghiệp). Tối ưu hóa băng thông truyền tải dữ liệu dung lượng lớn (10Gbps) và đảm bảo an toàn thông tin hệ thống."
       },
       {
         groupName: "Chuyển đổi số & AI nội bộ",
@@ -352,9 +358,9 @@ const profileData = {
   },
   en: {
     ageText: "1992 (Age: 34)",
-    addressVal: "Ho Chi Minh City & Binh Duong",
+    addressVal: "Ho Chi Minh City & Dong Nai",
     maritalVal: "Married (2 children)",
-    contactAddressVal: "Thuan Giao, Thuan An, Binh Duong (HCMC)",
+    contactAddressVal: "Thuan Giao, HCMC",
     experiences: [
       {
         companyName: "Sharp Manufacturing Vietnam Co., Ltd.",
@@ -365,7 +371,7 @@ const profileData = {
           "Managed and operated end-to-end MES/ERP systems, including network infrastructure, servers, databases, and production control systems, ensuring 99.9% uptime to support continuous 24/7 manufacturing operations.",
           "Led system enhancement and development initiatives: analyzed business requirements, prepared technical specifications, and managed development, testing, and deployment of system upgrades (servers, applications, control systems).",
           "Designed and standardized IT and production processes: developed, implemented, and optimized operational workflows in compliance with ISO/IATF standards.",
-          "Managed and developed IT infrastructure: deployed, expanded, and optimized network systems (L2/L3 switches, firewalls, routers, WiFi), ensuring performance and information security.",
+          "Managed and developed IT infrastructure: deployed, expanded, and optimized network systems (L2/L3 switches, firewalls, routers, Wi-Fi), ensuring performance and information security.",
           "Designed and operated production data management systems: managed databases, system logs, and product image data; implemented backup and recovery solutions to ensure data integrity and security.",
           "Developed internal solutions and tools to streamline operations, improve productivity, and reduce manual workloads.",
           "Drove digital transformation initiatives by researching and applying new technologies (AI, automation, open-source solutions) to enhance production efficiency and management.",
@@ -376,14 +382,14 @@ const profileData = {
       },
       {
         companyName: "VILACO International Human Resources Co., Ltd.",
-        role: "IT Staff & Japanese Teacher (Part-time)",
+        role: "IT Specialist & Technology Transfer Support (Part-time)",
         period: "12/2018 – 06/2020",
         location: "HCMC",
         duties: [
-          "Developed and maintained the company website and supported online marketing activities.",
-          "Provided troubleshooting and technical support for computer and network issues.",
-          "Performed hardware repair, system maintenance, and data backup.",
-          "Coordinated and provided IT support to the Japan side."
+          "Developed and maintained the corporate websites and optimized search engine presence (SEO).",
+          "Managed local network infrastructure, endpoint security, and backup systems.",
+          "Provided technical support, troubleshooting, and software training for internal staff.",
+          "Translated technical documents and facilitated IT system transitions for Japanese partners."
         ]
       },
       {
@@ -398,7 +404,7 @@ const profileData = {
         ]
       },
       {
-        companyName: "Washin Kogyo Co., Ltd. (Japan)",
+        companyName: "Washin Aluminum Co., Ltd. (Japan)",
         role: "Technical Intern – Automatic Machine Operation",
         period: "03/2015 – 03/2018",
         location: "Osaka, Japan",
@@ -415,7 +421,7 @@ const profileData = {
         details: [
           "Designed and implemented a large-scale image storage system using Synology NAS (10PB).",
           "Built high-bandwidth network infrastructure (10Gbps) to support real-time data transmission.",
-          "Optimized real-time processing applications using Golang, improving system performance."
+          "Optimized real-time processing applications using Golang, improving system performance and throughput."
         ],
         technologies: ["NAS Synology", "Golang", "10Gbps Network", "Real-time Storage"]
       },
@@ -444,7 +450,7 @@ const profileData = {
         duration: "Completed",
         details: [
           "Managed budget, timeline, and implementation of factory network upgrade.",
-          "Expanded network capacity for new production lines without disrupting operations.",
+          "Expanded network capacity for new production lines without disrupting existing operations.",
           "Designed long-term network architecture for digital transformation and smart factory."
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
@@ -455,7 +461,7 @@ const profileData = {
         details: [
           "Maintained MES system availability at 99.9% to support continuous production.",
           "Responded to incidents within 8 hours, including weekends, holidays, and after-hours.",
-          "Support for migrating the Sharp ERP application to SAP ERP ECC 6.0 (currently in progress)."
+          "Supported the migration from Sharp ERP to SAP ERP ECC 6.0 (currently in progress)."
         ],
         technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
       },
@@ -473,7 +479,7 @@ const profileData = {
     skills: [
       {
         groupName: "Leadership & Team Management",
-        description: "Experienced in leading teams, managing projects, and aligning IT strategies with business goals. High level of communication in Vietnamese and Japanese."
+        description: "Experienced in leading teams, managing projects, and aligning IT strategies with business goals. Excellent communication skills in Vietnamese and Japanese."
       },
       {
         groupName: "IT Systems & Database Management",
@@ -481,7 +487,7 @@ const profileData = {
       },
       {
         groupName: "Network Infrastructure & Security",
-        description: "Specialized in enterprise network design (L2/L3 routing/switching, industrial Wifi, firewalls). Optimizing 10Gbps data transport and cybersecurity."
+        description: "Specialized in enterprise network design (L2/L3 routing/switching, industrial Wi-Fi, firewalls). Optimizing 10Gbps data transport and cybersecurity."
       },
       {
         groupName: "Digital Transformation & AI Solutions",
@@ -491,9 +497,9 @@ const profileData = {
   },
   ja: {
     ageText: "1992年生まれ (34歳)",
-    addressVal: "ホーチミン市 ＆ ビンズン省",
+    addressVal: "ホーチミン市 ＆ ドンナイ省",
     maritalVal: "既婚 (子供2人)",
-    contactAddressVal: "ベトナム ビンズン省 トゥアンアン (ホーチミン近郊)",
+    contactAddressVal: "ベトナム ホーチミン市 (Thuận Giao)",
     experiences: [
       {
         companyName: "シャープ・マニュファクチャリング・ベトナム (Sharp Manufacturing Vietnam Co., Ltd.)",
@@ -501,28 +507,28 @@ const profileData = {
         period: "2021年04月 – 現在",
         location: "ビンズン省",
         duties: [
-          "MES/ERPシステムの総合管理・運用：ネットワークインフラ、サーバー、データベース、生産制御システムを含め、24時間365日の連続稼働を保証し、稼働率99.9%を達成。",
+          "MES/ERPシステムの総合管理・運用：ネットワークインフラ, サーバー, データベース, 生産制御システムを含め、24時間365日の連続稼働を実現し、稼働率99.9%以上を維持。",
           "システムの改善・開発の主導：業務要件定義、仕様書(Spec)の作成、開発・テスト体制の構築、およびサーバー・アプリケーション・制御システムのアップグレードの適用。",
           "IT・生産プロセスの標準化：ISO/IATF標準に準拠した運用フローの構築と最適化の推進。",
-          "ITインフラの設計・管理：L2/L3スイッチ、ファイアウォール、ルーター、産業用WiFiなど、工場全体のネットワークインフラの構築とセキュリティ最適化。",
+          "ITインフラの設計・管理：L2/L3スイッチ、ファイアウォール、ルーター、産業用Wi-Fiなど、工場全体のネットワークインフラの構築とセキュリティ最適化。",
           "生産データ管理システムの運用：データベースの保守、ログ管理、製品画像データのバックアップおよび災害復旧対策の確立。",
           "社内ソリューションの開発：工場内の業務効率化、手作業の削減、生産性向上のためのツールや連携アプリの作成。",
           "デジタルトランスフォーメーション (DX) の推進：ローカルAI、自動化ツール(n8n)、オープンソースソフトウェア(OSS)などの先進技術の調査と現場への導入。",
           "トラブルシューティングと迅速対応：生産ラインのダウンタイムを最小限に抑えるための障害監視および即時復旧体制の指揮。",
           "グローバル連携とベンダーコントロール：日本側の関係者や国内外のITベンダーとの要件定義、導入・運用調整および問題解決の円滑な進行。",
-          "ITチームマネジメント：9名規模のIT部門（運用・開発・改善チーム）のタスク割り当て、人事評価、人材育成、および強いチーム作りの推進。"
+          "ITチームマネジメント：9名規模のIT部門（運用・開発・改善チーム）のタスク割り当て、人事評価、人材育成、および高パフォーマンスなチームの構築。"
         ]
       },
       {
         companyName: "越日国際人材株式会社 (VILACO International)",
-        role: "ITスタッフ ＆ 日本語教師 (非常勤)",
+        role: "ITスペシャリスト ＆ 技術移転サポート (非常勤)",
         period: "2018年12月 – 2020年06月",
         location: "ホーチミン市",
         duties: [
-          "会社のWebサイトの構築・保守管理、デジタルマーケティング活動の支援。",
-          "社内PC、周辺機器、およびネットワーク環境のトラブルシューティングとITサポート。",
-          "社内システムのバックアップ管理およびPC操作スキルに関する社員教育の実施。",
-          "日本側のビジネスパートナーおよび関係スタッフとの窓口調整、意思疎通の支援。"
+          "社内Webサイトの構築・保守運用、およびデジタルマーケティング体制の強化。",
+          "社内のネットワークインフラ、周辺機器の保守管理、およびセキュリティ保護とデータバックアップ。",
+          "社員向けITサポート、トラブルシューティング、およびOfficeソフト操作のトレーニングの実施。",
+          "IT関連技術仕様書の翻訳、および日本側パートナーとのシステム移行・技術移転における調整・技術支援。"
         ]
       },
       {
@@ -531,7 +537,7 @@ const profileData = {
         period: "2018年06月 – 2019年03月",
         location: "ホーチミン市",
         duties: [
-          "勘定系システム(Corebanking)、決済・カードシステム、インターネットバンキング等のサーバー監視・運用を行い、24/7の安定稼働とトラブルフリーを維持。",
+          "勘定系システム(Core Banking)、決済・カードシステム、インターネットバンキング等のサーバー監視・運用を行い、24/7の安定稼働とトラブルフリーを維持。",
           "銀行の高度な要件に合わせたシステムパッチの適用、構成変更、およびハードウェア増設の実施。",
           "国際決済ネットワーク（SWIFTシステム）導入などの新規プロジェクト実行の技術サポート。",
           "運用プロセスの効率化を目指した、新しいインフラ技術および自動化監視スクリプトの評価と導入。"
@@ -594,7 +600,7 @@ const profileData = {
         duration: "継続中",
         details: [
           "24時間体制の製造現場を支えるため、MESシステムの稼働率99.9%以上を維持管理。",
-          "夜間・休日等の緊急障害発生時に、8時間以内に障害復旧を行う即時体制の運用。",
+          "夜間・休日等の緊急障害発生時に、8時間以内に障害復旧を行う障害対応体制の運用。",
           "シャープ独自のERPシステムからSAP ERP-ECC 6.0へのシステム移行プロジェクトの推進。"
         ],
         technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
@@ -605,7 +611,7 @@ const profileData = {
         details: [
           "運用・開発・改善の3つの小チームからなる計9名のITエンジニア組織のマネジメント。",
           "チームごとのKPI管理、個人の目標設定、および技術教育を通じた後継者の育成。",
-          "経営層、生産技術、製造現場、および国内外の外部ベンダーとの確実な意思疎通による共同遂行。"
+          "経営層、生産技術、製造現場、および国内外の外部ベンダーとの確実な意思疎通による円滑なプロジェクト遂行。"
         ],
         technologies: ["Agile/Scrum", "Team Leadership", "KPI Management", "Vendor Coordination"]
       }
@@ -613,11 +619,11 @@ const profileData = {
     skills: [
       {
         groupName: "マネジメントとリーダーシップ",
-        description: "ITエンジニア組織をまとめ、協調性と当事者意識を高めるチームビルディングの実績。プロジェクトの予算・進行管理、日本側関係者やベンダーとの高い円滑なコミュニケーション能力（日越両対応）。"
+        description: "ITエンジニア組織をまとめ、協調性と当事者意識を高めるチームビルディングの実績。プロジェクトの予算・進行管理、日本側関係者やベンダーとの円滑なコミュニケーション能力（日越両対応）。"
       },
       {
         groupName: "MES/ERP ＆ データベース",
-        description: "工場のMES/ERPおよび基幹業務の運用管理に5年以上の経験。SQL Serverでの大規模データのパフォーマンスチューニング、DWH設計、自動バックアップと復旧シナリオの構築技術。"
+        description: "工場のMES/ERPおよび基幹システムの運用管理に5年以上の経験。SQL Serverでの大規模データのパフォーマンスチューニング、DWH設計、自動バックアップと復旧シナリオの構築技術。"
       },
       {
         groupName: "ネットワークとセキュリティ",
@@ -651,24 +657,24 @@ function renderDynamicContent(lang) {
   // 2. Render Kinh nghiệm làm việc
   const experienceContainer = document.getElementById("experience-list-target");
   const experienceTemplate = document.getElementById("experience-card-template");
-  
+
   if (experienceContainer && experienceTemplate) {
     experienceContainer.innerHTML = ""; // Xóa dữ liệu cũ
     data.experiences.forEach(exp => {
       const clone = experienceTemplate.content.cloneNode(true);
-      
+
       clone.querySelector(".timeline-date").textContent = exp.period;
       clone.querySelector(".timeline-location").textContent = exp.location;
       clone.querySelector(".job-title").textContent = exp.role;
       clone.querySelector(".company-name").textContent = exp.companyName;
-      
+
       const dutiesUl = clone.querySelector(".job-duties");
       exp.duties.forEach(duty => {
         const li = document.createElement("li");
         li.textContent = duty;
         dutiesUl.appendChild(li);
       });
-      
+
       experienceContainer.appendChild(clone);
     });
   }
@@ -676,22 +682,22 @@ function renderDynamicContent(lang) {
   // 3. Render Dự án
   const projectsContainer = document.getElementById("projects-list-target");
   const projectTemplate = document.getElementById("project-card-template");
-  
+
   if (projectsContainer && projectTemplate) {
     projectsContainer.innerHTML = ""; // Xóa dữ liệu cũ
     data.projects.forEach(project => {
       const clone = projectTemplate.content.cloneNode(true);
-      
+
       clone.querySelector(".project-duration").textContent = project.duration;
       clone.querySelector(".project-title").textContent = project.title;
-      
+
       const detailsUl = clone.querySelector(".project-details");
       project.details.forEach(detail => {
         const li = document.createElement("li");
         li.textContent = detail;
         detailsUl.appendChild(li);
       });
-      
+
       const techBox = clone.querySelector(".project-technologies");
       project.technologies.forEach(tech => {
         const badge = document.createElement("span");
@@ -699,7 +705,7 @@ function renderDynamicContent(lang) {
         badge.textContent = tech;
         techBox.appendChild(badge);
       });
-      
+
       projectsContainer.appendChild(clone);
     });
   }
@@ -707,15 +713,15 @@ function renderDynamicContent(lang) {
   // 4. Render Kỹ năng
   const skillsContainer = document.getElementById("skills-list-target");
   const skillTemplate = document.getElementById("skill-group-template");
-  
+
   if (skillsContainer && skillTemplate) {
     skillsContainer.innerHTML = ""; // Xóa dữ liệu cũ
     data.skills.forEach(skill => {
       const clone = skillTemplate.content.cloneNode(true);
-      
+
       clone.querySelector(".skill-name").textContent = skill.groupName;
       clone.querySelector(".skill-description").textContent = skill.description;
-      
+
       skillsContainer.appendChild(clone);
     });
   }
@@ -891,7 +897,7 @@ function initThemeToggle() {
   if (!themeToggleBtn) return;
   const darkIcon = themeToggleBtn.querySelector(".theme-icon-dark");
   const lightIcon = themeToggleBtn.querySelector(".theme-icon-light");
-  
+
   const savedTheme = localStorage.getItem("theme") || "dark";
   document.documentElement.setAttribute("data-bs-theme", savedTheme);
   updateThemeIcons(savedTheme);
@@ -899,7 +905,7 @@ function initThemeToggle() {
   themeToggleBtn.addEventListener("click", () => {
     const currentTheme = document.documentElement.getAttribute("data-bs-theme");
     const newTheme = currentTheme === "dark" ? "light" : "dark";
-    
+
     document.documentElement.setAttribute("data-bs-theme", newTheme);
     localStorage.setItem("theme", newTheme);
     updateThemeIcons(newTheme);
@@ -923,7 +929,7 @@ let revealObserver = null;
 
 function initScrollEffects() {
   const navbar = document.getElementById("main-navbar");
-  
+
   // Navbar Scrolled Effect
   window.addEventListener("scroll", () => {
     if (navbar) {
@@ -944,7 +950,7 @@ function initScrollRevealObserver() {
   }
 
   const revealElements = document.querySelectorAll(".scroll-reveal");
-  
+
   revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -970,7 +976,7 @@ function initContactForm() {
   if (form) {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
-      
+
       if (!form.checkValidity()) {
         form.classList.add("was-validated");
         return;
@@ -979,14 +985,14 @@ function initContactForm() {
       const selectedLang = localStorage.getItem("language") || "vi";
       const submitBtn = document.getElementById("contact-submit-btn");
       const originalText = submitBtn.innerHTML;
-      
+
       submitBtn.disabled = true;
       submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>${translations[selectedLang]["contact.sending"]}`;
 
       setTimeout(() => {
         submitBtn.disabled = false;
         submitBtn.innerHTML = originalText;
-        
+
         alertContainer.innerHTML = `
           <div class="alert alert-success alert-dismissible fade show border-0 shadow-sm" role="alert">
             <i class="fa-solid fa-circle-check me-2"></i>
