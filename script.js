@@ -71,8 +71,7 @@ const translations = {
     "contact.btnSubmit": "Gửi tin nhắn",
     "contact.sending": "Đang gửi tin nhắn...",
     "contact.success": "Cảm ơn bạn! Tin nhắn của bạn đã được gửi thành công. Tôi sẽ phản hồi sớm nhất có thể.",
-    "footer.copyright": "© 2026 Nguyễn Thế Thảo. Bảo lưu mọi quyền.",
-    "footer.designer": "Thiết kế bởi JARVIS AI với sự chỉn chu và tinh tế cao nhất."
+    "footer.copyright": "© 2026 Nguyễn Thế Thảo. Bảo lưu mọi quyền."
   },
   en: {
     "nav.home": "Home",
@@ -137,8 +136,7 @@ const translations = {
     "contact.btnSubmit": "Send message",
     "contact.sending": "Sending message...",
     "contact.success": "Thank you! Your message has been sent successfully. I will get back to you as soon as possible.",
-    "footer.copyright": "© 2026 Nguyen The Thao. All rights reserved.",
-    "footer.designer": "Designed by JARVIS AI with the highest precision and sophistication."
+    "footer.copyright": "© 2026 Nguyen The Thao. All rights reserved."
   },
   ja: {
     "nav.home": "ホーム",
@@ -203,8 +201,7 @@ const translations = {
     "contact.btnSubmit": "送信する",
     "contact.sending": "送信中...",
     "contact.success": "ありがとうございます！メッセージは正常に送信されました。できるだけ早くご返信いたします。",
-    "footer.copyright": "© 2026 グエン・テー・タオ. All rights reserved.",
-    "footer.designer": "JARVIS AIによって極めて緻密かつ洗練されたデザインで設計されました。"
+    "footer.copyright": "© 2026 グエン・テー・タオ. All rights reserved."
   }
 };
 
