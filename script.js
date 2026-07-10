@@ -84,26 +84,26 @@ const translations = {
     "hero.badge": "Welcome to my portfolio",
     "hero.iam": "I am",
     "hero.expert": "Expert in",
-    "hero.description": "Over 8 years of experience managing and operating IT systems, MES/ERP, and network infrastructure in high-tech manufacturing environments. Dedicated to driving digital transformation, process optimization, and building high-performance IT teams.",
-    "hero.btnContact": "Contact me",
+    "hero.description": "With over 8 years of experience in IT, MES/ERP, and network infrastructure management and operations in high-tech manufacturing environments. Oriented towards driving digital transformation, optimizing business processes, and building high-performance IT teams.",
+    "hero.btnContact": "Contact now",
     "hero.btnExperience": "View experience",
     "about.title": "ABOUT ME",
-    "about.personalInfo": "Personal information",
+    "about.personalInfo": "Personal Information",
     "about.yob": "Year of birth",
     "about.phone": "Phone",
     "about.email": "Email",
     "about.address": "Work location",
     "about.marital": "Marital status",
-    "about.objective": "Career objective",
-    "about.obj1": "With solid experience in IT systems management, I aim to contribute to the organization by leading system optimization, driving digital transformation, and delivering stable and scalable solutions.",
-    "about.obj2": "Committed to ensuring system stability, information security, and network optimization to maximize production efficiency.",
+    "about.objective": "Career Objective",
+    "about.obj1": "Desire to develop a career in a professional environment, where I can maximize my system management capabilities, leadership skills, and innovative thinking.",
+    "about.obj2": "Committed to contributing my best to system stability, data security, and network infrastructure optimization to increase the production efficiency of the enterprise.",
     "about.stat1": "Years of experience",
     "about.stat2": "System uptime",
     "about.stat3": "Team members",
     "experience.title": "WORK EXPERIENCE",
     "projects.title": "KEY PROJECTS",
     "skills.title": "SKILLS & EDUCATION",
-    "skills.workskills": "Professional skills",
+    "skills.workskills": "Professional Skills",
     "skills.education": "Education",
     "skills.degree": "Bachelor's Degree in Electronics and Telecommunications",
     "skills.school": "University of Science, VNU-HCM",
@@ -111,29 +111,29 @@ const translations = {
     "skills.japanese": "Japanese",
     "skills.japaneseLevel": "JLPT N3 / Business level N2 equivalent",
     "skills.english": "English",
-    "skills.englishLevel": "Read and understand technical docs",
-    "skills.hobbies": "Hobbies",
+    "skills.englishLevel": "Read and understand technical documents",
+    "skills.hobbies": "Personal Hobbies",
     "skills.hobbyRead": "Reading books",
     "skills.hobbyTravel": "Traveling",
-    "skills.hobbyMusic": "Music",
-    "skills.hobbySocial": "Social networking",
+    "skills.hobbyMusic": "Listening to music",
+    "skills.hobbySocial": "Socializing",
     "contact.title": "CONTACT",
     "contact.qrTitle": "Mobile Connection",
     "contact.qrDesc": "Scan the QR code with your mobile device to quickly access the online version of this portfolio.",
-    "contact.infoTitle": "Contact info",
-    "contact.infoDesc": "Feel free to reach out to me for collaboration opportunities or technology discussions.",
+    "contact.infoTitle": "Contact Information",
+    "contact.infoDesc": "Feel free to connect with me to explore collaboration opportunities or discuss technological solutions.",
     "contact.phone": "Phone",
     "contact.email": "Email",
     "contact.address": "Current address",
-    "contact.formTitle": "Send a message",
+    "contact.formTitle": "Send a direct message",
     "contact.formName": "Full name",
     "contact.formEmail": "Email address",
     "contact.formSubject": "Subject",
-    "contact.formMessage": "Message",
+    "contact.formMessage": "Content",
     "contact.placeholderName": "Your full name",
     "contact.placeholderEmail": "name@example.com",
     "contact.placeholderSubject": "Message subject",
-    "contact.placeholderMessage": "Type your message here...",
+    "contact.placeholderMessage": "Enter your message here...",
     "contact.btnSubmit": "Send message",
     "contact.sending": "Sending message...",
     "contact.success": "Thank you! Your message has been sent successfully. I will get back to you as soon as possible.",
@@ -146,12 +146,12 @@ const translations = {
     "nav.experience": "職歴",
     "nav.projects": "プロジェクト",
     "nav.skills": "スキル・学歴",
-    "nav.contact": "お問い合わせ",
+    "nav.contact": "連絡先",
     "hero.badge": "ポートフォリオへようこそ",
     "hero.iam": "私は",
-    "hero.expert": "専門分野：",
-    "hero.description": "ハイテク製造環境におけるITシステム、MES/ERP、ネットワークインフラの管理・運用に8年以上の経験を持ちます。デジタルトランスフォーメーションの推進、業務プロセスの最適化、および高度なITチームの構築に尽力しています。",
-    "hero.btnContact": "連絡する",
+    "hero.expert": "専門家",
+    "hero.description": "ハイテク製造環境におけるIT、MES/ERP、およびネットワークインフラの管理と運用で8年以上の経験を持ちます。デジタルトランスフォーメーション（DX）の推進、業務プロセスの最適化、および高パフォーマンスなITチームの構築を目指しています。",
+    "hero.btnContact": "今すぐ連絡",
     "hero.btnExperience": "職歴を見る",
     "about.title": "自己紹介",
     "about.personalInfo": "個人情報",
@@ -161,8 +161,8 @@ const translations = {
     "about.address": "勤務地",
     "about.marital": "配偶者の有無",
     "about.objective": "キャリア目標",
-    "about.obj1": "ITシステム管理における確かな経験を活かし、システムの最適化を主導し、デジタルトランスフォーメーションを推進し、安定して拡張性のあるソリューションを提供することで、組織に貢献することを目指します。",
-    "about.obj2": "生産効率を最大化するために、システムの安定稼働、情報セキュリティの確保、およびネットワークの最適化に全力を尽くします。",
+    "about.obj1": "システム管理能力、リーダーシップスキル、および革新的な思考を最大限に発揮できる専門的な環境でキャリアを構築することを希望します。",
+    "about.obj2": "システムの安定稼働、情報セキュリティの確保、およびネットワークインフラの最適化に全力を尽くし、企業の生産効率向上に貢献することを約束します。",
     "about.stat1": "実務経験年数",
     "about.stat2": "システム稼働率",
     "about.stat3": "チームメンバー数",
@@ -356,58 +356,59 @@ const profileData = {
   en: {
     ageText: "1992 (Age: 34)",
     addressVal: "Ho Chi Minh City & Dong Nai",
-    maritalVal: "Married (2 children)",
-    contactAddressVal: "Thuan Giao, HCMC",
+    maritalVal: "Married",
+    contactAddressVal: "Thuận Giao, HCMC (Bình Dương)",
     experiences: [
       {
         companyName: "Sharp Manufacturing Vietnam Co., Ltd.",
-        role: "IT Manager (Manufacturing Environment)",
+        role: "IT Manager (Production Division)",
         period: "04/2021 – Present",
-        location: "Binh Duong",
+        location: "HCMC (Binh Duong)",
         duties: [
-          "Managed and operated end-to-end MES/ERP systems, including network infrastructure, servers, databases, and production control systems, ensuring 99.9% uptime to support continuous 24/7 manufacturing operations.",
-          "Led system enhancement and development initiatives: analyzed business requirements, prepared technical specifications, and managed development, testing, and deployment of system upgrades (servers, applications, control systems).",
-          "Designed and standardized IT and production processes: developed, implemented, and optimized operational workflows in compliance with ISO/IATF standards.",
-          "Managed and developed IT infrastructure: deployed, expanded, and optimized network systems (L2/L3 switches, firewalls, routers, Wi-Fi), ensuring performance and information security.",
-          "Designed and operated production data management systems: managed databases, system logs, and product image data; implemented backup and recovery solutions to ensure data integrity and security.",
-          "Developed internal solutions and tools to streamline operations, improve productivity, and reduce manual workloads.",
-          "Drove digital transformation initiatives by researching and applying new technologies (AI, automation, open-source solutions) to enhance production efficiency and management.",
-          "Managed and resolved production system incidents, ensuring rapid response, minimizing downtime, and maintaining continuous operations.",
-          "Coordinated with international stakeholders (Japan) and vendors for system implementation, operation, and issue resolution.",
-          "Led and managed the IT team: assigned tasks, provided training, developed team capabilities, and built a high-performing team of 9 members."
+          "Overall management and operation of MES/ERP systems: including network infrastructure, servers, databases, and production control systems, ensuring stable operation with 99.9% uptime to meet continuous 24/7 production requirements.",
+          "Leading system improvement and development: analyzing business requirements, drafting specifications (specs), organizing development, testing, and deploying upgrades (servers, applications, control systems).",
+          "Designing and standardizing IT & production processes: building, implementing, and optimizing operational processes, ensuring compliance with ISO/IATF standards.",
+          "Managing and developing IT infrastructure: deploying, expanding, and optimizing network systems (L2/L3 Switches, Firewalls, Routers, Wi-Fi), ensuring performance and information security.",
+          "Building and operating production data management systems: managing databases, system logs, and product image data; designing backup & recovery solutions to ensure data integrity and security.",
+          "Developing internal solutions: building supporting applications and tools to optimize operations, improve productivity, and minimize manual tasks.",
+          "Driving digital transformation: researching and applying new technologies (AI, Automation, Open-source) to enhance production and management efficiency.",
+          "Managing and troubleshooting production system incidents: ensuring rapid response, minimizing downtime, and maintaining continuous operations.",
+          "Coordinating and working with international partners (Japan) and vendors in system deployment, operation, and troubleshooting.",
+          "Managing the IT team: task allocation, training, developing personnel capabilities, and building a high-performing team of 9 members."
         ]
       },
       {
-        companyName: "VILACO International Human Resources Co., Ltd.",
-        role: "IT Specialist & Technology Transfer Support (Part-time)",
+        companyName: "Viet International Human Resources Joint Stock Company",
+        role: "IT Specialist",
         period: "12/2018 – 06/2020",
         location: "HCMC",
         duties: [
-          "Developed and maintained the corporate websites and optimized search engine presence (SEO).",
-          "Managed local network infrastructure, endpoint security, and backup systems.",
-          "Provided technical support, troubleshooting, and software training for internal staff.",
-          "Translated technical documents and facilitated IT system transitions for Japanese partners."
+          "Developing and maintaining the company website, implementing Internet Marketing solutions to enhance brand awareness.",
+          "Managing computer systems, peripheral devices, and internal network infrastructure, ensuring high availability and data security.",
+          "Training, providing technical support, and guiding staff on using office software.",
+          "Translating technical documents, supporting Japanese partners in technology transfer and system configuration."
         ]
       },
       {
-        companyName: "Dong A Bank",
-        role: "IT Engineer – System Operations",
+        companyName: "DongA Joint Stock Commercial Bank (DongA Bank)",
+        role: "Application System Operations IT Specialist",
         period: "06/2018 – 03/2019",
         location: "HCMC",
         duties: [
-          "Responsible for managing and operating IT systems to ensure servers and network infrastructure run stably without interruptions 24/7.",
-          "Performed data backup and installed applications for internal systems.",
-          "Improved system performance and efficiency by optimizing existing systems and deploying new solutions (such as SWIFT payment gateway)."
+          "Monitoring and operating server systems (Core Banking, Card, Internet Banking, etc.), ensuring stable and continuous 24/7 system operation without payment or withdrawal issues.",
+          "Implementing system changes and upgrades to meet banking system requirements.",
+          "Deploying new projects and systems (SWIFT international payment system).",
+          "Researched and implemented new technology solutions to optimize systems."
         ]
       },
       {
-        companyName: "Washin Aluminum Co., Ltd. (Japan)",
-        role: "Technical Intern – Automatic Machine Operation",
+        companyName: "Washin Aluminum Co., Ltd.",
+        role: "Technician - Automatic Machine Operator",
         period: "03/2015 – 03/2018",
         location: "Osaka, Japan",
         duties: [
-          "Operated and monitored automated production machines to ensure stable manufacturing processes.",
-          "Followed operational procedures and safety standards in the production environment."
+          "Worked directly in Japan, responsible for operating automated manufacturing machinery.",
+          "Ensured occupational safety and maintained continuous production processes meeting Japanese quality standards."
         ]
       }
     ],
@@ -416,19 +417,19 @@ const profileData = {
         title: "Large-Scale Image Storage System (NAS)",
         duration: "3 months",
         details: [
-          "Designed and implemented a large-scale image storage system using Synology NAS (10PB).",
-          "Built high-bandwidth network infrastructure (10Gbps) to support real-time data transmission.",
-          "Optimized real-time processing applications using Golang, improving system performance and throughput."
+          "Designed and deployed a large-scale image storage system using Synology NAS (10PB).",
+          "Built high-bandwidth 10Gbps network infrastructure for real-time data transmission.",
+          "Optimized real-time processing applications using Golang, enhancing performance and data processing speed."
         ],
-        technologies: ["NAS Synology", "Golang", "10Gbps Network", "Real-time Storage"]
+        technologies: ["NAS Synology", "Golang", "Network 10Gbps", "Real-time Storage"]
       },
       {
         title: "Production BI Reporting System",
         duration: "4 months",
         details: [
-          "Implemented an open-source BI platform on Docker, optimizing investment and operating costs.",
-          "Analyzed business data and designed a Data Warehouse architecture for centralized reporting.",
-          "Developed interactive dashboards to support KPI monitoring and production management."
+          "Designed and implemented a BI platform using open-source technology (Docker), optimizing investment costs.",
+          "Built a centralized Data Warehouse architecture for production data analysis.",
+          "Developed visual dashboards to support KPI monitoring and quick decision-making."
         ],
         technologies: ["Docker", "Data Warehouse", "Power BI / Metabase", "SQL Server"]
       },
@@ -436,118 +437,119 @@ const profileData = {
         title: "Internal AI System Implementation",
         duration: "In progress",
         details: [
-          "Built and deployed an on-premises local AI environment to ensure enterprise data security.",
-          "Applied AI for translation, document analysis, and operational process standardization.",
-          "Automated business workflows and production management using AI integrated with n8n."
+          "Built a Local AI model running internally, ensuring corporate information security and data safety.",
+          "Applied AI in translation, document analysis, and operational workflow standardization.",
+          "Automated business operations and production management by combining AI with n8n.",
+          "Developed internal and programming support Chatbots, optimizing system development time."
         ],
         technologies: ["Local AI", "n8n", "Chatbot Development", "Python", "Automation"]
       },
       {
-        title: "Factory Network Upgrade Project",
+        title: "Factory Network Upgrade",
         duration: "Completed",
         details: [
-          "Managed budget, timeline, and implementation of factory network upgrade.",
-          "Expanded network capacity for new production lines without disrupting existing operations.",
-          "Designed long-term network architecture for digital transformation and smart factory."
+          "Planned budget, timeline, and managed the deployment of the factory-wide network upgrade project.",
+          "Expanded network infrastructure to support additional production lines without affecting the existing system.",
+          "Oriented long-term network architecture for digital transformation and smart factory."
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
       },
       {
-        title: "MES/ERP System Operations",
+        title: "MES/ERP Operations",
         duration: "Continuous",
         details: [
-          "Maintained MES system availability at 99.9% to support continuous production.",
-          "Responded to incidents within 8 hours, including weekends, holidays, and after-hours.",
-          "Supported the migration from Sharp ERP to SAP ERP ECC 6.0 (currently in progress)."
+          "Ensured stable MES operations, achieving 99.9% uptime for 24/7 production.",
+          "Handled incidents and responded quickly within 8 hours, including holidays and off-hours.",
+          "Supported the transition from Sharp ERP to SAP ERP-ECC 6.0 (ongoing)."
         ],
         technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
       },
       {
-        title: "Project & Team Management",
+        title: "Project and Team Management",
         duration: "Continuous",
         details: [
-          "Managed an IT department of 9 members across Operations, Development, and Improvement teams.",
-          "Assigned tasks, managed performance, and developed team capabilities.",
-          "Collaborated closely with management, production, engineering, and vendors."
+          "Managed the IT department of 9 members, organized into 3 functional groups: Operations, Development, and Improvement.",
+          "Assigned tasks, managed performance, and trained and developed successor teams.",
+          "Collaborated closely with the Board of Directors, production division, and vendors to deploy projects."
         ],
         technologies: ["Agile/Scrum", "Team Leadership", "KPI Management", "Vendor Coordination"]
       }
     ],
     skills: [
       {
-        groupName: "Leadership & Team Management",
-        description: "Experienced in leading teams, managing projects, and aligning IT strategies with business goals. Excellent communication skills in Vietnamese and Japanese."
+        groupName: "Management & Leadership",
+        description: "Capable of leading, inspiring, and building a cohesive, high-performing IT team. Planning and coordinating resources to ensure project timelines and budgets are met. Good communication, confident, and proactive mindset in Vietnamese and Japanese."
       },
       {
-        groupName: "IT Systems & Database Management",
-        description: "Solid background in MES/ERP systems optimization. Proficient in database administration, backup & recovery strategies, and BI reporting."
+        groupName: "MES/ERP Systems & Databases",
+        description: "Over 5 years of direct experience in managing and optimizing manufacturing MES/ERP systems. Designing automated data backup and recovery solutions, operating large SQL Server database systems, and performing BI data analysis."
       },
       {
         groupName: "Network Infrastructure & Security",
-        description: "Specialized in enterprise network design (L2/L3 routing/switching, industrial Wi-Fi, firewalls). Optimizing 10Gbps data transport and cybersecurity."
+        description: "Designing and expanding complex industrial network systems (Routing, L2/L3 Switching, Sophos/Fortinet Firewalls, Industrial Wi-Fi). Optimizing high-capacity data transmission bandwidth (10Gbps) and ensuring system information security."
       },
       {
-        groupName: "Digital Transformation & AI Solutions",
-        description: "Driving manufacturing efficiency by implementing local AI, automating workflows with n8n, and coding custom utilities in Python/Golang."
+        groupName: "Digital Transformation & Local AI",
+        description: "Playing a pioneering role in researching and deploying new technologies, including Local Artificial Intelligence (Local AI), process automation with n8n/Python, and developing factory operation optimization applications using Golang."
       }
     ]
   },
   ja: {
-    ageText: "1992年生まれ (34歳)",
+    ageText: "1992年 (34歳)",
     addressVal: "ホーチミン市 ＆ ドンナイ省",
-    maritalVal: "既婚 (子供2人)",
-    contactAddressVal: "ベトナム ホーチミン市 (Thuận Giao)",
+    maritalVal: "既婚",
+    contactAddressVal: "ビンズン省 トゥアンザオ (ホーチミン市近郊)",
     experiences: [
       {
         companyName: "シャープ・マニュファクチャリング・ベトナム (Sharp Manufacturing Vietnam Co., Ltd.)",
-        role: "ITマネージャー (製造部門責任者)",
+        role: "ITマネージャー (製造部門)",
         period: "2021年04月 – 現在",
-        location: "ビンズン省",
+        location: "ホーチミン市 (ビンズン省)",
         duties: [
-          "MES/ERPシステムの総合管理・運用：ネットワークインフラ, サーバー, データベース, 生産制御システムを含め、24時間365日の連続稼働を実現し、稼働率99.9%以上を維持。",
-          "システムの改善・開発の主導：業務要件定義、仕様書(Spec)の作成、開発・テスト体制の構築、およびサーバー・アプリケーション・制御システムのアップグレードの適用。",
-          "IT・生産プロセスの標準化：ISO/IATF標準に準拠した運用フローの構築と最適化の推進。",
-          "ITインフラの設計・管理：L2/L3スイッチ、ファイアウォール、ルーター、産業用Wi-Fiなど、工場全体のネットワークインフラの構築とセキュリティ最適化。",
-          "生産データ管理システムの運用：データベースの保守、ログ管理、製品画像データのバックアップおよび災害復旧対策の確立。",
-          "社内ソリューションの開発：工場内の業務効率化、手作業の削減、生産性向上のためのツールや連携アプリの作成。",
-          "デジタルトランスフォーメーション (DX) の推進：ローカルAI、自動化ツール(n8n)、オープンソースソフトウェア(OSS)などの先進技術の調査と現場への導入。",
-          "トラブルシューティングと迅速対応：生産ラインのダウンタイムを最小限に抑えるための障害監視および即時復旧体制の指揮。",
-          "グローバル連携とベンダーコントロール：日本側の関係者や国内外のITベンダーとの要件定義、導入・運用調整および問題解決の円滑な進行。",
-          "ITチームマネジメント：9名規模のIT部門（運用・開発・改善チーム）のタスク割り当て、人事評価、人材育成、および高パフォーマンスなチームの構築。"
+          "MES/ERPシステムの全体的な管理と運用：ネットワークインフラ、サーバー、データベース、生産制御システムを含め、24時間365日の連続生産要件に対応し、99.9%のアップタイムで安定稼働を実現。",
+          "システムの改善と開発の主導：業務要件の分析、仕様書（スペック）の作成、開発・テストの組織化、およびアップグレード（サーバー、アプリケーション、制御システム）の適用。",
+          "ITおよび生産プロセスの設計と標準化：運用プロセスの構築、適用、最適化を推進し、ISO/IATF標準への準拠を確保。",
+          "ITインフラの管理と構築：ネットワークシステム（L2/L3スイッチ、ファイアウォール、ルーター、Wi-Fi）の導入、拡張、最適化を行い、パフォーマンスと情報セキュリティを確保。",
+          "生産データ管理システムの構築と運用：データベース、システムログ、製品画像データの管理、およびデータ安全性を確保するためのバックアップ・復元ソリューションの設計。",
+          "社内ソリューションの開発：運用効率の向上、生産性の改善、および手作業の削減をサポートするアプリケーションやツールの開発。",
+          "デジタルトランスフォーメーション（DX）の推進：生産および管理効率向上のため、最先端技術（AI、自動化、オープンソース）の調査と導入。",
+          "生産システム障害の管理とトラブルシューティング：迅速な対応を確保し、ダウンタイムを最小限に抑え、連続操業を維持。",
+          "システム導入、運用、およびトラブルシューティングにおけるグローバルパートナー（日本）や外部ベンダーとの調整・協業。",
+          "ITチームのマネジメント：業務割り当て、トレーニング、人材育成、および9名の高パフォーマンスなチームの構築。"
         ]
       },
       {
-        companyName: "越日国際人材株式会社 (VILACO International)",
-        role: "ITスペシャリスト ＆ 技術移転サポート (非常勤)",
+        companyName: "ベトナム国際人材株式会社 (Viet International Human Resources Joint Stock Company)",
+        role: "ITスペシャリスト",
         period: "2018年12月 – 2020年06月",
         location: "ホーチミン市",
         duties: [
-          "社内Webサイトの構築・保守運用、およびデジタルマーケティング体制の強化。",
-          "社内のネットワークインフラ、周辺機器の保守管理、およびセキュリティ保護とデータバックアップ。",
-          "社員向けITサポート、トラブルシューティング、およびOfficeソフト操作のトレーニングの実施。",
-          "IT関連技術仕様書の翻訳、および日本側パートナーとのシステム移行・技術移転における調整・技術支援。"
+          "社内Webサイトの構築・保守運用、およびブランド認知度向上のためのインターネットマーケティングの実施。",
+          "コンピューターシステム、周辺機器、および社内ネットワークインフラ의 管理を行い、高可用性とデータの安全性を確保。",
+          "社員向けITサポート、トラブルシューティング、およびオフィスソフトウェア操作のトレーニングの実施。",
+          "技術仕様書の翻訳、および日本側パートナーとの技術移転・システム構成におけるサポート。"
         ]
       },
       {
-        companyName: "東亜銀行 (Dong A Bank)",
-        role: "ITシステム運用スペシャリスト",
+        companyName: "東亜共同体商業株式銀行 (DongA Bank)",
+        role: "アプリケーションシステム運用ITスペシャリスト",
         period: "2018年06月 – 2019年03月",
         location: "ホーチミン市",
         duties: [
-          "勘定系システム(Core Banking)、決済・カードシステム、インターネットバンキング等のサーバー監視・運用を行い、24/7の安定稼働とトラブルフリーを維持。",
-          "銀行の高度な要件に合わせたシステムパッチの適用、構成変更、およびハードウェア増設の実施。",
-          "国際決済ネットワーク（SWIFTシステム）導入などの新規プロジェクト実行の技術サポート。",
-          "運用プロセスの効率化を目指した、新しいインフラ技術および自動化監視スクリプトの評価と導入。"
+          "勘定系システム（Core Banking）、決済カード、インターネットバンキングなどのサーバー監視・運用を行い、決済や出金障害のない24時間365日の安定稼働を維持。",
+          "銀行システムの要求に合わせたシステム構成変更やアップグレードの適用。",
+          "新規プロジェクトや新システム（国際決済ネットワークSWIFTシステム）の導入支援。",
+          "システム最適化を目指した新しい技術ソリューションの調査と導入。"
         ]
       },
       {
         companyName: "和信アルミ株式会社 (Washin Aluminum Co., Ltd.)",
-        role: "技術インターン – 自動化機械オペレーター",
+        role: "技術員 - 自動化機械オペレーター",
         period: "2015年03月 – 2018年03月",
         location: "日本国 大阪府",
         duties: [
-          "日本への技術実習生として派遣され、最先端のアルミ製造ラインの自動化設備の操作および稼働監視を担当。",
-          "日本の厳格な安全基準と「5S」活動を遵守し、高い生産品質と無事故運転に貢献。"
+          "日本での現地実習にて、生産自動化設備の操作および稼働監視を担当。",
+          "労働安全を確保し、日本の品質基準に適合した連続生産プロセスを維持。"
         ]
       }
     ],
@@ -556,19 +558,19 @@ const profileData = {
         title: "大容量画像ストレージシステム (NAS)",
         duration: "3ヶ月",
         details: [
-          "Synology NAS (10PB) を使用した、大規模な製品画像ストレージシステムの設計および導入。",
-          "リアルタイムデータ伝送を支える10Gbps高速ネットワークインフラの構築。",
-          "Golangを使用してリアルタイム処理アプリケーションを最適化し、データ処理能力を向上。"
+          "Synology NAS（10PB）を使用した大規模な画像ストレージシステムの設計および導入。",
+          "リアルタイムのデータ伝送をサポートする10Gbps高速ネットワークインフラの構築。",
+          "Golangを用いてリアルタイム処理アプリケーションを最適化し、データ処理速度を向上。"
         ],
-        technologies: ["NAS Synology", "Golang", "10Gbps Network", "Real-time Storage"]
+        technologies: ["NAS Synology", "Golang", "Network 10Gbps", "Real-time Storage"]
       },
       {
         title: "生産BIレポートシステム",
         duration: "4ヶ月",
         details: [
-          "Docker上で動作するオープンソースBIプラットフォームを導入し、インフラ投資と運用コストを削減。",
-          "生産データを分析し、中央集計レポート用のデータウェアハウス (DWH) アーキテクチャを設計。",
-          "工場のKPI分析と意思決定の迅速化を支える、直感的なダッシュボード画面の開発。"
+          "オープンソース技術（Docker）を使用したBIプラットフォームの設計および導入により、投資コストを最適化。",
+          "生産データ analysis をサポートする中央集計型データウェアハウスアーキテクチャの構築。",
+          "KPIの追跡と迅速な意思決定を支援する直感的なダッシュボードの開発。"
         ],
         technologies: ["Docker", "Data Warehouse", "Power BI / Metabase", "SQL Server"]
       },
@@ -576,19 +578,20 @@ const profileData = {
         title: "社内AIシステムの導入",
         duration: "進行中",
         details: [
-          "セキュリティと企業秘匿情報を保護するため、オンプレミス環境で動作する「ローカルAI」を構築。",
-          "翻訳、文書分析、および業務標準化のためのAIモデル適用プロセスの確立。",
-          "n8nワークフローとの連携による、日常のルーティン業務の自動化プログラム構築。"
+          "企業の秘匿情報とデータセキュリティを保護するため、オンプレミス環境で動作するローカルAIモデルを構築。",
+          "翻訳、文書分析、および業務標準化プロセスへのAIの適用。",
+          "AIとn8nの連携による業務自動化および生産管理プロセスの最適化。",
+          "社内サポートおよびプログラミング支援チャットボットの開発による、システム開発期間の短縮。"
         ],
         technologies: ["Local AI", "n8n", "Chatbot Development", "Python", "Automation"]
       },
       {
-        title: "工場ネットワークの全面アップグレード",
+        title: "工場ネットワークのアップグレード",
         duration: "完了",
         details: [
-          "工場ネットワークの更新における予算、スケジュール、および物理的な敷設工事の管理。",
-          "既存ラインの稼働を一切止めずに、新しい製造ライン用のネットワーク容量を拡張。",
-          "スマートファクトリー化とDX推進を見据えた、将来性の高い物理・論理ネットワーク設計の採用。"
+          "工場全体のネットワーク更新プロジェクトにおける予算策定、工程管理、および工事・適用の主導。",
+          "既存システムの稼働を一切止めずに、新しい製造ライン用のネットワーク容量を拡張。",
+          "スマートファクトリー化とDX推進を見据えた、将来性の高い論理・物理ネットワーク設計の方向付け。"
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
       },
@@ -597,8 +600,8 @@ const profileData = {
         duration: "継続中",
         details: [
           "24時間体制の製造現場を支えるため、MESシステムの稼働率99.9%以上を維持管理。",
-          "夜間・休日等の緊急障害発生時に、8時間以内に障害復旧を行う障害対応体制の運用。",
-          "シャープ独自のERPシステムからSAP ERP-ECC 6.0へのシステム移行プロジェクトの推進。"
+          "夜間・休日等の緊急障害発生時に、8時間以内に障害復旧を行う迅速な対応体制の運用。",
+          "シャープ独自のERPシステムからSAP ERP-ECC 6.0へのシステム移行サポート（現在進行中）。"
         ],
         technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
       },
@@ -606,9 +609,9 @@ const profileData = {
         title: "プロジェクトと組織のマネジメント",
         duration: "継続中",
         details: [
-          "運用・開発・改善の3つの小チームからなる計9名のITエンジニア組織のマネジメント。",
-          "チームごとのKPI管理、個人の目標設定、および技術教育を通じた後継者の育成。",
-          "経営層、生産技術、製造現場、および国内外の外部ベンダーとの確実な意思疎通による円滑なプロジェクト遂行。"
+          "運用・開発・改善の3つのチームからなる計9名のITエンジニア組織のマネジメント。",
+          "各チームへのタスク割り当て、パフォーマンス評価、および技術教育を通じた後継者の育成。",
+          "経営層、製造現場、および国内外の外部ベンダーとの確実な意思疎通による円滑なプロジェクト遂行。"
         ],
         technologies: ["Agile/Scrum", "Team Leadership", "KPI Management", "Vendor Coordination"]
       }
@@ -765,36 +768,37 @@ function changeLanguage(lang) {
   }
 
   // Active class in dropdown items
-  document.querySelectorAll(".lang-option").forEach(opt => {
-    if (opt.getAttribute("data-lang") === lang) {
-      opt.classList.add("active");
+  const dropdownItems = document.querySelectorAll(".lang-option");
+  dropdownItems.forEach(item => {
+    if (item.getAttribute("data-lang") === lang) {
+      item.classList.add("active");
     } else {
-      opt.classList.remove("active");
+      item.classList.remove("active");
     }
   });
 
-  // 5. Lưu vào localStorage
-  localStorage.setItem("language", lang);
-
-  // 6. Cập nhật hiệu ứng gõ chữ theo ngôn ngữ tương ứng
+  // 5. Cập nhật từ khóa hiệu ứng gõ chữ
   updateTypingWords(lang);
 
-  // Kích hoạt lại scroll reveal cho các phần tử mới render
-  initScrollRevealObserver();
+  // Lưu lựa chọn ngôn ngữ vào localStorage
+  localStorage.setItem("language", lang);
+
+  // Re-observe scroll reveal elements since content was dynamic re-rendered
+  setTimeout(() => {
+    initScrollRevealObserver();
+  }, 100);
 }
 
-// Khởi tạo trình dịch
 function initLanguageSelector() {
-  const options = document.querySelectorAll(".lang-option");
-  options.forEach(opt => {
-    opt.addEventListener("click", (e) => {
-      e.preventDefault();
-      const selectedLang = opt.getAttribute("data-lang");
+  const dropdownItems = document.querySelectorAll(".lang-option");
+  dropdownItems.forEach(item => {
+    item.addEventListener("click", (e) => {
+      const selectedLang = e.target.getAttribute("data-lang");
       changeLanguage(selectedLang);
     });
   });
 
-  // Tải ngôn ngữ mặc định từ local hoặc mặc định Việt
+  // Đọc ngôn ngữ đã lưu hoặc tự động phát hiện
   const savedLang = localStorage.getItem("language") || "vi";
   changeLanguage(savedLang);
 }
