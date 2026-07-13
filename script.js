@@ -15,6 +15,7 @@ const translations = {
     "nav.projects": "Dự án",
     "nav.skills": "Kỹ năng",
     "nav.contact": "Liên hệ",
+    "nav.services": "Năng lực Team",
     "hero.badge": "Chào mừng bạn đến với portfolio của tôi",
     "hero.iam": "Tôi là",
     "hero.expert": "Chuyên gia",
@@ -80,6 +81,7 @@ const translations = {
     "nav.projects": "Projects",
     "nav.skills": "Skills",
     "nav.contact": "Contact",
+    "nav.services": "Team Capabilities",
     "hero.badge": "Welcome to my portfolio",
     "hero.iam": "I am",
     "hero.expert": "Expert in",
@@ -145,6 +147,7 @@ const translations = {
     "nav.projects": "プロジェクト",
     "nav.skills": "スキル・学歴",
     "nav.contact": "連絡先",
+    "nav.services": "チーム能力",
     "hero.badge": "ポートフォリオへようこそ",
     "hero.iam": "私は",
     "hero.expert": "専門家",
@@ -202,6 +205,72 @@ const translations = {
     "contact.sending": "送信中...",
     "contact.success": "ありがとうございます！メッセージは正常に送信されました。できるだけ早くご返信いたします。",
     "footer.copyright": "© 2026 グエン・テー・タオ. All rights reserved."
+  },
+  zh: {
+    "nav.home": "首页",
+    "nav.about": "关于我",
+    "nav.experience": "工作经历",
+    "nav.projects": "代表项目",
+    "nav.skills": "专业技能",
+    "nav.contact": "联系我",
+    "nav.services": "团队能力",
+    "hero.badge": "欢迎访问我的个人主页",
+    "hero.iam": "我是",
+    "hero.expert": "专家级",
+    "hero.description": "拥有 8 年以上在高科技制造环境中管理和运营 IT、MES/ERP 系统及网络基础设施的经验。致力于推动数字化转型、优化企业业务流程并构建高效的 IT 团队。",
+    "hero.btnContact": "立即联系",
+    "hero.btnExperience": "查看经历",
+    "about.title": "自我介绍",
+    "about.personalInfo": "个人信息",
+    "about.yob": "出生年份",
+    "about.phone": "联系电话",
+    "about.email": "电子邮箱",
+    "about.address": "工作地点",
+    "about.marital": "婚姻状况",
+    "about.objective": "职业目标",
+    "about.obj1": "渴望在专业的环境中发展职业生涯，以最大限度地发挥我的系统管理能力、领导才干和创新思维。",
+    "about.obj2": "致力于为系统的稳定运行、数据安全 and 网络基础设施优化做出最大贡献，从而提升企业的生产效率。",
+    "about.stat1": "年工作经验",
+    "about.stat2": "系统正常运行时间",
+    "about.stat3": "团队成员",
+    "experience.title": "工作经历",
+    "projects.title": "代表项目",
+    "skills.title": "专业能力 & 教育背景",
+    "skills.workskills": "专业技能",
+    "skills.education": "教育背景",
+    "skills.degree": "电子与通信工程学士",
+    "skills.school": "胡志明市国家大学自然科学大学",
+    "skills.languages": "语言能力",
+    "skills.japanese": "日语",
+    "skills.japaneseLevel": "JLPT N3 / 商务交流N2水平",
+    "skills.english": "英语",
+    "skills.englishLevel": "熟练阅读理解技术文档",
+    "skills.hobbies": "个人兴趣",
+    "skills.hobbyRead": "阅读书籍",
+    "skills.hobbyTravel": "旅行",
+    "skills.hobbyMusic": "听音乐",
+    "skills.hobbySocial": "社交活动",
+    "contact.title": "联系我",
+    "contact.qrTitle": "移动端连接",
+    "contact.qrDesc": "使用移动设备扫描二维码，即可快速访问本主页的在线版本。",
+    "contact.infoTitle": "联系信息",
+    "contact.infoDesc": "欢迎与我联系，探讨合作机会或技术解决方案。",
+    "contact.phone": "电话",
+    "contact.email": "邮箱",
+    "contact.address": "现居地址",
+    "contact.formTitle": "直接发送留言",
+    "contact.formName": "姓名",
+    "contact.formEmail": "电子邮箱",
+    "contact.formSubject": "主题",
+    "contact.formMessage": "留言内容",
+    "contact.placeholderName": "您的姓名",
+    "contact.placeholderEmail": "name@example.com",
+    "contact.placeholderSubject": "留言主题",
+    "contact.placeholderMessage": "请在此输入您的留言...",
+    "contact.btnSubmit": "发送留言",
+    "contact.sending": "正在发送...",
+    "contact.success": "谢谢！您的留言已成功发送。我会尽快给您答复。",
+    "footer.copyright": "© 2026 阮世草。保留所有权利。"
   }
 };
 
@@ -631,6 +700,147 @@ const profileData = {
         description: "製造業の変革を見据えた先進技術の評価・実装。ローカルLLM/AIの環境構築、n8nによる自動化、Python/Golangによるカスタムユーティリティ開発スキルの保持。"
       }
     ]
+  },
+  zh: {
+    ageText: "1992年 (年龄: 34岁)",
+    addressVal: "胡志明市 & 同奈省",
+    maritalVal: "已婚",
+    contactAddressVal: "顺交，胡志明市近郊 (平阳省)",
+    experiences: [
+      {
+        companyName: "夏普制造（越南）有限公司 (Sharp Manufacturing Vietnam Co., Ltd.)",
+        role: "IT经理 (生产部门)",
+        period: "2021年04月 – 至今",
+        location: "胡志明市 (平阳省)",
+        duties: [
+          "全面管理和运营 MES/ERP 系统：包括网络基础设施、服务器、数据库和生产控制系统，确保系统 99.9% 的正常运行时间，满足 24/7 连续生产要求。",
+          "主导系统优化与开发：分析业务需求，编写技术规格书（spec），组织系统及应用升级的开发、测试与部署。",
+          "设计与标准化 IT 和生产流程：制定、实施并优化运营流程，确保符合 ISO/IATF 标准。",
+          "管理与搭建 IT 基础设施：部署、扩展和优化网络系统（L2/L3 交换机、防火墙、路由器、Wi-Fi），确保性能与网络安全。",
+          "构建和运行生产数据管理系统：管理数据库、系统日志和产品图像数据；设计自动备份 and 灾难恢复方案，确保数据安全与完整。",
+          "开发内部解决方案：开发辅助应用程序和工具以优化运营、提高生产率并减少手动操作。",
+          "推动数字化转型：研究并应用先进技术（AI、自动化、开源工具）以提高生产和管理效率。",
+          "管理和排除生产系统故障：确保快速响应，最大限度地减少停机时间，维持连续运营。",
+          "与国际合作伙伴（日本）和外部供应商协调沟通，合作进行系统部署、运营与故障排除。",
+          "管理 IT 团队：负责工作分配、技术培训、人员能力提升，构建了由 9 名高效员工组成的 IT 团队。"
+        ]
+      },
+      {
+        companyName: "越南国际人力资源股份公司 (Viet International Human Resources Joint Stock Company)",
+        role: "IT专员",
+        period: "2018年12月 – 2020年06月",
+        location: "胡志明市",
+        duties: [
+          "开发和维护公司网站，实施互联网营销解决方案以提升品牌知名度。",
+          "管理计算机系统、外围设备和内部网络基础设施，确保高可用性和数据安全。",
+          "为员工提供 IT 支持，开展办公软件操作培训。",
+          "翻译技术规格书，协助日本合作伙伴进行技术转移与系统配置。"
+        ]
+      },
+      {
+        companyName: "东亚股份商业银行 (DongA Bank)",
+        role: "应用系统运营 IT 专员",
+        period: "06/2018 – 03/2019",
+        location: "胡志明市",
+        duties: [
+          "监控并运营服务器系统（核心银行、银行卡、网上银行等），确保系统 24/7 稳定运行，无支付或取款故障。",
+          "实施系统配置更改与升级，以满足银行系统的运行要求。",
+          "参与新项目与新系统的部署（SWIFT 国际结算系统）。",
+          "研究并实施新技术解决方案以优化系统运行。"
+        ]
+      },
+      {
+        companyName: "和信铝业有限公司 (Washin Aluminum Co., Ltd.)",
+        role: "技术员 - 自动设备操作员",
+        period: "2015年03月 – 2018年03月",
+        location: "日本大阪",
+        duties: [
+          "在日本进行实务工作，负责运行和监控生产自动化设备。",
+          "确保安全生产，维护符合日本 quality 标准的连续生产流程。"
+        ]
+      }
+    ],
+    projects: [
+      {
+        title: "大容量图像存储系统 (NAS)",
+        duration: "3个月",
+        details: [
+          "使用群晖 NAS（10PB）设计并搭建大规模图像存储系统。",
+          "构建 10Gbps 高带宽网络基础设施，以支持实时数据传输。",
+          "使用 Golang 语言优化实时处理应用，提升数据处理速度与整体性能。"
+        ],
+        technologies: ["NAS Synology", "Golang", "Network 10Gbps", "Real-time Storage"]
+      },
+      {
+        title: "生产 BI 报表系统",
+        duration: "4个月",
+        details: [
+          "使用开源技术（Docker）设计并实施 BI 平台，优化投资成本。",
+          "搭建集中式数据仓库（Data Warehouse）架构，服务于生产数据 analysis。",
+          "开发直观的看板（Dashboard），协助跟踪 KPI 指标并支持快速决策。"
+        ],
+        technologies: ["Docker", "Data Warehouse", "Power BI / Metabase", "SQL Server"]
+      },
+      {
+        title: "内部 AI 系统部署",
+        duration: "进行中",
+        details: [
+          "构建在内网运行的本地 AI 模型，确保公司数据与机密安全。",
+          "将 AI 应用于翻译、文档分析和运营工作流的标准化。",
+          "通过 AI 结合 n8n 工具，实现业务流程与生产管理的自动化。",
+          "开发内部及编程辅助聊天机器人，缩短系统开发周期。"
+        ],
+        technologies: ["Local AI", "n8n", "Chatbot Development", "Python", "Automation"]
+      },
+      {
+        title: "工厂网络的构建、部署与升级",
+        duration: "已完成",
+        details: [
+          "对全厂进行网络架构的勘测、设计与综合解决方案构建。",
+          "直接负责网络设备安装部署，配置高安全性的冗余网络系统。",
+          "对网络基础设施进行升级与扩容，支持新生产线及智能工厂建设方向。"
+        ],
+        technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
+      },
+      {
+        title: "MES/ERP 系统运行管理",
+        duration: "持续进行",
+        details: [
+          "确保 MES 系统稳定运行，实现 24/7 生产中 99.9% 以上的正常运行时间。",
+          "快速响应并处理紧急故障，承诺在 8 小时内恢复（包括节假日和非工作时间）。",
+          "协助将夏普专属 ERP 系统向 SAP ERP-ECC 6.0 进行迁移与过渡（进行中）。"
+        ],
+        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "Oracle"]
+      },
+      {
+        title: "项目与团队管理",
+        duration: "持续进行",
+        details: [
+          "管理由 9 名 IT 工程师组成的团队，划分为三个功能组：运营、开发和优化。",
+          "进行任务合理分配、绩效评估，并通过技术培训培养后备力量。",
+          "与管理层、生产部门以及国内外外部供应商密切沟通，确保项目顺利实施。"
+        ],
+        technologies: ["Agile/Scrum", "Team Leadership", "KPI Management", "Vendor Coordination"]
+      }
+    ],
+    skills: [
+      {
+        groupName: "管理 & 领导力",
+        description: "具备带领、激励和构建团结高效 IT 团队的能力。能够规划和协调资源，确保项目按进度与预算完成。自信且善于沟通，可用越南语和日语进行顺畅的工作交流。"
+      },
+      {
+        groupName: "MES/ERP 系统 & 数据库",
+        description: "拥有 5 年以上直接管理与优化制造企业 MES/ERP 系统的经验。能够设计自动化备份与恢复方案，运行 SQL Server 等大型数据库，并进行商业智能（BI）数据分析。"
+      },
+      {
+        groupName: "网络基础设施 & 安全",
+        description: "具备设计和扩建复杂工业网络系统（路由、L2/L3 交换、Sophos/Fortinet 防火墙、工业 Wi-Fi）的能力。擅长优化 10Gbps 高容量数据传输，并确保物理及逻辑上的系统信息安全。"
+      },
+      {
+        groupName: "数字化转型 & 本地 AI",
+        description: "在研究和应用最前沿技术方面发挥引领作用，包括本地人工智能（Local AI）环境搭建、基于 n8n/Python 的流程自动化，以及使用 Golang 开发厂区运营优化工具。"
+      }
+    ]
   }
 };
 
@@ -757,7 +967,8 @@ function changeLanguage(lang) {
   const langTextMap = {
     vi: "Tiếng Việt",
     en: "English",
-    ja: "日本語"
+    ja: "日本語",
+    zh: "中文"
   };
   const currentLangText = document.getElementById("current-lang-text");
   if (currentLangText) {
@@ -874,6 +1085,13 @@ function updateTypingWords(lang) {
       "プロジェクト＆チームマネジメント",
       "ネットワーク設計＆情報セキュリティ",
       "DX推進＆ローカルAIの導入"
+    ];
+  } else if (lang === "zh") {
+    words = [
+      "IT系统与MES/ERP系统运营管理",
+      "项目管理与团队建设",
+      "网络架构设计与信息安全",
+      "数字化转型与本地AI部署"
     ];
   } else {
     words = [
