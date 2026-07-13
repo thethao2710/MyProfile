@@ -64,6 +64,11 @@
    GLOBAL STYLES
    ========================================================================== */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px; /* Giữ khoảng cách trống phía trên tránh bị Fixed Navbar che khuất tiêu đề */
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--bg-base);
