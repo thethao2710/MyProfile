@@ -301,12 +301,12 @@ const profileData = {
         technologies: ["Local AI", "n8n", "Chatbot Development", "Python", "Automation"]
       },
       {
-        title: "Nâng cấp hệ thống mạng nhà máy",
+        title: "Xây dựng, triển khai và nâng cấp hệ thống mạng nhà máy",
         duration: "Đã hoàn thành",
         details: [
-          "Lập kế hoạch ngân sách, tiến độ và quản lý triển khai dự án nâng cấp mạng toàn bộ nhà máy.",
-          "Mở rộng hạ tầng mạng phục vụ thêm dây chuyền sản xuất mà không ảnh hưởng đến hệ thống hiện tại.",
-          "Định hướng kiến trúc mạng dài hạn phục vụ chuyển đổi số và smart factory."
+          "Khảo sát, thiết kế và xây dựng giải pháp kiến trúc mạng toàn diện cho toàn bộ nhà máy.",
+          "Trực tiếp triển khai lắp đặt thiết bị, cấu hình hệ thống mạng dự phòng và bảo mật cao.",
+          "Thực hiện nâng cấp, mở rộng hạ tầng mạng đáp ứng dây chuyền mới và định hướng Smart Factory."
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
       },
@@ -318,7 +318,7 @@ const profileData = {
           "Xử lý sự cố và phản ứng nhanh trong vòng 8 giờ, bao gồm ngày nghỉ và ngoài giờ làm việc.",
           "Hỗ trợ chuyển đổi ứng dụng Sharp ERP sang SAP ERP-ECC 6.0 (đang triển khai)."
         ],
-        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
+        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "Oracle"]
       },
       {
         title: "Quản lý dự án và nhân sự",
@@ -442,12 +442,12 @@ const profileData = {
         technologies: ["Local AI", "n8n", "Chatbot Development", "Python", "Automation"]
       },
       {
-        title: "Factory Network Upgrade",
+        title: "Factory Network Construction, Deployment, and Upgrade",
         duration: "Completed",
         details: [
-          "Planned budget, timeline, and managed the deployment of the factory-wide network upgrade project.",
-          "Expanded network infrastructure to support additional production lines without affecting the existing system.",
-          "Oriented long-term network architecture for digital transformation and smart factory."
+          "Surveyed, designed, and constructed comprehensive network architecture solutions for the entire factory.",
+          "Directly deployed, installed equipment, and configured high-security redundant network systems.",
+          "Upgraded and expanded network infrastructure to support new production lines and smart factory orientation."
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
       },
@@ -459,7 +459,7 @@ const profileData = {
           "Handled incidents and responded quickly within 8 hours, including holidays and off-hours.",
           "Supported the transition from Sharp ERP to SAP ERP-ECC 6.0 (ongoing)."
         ],
-        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
+        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "Oracle"]
       },
       {
         title: "Project and Team Management",
@@ -583,12 +583,12 @@ const profileData = {
         technologies: ["Local AI", "n8n", "Chatbot Development", "Python", "Automation"]
       },
       {
-        title: "工場ネットワークのアップグレード",
+        title: "工場ネットワークの構築、導入、およびアップグレード",
         duration: "完了",
         details: [
-          "工場全体のネットワーク更新プロジェクトにおける予算策定、工程管理、および工事・適用の主導。",
-          "既存システムの稼働を一切止めずに、新しい製造ライン用のネットワーク容量を拡張。",
-          "スマートファクトリー化とDX推進を見据えた、将来性の高い論理・物理ネットワーク設計の方向付け。"
+          "工場全体の包括的なネットワークアーキテクチャソリューションの設計および構築。",
+          "高セキュリティな冗長ネットワークシステムの導入、機器設置、および構成の直接実行。",
+          "新しい生産ラインおよびスマートファクトリー化に対応するためのインフラのアップグレードと拡張。"
         ],
         technologies: ["L2/L3 Switches", "Firewall", "Fiber Networks", "Industrial Wifi"]
       },
@@ -600,7 +600,7 @@ const profileData = {
           "夜間・休日等の緊急障害発生時に、8時間以内に障害復旧を行う迅速な対応体制の運用。",
           "シャープ独自のERPシステムからSAP ERP-ECC 6.0へのシステム移行サポート（現在進行中）。"
         ],
-        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "MSSQL"]
+        technologies: ["MES", "ERP Sharp", "SAP ERP-ECC 6.0", "Oracle"]
       },
       {
         title: "プロジェクトと組織のマネジメント",
