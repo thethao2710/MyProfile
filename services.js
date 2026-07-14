@@ -9,6 +9,7 @@
 // ==========================================================================
 const translations = {
   vi: {
+    "services.pageTitle": "Team IT Capabilities & Solutions - Hồ sơ năng lực đội ngũ",
     "nav.personal": "Trang cá nhân",
     "nav.servicesTitle": "Năng lực Team",
     "nav.servicesList": "Dịch vụ",
@@ -77,6 +78,7 @@ const translations = {
     "contact.badgeOnsite": "Hỗ trợ tận nơi"
   },
   en: {
+    "services.pageTitle": "Team IT Capabilities & Solutions - Team Capabilities Profile",
     "nav.personal": "Personal Profile",
     "nav.servicesTitle": "Team Capabilities",
     "nav.servicesList": "Services",
@@ -145,6 +147,7 @@ const translations = {
     "contact.badgeOnsite": "On-site Support"
   },
   ja: {
+    "services.pageTitle": "Team IT Capabilities & Solutions - チーム能力プロファイル",
     "nav.personal": "個人プロフィール",
     "nav.servicesTitle": "チーム能力",
     "nav.servicesList": "サービス",
@@ -213,6 +216,7 @@ const translations = {
     "contact.badgeOnsite": "現地サポート"
   },
   zh: {
+    "services.pageTitle": "Team IT Capabilities & Solutions - 团队能力档案",
     "nav.personal": "个人主页",
     "nav.servicesTitle": "团队能力",
     "nav.servicesList": "特色服务",
@@ -629,7 +633,10 @@ function renderServicesContent(lang) {
 function changeLanguage(lang) {
   if (!translations[lang]) lang = "vi";
 
-  // 1. Cập nhật các văn bản tĩnh trên trang
+  // 1. Render lại danh sách dịch vụ theo ngôn ngữ mới trước (để các phần tử động có data-i18n được chèn vào DOM)
+  renderServicesContent(lang);
+
+  // 2. Cập nhật các văn bản tĩnh trên trang (bao gồm cả các phần tử vừa render động)
   const elements = document.querySelectorAll("[data-i18n]");
   elements.forEach(el => {
     const key = el.getAttribute("data-i18n");
@@ -638,7 +645,7 @@ function changeLanguage(lang) {
     }
   });
 
-  // 2. Cập nhật các Placeholder input/textarea
+  // 3. Cập nhật các Placeholder input/textarea
   const placeholders = document.querySelectorAll("[data-placeholder]");
   placeholders.forEach(el => {
     const key = el.getAttribute("data-placeholder");
@@ -647,7 +654,7 @@ function changeLanguage(lang) {
     }
   });
 
-  // 3. Cập nhật nút chọn hiển thị
+  // 4. Cập nhật nút chọn hiển thị
   const currentLangText = document.getElementById("current-lang-text");
   if (currentLangText) {
     if (lang === "vi") currentLangText.textContent = "Tiếng Việt";
@@ -667,9 +674,6 @@ function changeLanguage(lang) {
 
   // Lưu lựa chọn ngôn ngữ
   localStorage.setItem("language", lang);
-
-  // 4. Render lại danh sách dịch vụ theo ngôn ngữ mới
-  renderServicesContent(lang);
   
   // Re-run scroll reveal to bind to new elements
   initScrollRevealObserver();
