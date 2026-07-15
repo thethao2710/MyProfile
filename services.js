@@ -75,7 +75,8 @@ const translations = {
     "contact.btnZalo": "Chat Zalo",
     "contact.btnSendEmail": "Gửi email",
     "contact.addressDetail": "TP. Hồ Chí Minh, Bình Dương, Đồng Nai & Các tỉnh lân cận",
-    "contact.badgeOnsite": "Hỗ trợ tận nơi"
+    "contact.badgeOnsite": "Hỗ trợ tận nơi",
+    "button.backToTop": "Lên đầu trang"
   },
   en: {
     "services.pageTitle": "Team IT Capabilities & Solutions - Team Capabilities Profile",
@@ -144,7 +145,8 @@ const translations = {
     "contact.btnZalo": "Chat Zalo",
     "contact.btnSendEmail": "Send Email",
     "contact.addressDetail": "Ho Chi Minh City, Binh Duong, Dong Nai & Vicinity",
-    "contact.badgeOnsite": "On-site Support"
+    "contact.badgeOnsite": "On-site Support",
+    "button.backToTop": "Back to top"
   },
   ja: {
     "services.pageTitle": "Team IT Capabilities & Solutions - チーム能力プロファイル",
@@ -213,7 +215,8 @@ const translations = {
     "contact.btnZalo": "Zaloチャット",
     "contact.btnSendEmail": "メール送信",
     "contact.addressDetail": "ホーチミン市、ビンズオン省、ドンナイ省及び近郊",
-    "contact.badgeOnsite": "現地サポート"
+    "contact.badgeOnsite": "現地サポート",
+    "button.backToTop": "トップへ戻る"
   },
   zh: {
     "services.pageTitle": "Team IT Capabilities & Solutions - 团队能力档案",
@@ -282,7 +285,8 @@ const translations = {
     "contact.btnZalo": "Zalo 咨询",
     "contact.btnSendEmail": "发送邮件",
     "contact.addressDetail": "胡志明市、平阳省、同奈省及周边地区",
-    "contact.badgeOnsite": "提供上门支持"
+    "contact.badgeOnsite": "提供上门支持",
+    "button.backToTop": "回到顶部"
   }
 };
 
@@ -654,6 +658,16 @@ function changeLanguage(lang) {
     }
   });
 
+  // 3.5 Cập nhật các title/aria-label cho các phần tử đặc biệt (ví dụ: nút Back to Top)
+  const i18nTitles = document.querySelectorAll("[data-i18n-title]");
+  i18nTitles.forEach(el => {
+    const key = el.getAttribute("data-i18n-title");
+    if (translations[lang][key]) {
+      el.setAttribute("title", translations[lang][key]);
+      el.setAttribute("aria-label", translations[lang][key]);
+    }
+  });
+
   // 4. Cập nhật nút chọn hiển thị
   const currentLangText = document.getElementById("current-lang-text");
   if (currentLangText) {
@@ -691,6 +705,29 @@ function initLanguageSelector() {
   // Load ngôn ngữ đã lưu hoặc mặc định là tiếng Việt
   const savedLang = localStorage.getItem("language") || "vi";
   changeLanguage(savedLang);
+}
+
+// ==========================================================================
+// NÚT LÊN ĐẦU TRANG (BACK TO TOP)
+// ==========================================================================
+function initBackToTop() {
+  const backToTopBtn = document.getElementById("back-to-top");
+  if (!backToTopBtn) return;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add("show");
+    } else {
+      backToTopBtn.classList.remove("show");
+    }
+  });
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
 }
 
 // ==========================================================================
@@ -777,4 +814,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initThemeToggle();
   initLanguageSelector(); // Chạy i18n & Render dynamic data
   initScrollEffects();
+  initBackToTop();
 });

@@ -72,7 +72,8 @@ const translations = {
     "contact.btnSubmit": "Gửi tin nhắn",
     "contact.sending": "Đang gửi tin nhắn...",
     "contact.success": "Cảm ơn bạn! Tin nhắn của bạn đã được gửi thành công. Tôi sẽ phản hồi sớm nhất có thể.",
-    "footer.copyright": "© 2026 Nguyễn Thế Thảo. Bảo lưu mọi quyền."
+    "footer.copyright": "© 2026 Nguyễn Thế Thảo. Bảo lưu mọi quyền.",
+    "button.backToTop": "Lên đầu trang"
   },
   en: {
     "nav.home": "Home",
@@ -138,7 +139,8 @@ const translations = {
     "contact.btnSubmit": "Send message",
     "contact.sending": "Sending message...",
     "contact.success": "Thank you! Your message has been sent successfully. I will get back to you as soon as possible.",
-    "footer.copyright": "© 2026 Nguyen The Thao. All rights reserved."
+    "footer.copyright": "© 2026 Nguyen The Thao. All rights reserved.",
+    "button.backToTop": "Back to top"
   },
   ja: {
     "nav.home": "ホーム",
@@ -204,7 +206,8 @@ const translations = {
     "contact.btnSubmit": "送信する",
     "contact.sending": "送信中...",
     "contact.success": "ありがとうございます！メッセージは正常に送信されました。できるだけ早くご返信いたします。",
-    "footer.copyright": "© 2026 グエン・テー・タオ. All rights reserved."
+    "footer.copyright": "© 2026 グエン・テー・タオ. All rights reserved.",
+    "button.backToTop": "トップへ戻る"
   },
   zh: {
     "nav.home": "首页",
@@ -270,7 +273,8 @@ const translations = {
     "contact.btnSubmit": "发送留言",
     "contact.sending": "正在发送...",
     "contact.success": "谢谢！您的留言已成功发送。我会尽快给您答复。",
-    "footer.copyright": "© 2026 阮世草。保留所有权利。"
+    "footer.copyright": "© 2026 阮世草。保留所有权利。",
+    "button.backToTop": "回到顶部"
   }
 };
 
@@ -960,6 +964,16 @@ function changeLanguage(lang) {
     }
   });
 
+  // 2.5 Cập nhật các title/aria-label cho các phần tử đặc biệt (ví dụ: nút Back to Top)
+  const i18nTitles = document.querySelectorAll("[data-i18n-title]");
+  i18nTitles.forEach(el => {
+    const key = el.getAttribute("data-i18n-title");
+    if (translations[lang][key]) {
+      el.setAttribute("title", translations[lang][key]);
+      el.setAttribute("aria-label", translations[lang][key]);
+    }
+  });
+
   // 3. Render các dữ liệu CV động
   renderDynamicContent(lang);
 
@@ -1106,6 +1120,30 @@ function updateTypingWords(lang) {
 }
 
 // ==========================================================================
+// NÚT LÊN ĐẦU TRANG (BACK TO TOP)
+// ==========================================================================
+function initBackToTop() {
+  const backToTopBtn = document.getElementById("back-to-top");
+  if (!backToTopBtn) return;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add("show");
+    } else {
+      backToTopBtn.classList.remove("show");
+    }
+  });
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+}
+
+
+// ==========================================================================
 // CHUYỂN ĐỔI CHẾ ĐỘ SÁNG / TỐI (LIGHT/DARK THEME)
 // ==========================================================================
 function initThemeToggle() {
@@ -1232,4 +1270,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initLanguageSelector(); // Chạy i18n & Render dynamic data
   initScrollEffects();
   initContactForm();
+  initBackToTop();
 });
