@@ -1,0 +1,97 @@
+/* ==========================================================================
+   SERVICES & CAPABILITIES SPECIFIC STYLES
+   ========================================================================== */
+
+.max-w-700 {
+  max-width: 700px;
+}
+.max-w-600 {
+  max-width: 600px;
+}
+
+.fs-8 {
+  font-size: 0.725rem;
+}
+
+.tracking-wider {
+  letter-spacing: 0.1em;
+}
+
+.text-primary-light {
+  color: var(--primary-light) !important;
+}
+
+/* Service Card Styles */
+.service-profile-card {
+  transition: var(--transition-smooth);
+  height: 100%;
+}
+
+.service-icon-box {
+  width: 52px;
+  height: 52px;
+  font-size: 1.5rem;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.service-capabilities li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
+.service-capabilities li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-light);
+  font-weight: bold;
+}
+
+.service-meta {
+  border-color: var(--border-color) !important;
+}
+
+.service-demo-project {
+  font-style: italic;
+  position: relative;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--primary-color);
+}
+
+/* Workflow Step Styles */
+.workflow-step-num {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.15);
+}
+
+/* Base Adjustments for Services page */
+.hero-tag {
+  animation: pulse 2s infinite;
+}
+
+/* Custom CSS variables fallback if styles.css isn't fully inherited */
+.text-secondary-light {
+  color: #d1d5db;
+}
+[data-bs-theme="light"] .text-secondary-light {
+  color: #374151;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+}
