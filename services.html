@@ -1,398 +1,69 @@
 <!DOCTYPE html>
-<html lang="vi" data-bs-theme="dark">
-
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Hồ sơ năng lực của Nguyễn Thế Thảo và đội ngũ - Cung cấp giải pháp CNTT toàn diện: Thi công mạng, thiết kế web, camera giám sát, phân tích dữ liệu và giải pháp AI.">
-  <title data-i18n="services.pageTitle">Team IT Capabilities & Solutions - Hồ sơ năng lực đội ngũ</title>
+  <meta name="description" content="IT infrastructure and security consulting services for manufacturing businesses and SMEs.">
+  <title>IT consulting services | Nguyễn Thế Thảo</title>
   <link rel="icon" type="image/png" href="logo_thaoit.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="logo_thaoit.png">
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#6366f1">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://thaoit.id.vn/services.html">
-  <meta property="og:title" content="Team IT Capabilities & Solutions - Hồ sơ năng lực đội ngũ">
-  <meta property="og:description" content="Hồ sơ năng lực của Nguyễn Thế Thảo và đội ngũ - Cung cấp giải pháp CNTT toàn diện: Thi công mạng, thiết kế web, camera giám sát, phân tích dữ liệu và giải pháp AI.">
-  <meta property="og:image" content="https://thaoit.id.vn/logo_thaoit.png">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://thaoit.id.vn/services.html">
-  <meta property="twitter:title" content="Team IT Capabilities & Solutions - Hồ sơ năng lực đội ngũ">
-  <meta property="twitter:description" content="Hồ sơ năng lực của Nguyễn Thế Thảo và đội ngũ - Cung cấp giải pháp CNTT toàn diện: Thi công mạng, thiết kế web, camera giám sát, phân tích dữ liệu và giải pháp AI.">
-  <meta property="twitter:image" content="https://thaoit.id.vn/logo_thaoit.png">
-
-  <!-- Google Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-  <!-- FontAwesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="services.css">
 </head>
-
 <body>
-
-  <!-- Menu điều hướng -->
-  <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="main-navbar">
+  <nav class="navbar navbar-expand fixed-top custom-navbar">
     <div class="container">
-      <a class="navbar-brand logo-text" href="index.html">
-        <span class="gradient-text">Nguyễn Thế Thảo</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav"
-        aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggle-btn">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-nav">
-        <ul class="navbar-nav ms-auto align-items-center">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" id="nav-link-personal" data-i18n="nav.personal">Trang cá nhân</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#hero" id="nav-link-services-hero" data-i18n="nav.servicesTitle">Năng lực Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services" id="nav-link-services-list" data-i18n="nav.servicesList">Dịch vụ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#workflow" id="nav-link-workflow" data-i18n="nav.workflow">Quy trình</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sla" id="nav-link-sla" data-i18n="nav.sla">Cam kết SLA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact" id="nav-link-contact-services" data-i18n="nav.contact">Liên hệ</a>
-          </li>
-
-          <!-- Bộ chọn ngôn ngữ -->
-          <li class="nav-item dropdown ms-lg-3 mt-3 mt-lg-0">
-            <button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center gap-1 lang-btn" type="button"
-              id="language-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-globe text-primary"></i> <span id="current-lang-text">Tiếng Việt</span>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end glass-card border-0 shadow-lg p-2"
-              aria-labelledby="language-dropdown-btn">
-              <li><button class="dropdown-item lang-option active rounded-2" data-lang="vi">Tiếng Việt</button></li>
-              <li><button class="dropdown-item lang-option rounded-2" data-lang="en">English</button></li>
-              <li><button class="dropdown-item lang-option rounded-2" data-lang="ja">日本語</button></li>
-              <li><button class="dropdown-item lang-option rounded-2" data-lang="zh">中文</button></li>
-            </ul>
-          </li>
-
-          <!-- Nút đổi theme -->
-          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
-            <button class="btn-theme-toggle" id="theme-toggle-btn" aria-label="Chuyển đổi giao diện sáng tối">
-              <i class="fa-solid fa-moon theme-icon-dark"></i>
-              <i class="fa-solid fa-sun theme-icon-light d-none"></i>
-            </button>
-          </li>
-        </ul>
+      <a class="navbar-brand logo-text" href="index.html"><span class="gradient-text">ThaoIT</span></a>
+      <div class="d-flex align-items-center gap-2">
+        <a class="btn btn-outline-secondary rounded-pill px-3" href="index.html" data-i18n="servicesPage.home">Home</a>
+        <div class="dropdown">
+          <button class="btn btn-link lang-btn dropdown-toggle" id="language-menu-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Choose language" data-i18n-aria-label="controls.chooseLanguage"><i class="fa-solid fa-globe me-1"></i><span id="current-language-label">English</span></button>
+          <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="language-menu-button">
+            <li><button class="dropdown-item rounded-2" type="button" data-language="en">English</button></li>
+            <li><button class="dropdown-item rounded-2" type="button" data-language="vi">Tiếng Việt</button></li>
+            <li><button class="dropdown-item rounded-2" type="button" data-language="ja">日本語</button></li>
+          </ul>
+        </div>
+        <button class="btn-theme-toggle" id="theme-toggle-btn" type="button" aria-label="Switch to light theme"><i class="fa-solid fa-sun" id="theme-toggle-icon"></i></button>
       </div>
     </div>
   </nav>
-
-  <!-- Trang chủ / Hero -->
-  <section class="hero-section d-flex align-items-center position-relative overflow-hidden" id="hero">
-    <div class="hero-bg-shapes">
-      <div class="shape shape-1"></div>
-      <div class="shape shape-2"></div>
-    </div>
-    <div class="container position-relative z-2">
-      <div class="row align-items-center min-vh-100 py-5">
-        <div class="col-lg-8 mx-auto text-center">
-          <span
-            class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6 mb-3 hero-tag"
-            data-i18n="services.badge">Giải pháp Công nghệ & Hạ tầng CNTT</span>
-          <h1 class="display-4 fw-extrabold mb-4">
-            <span data-i18n="services.heroTitlePrefix">Hồ sơ năng lực</span> <span class="gradient-text" data-i18n="services.heroTitleSuffix">Đội ngũ IT</span>
-          </h1>
-          <p class="lead text-secondary mb-5 max-w-700 mx-auto" data-i18n="services.heroDesc">
-            Chúng tôi cung cấp các dịch vụ tư vấn, thiết kế, triển khai hạ tầng mạng, số hóa quy trình và phân tích dữ liệu chuyên nghiệp cho doanh nghiệp. Giúp tối ưu hóa vận hành và thúc đẩy tăng trưởng mạnh mẽ.
-          </p>
-          <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
-            <a href="#services" class="btn btn-primary btn-lg px-4 py-3 rounded-pill shadow-lg custom-btn-primary">
-              <span data-i18n="services.btnExplore">Khám phá năng lực</span> <i class="fa-solid fa-arrow-down ms-2"></i>
-            </a>
-            <a href="#contact" class="btn btn-outline-secondary btn-lg px-4 py-3 rounded-pill custom-btn-outline" data-i18n="services.btnQuote">
-              Nhận tư vấn ngay
-            </a>
+  <main>
+    <section class="service-page-hero py-100-60">
+      <div class="container pt-5"><div class="row justify-content-center text-center"><div class="col-lg-9"><p class="section-kicker" data-i18n="servicesPage.kicker">Consulting services</p><h1 class="display-5 fw-extrabold" data-i18n="servicesPage.title">From technical issues to a clear action plan</h1><p class="lead text-secondary mt-4" data-i18n="servicesPage.description">Each service is defined by scope, deliverables, and operating objectives. Details are confirmed after an initial conversation.</p></div></div></div>
+    </section>
+    <section class="pb-5">
+      <div class="container d-grid gap-4">
+        <article class="card border-0 glass-card p-4 p-lg-5 service-detail"><div class="row g-4"><div class="col-lg-4"><span class="service-icon-box"><i class="fa-solid fa-magnifying-glass-chart"></i></span><h2 class="h3 mt-3" data-i18n="servicesPage.assessmentTitle">IT infrastructure and security assessment</h2><p class="text-secondary" data-i18n="servicesPage.assessmentDescription">For organisations that need clarity on current state, risk, and priorities before investing or changing systems.</p></div><div class="col-lg-4"><h3 class="h5 text-primary" data-i18n="servicesPage.assessmentScope">Assessment scope</h3><ul class="text-secondary service-list"><li data-i18n="servicesPage.assessmentScopeOne">Internet, firewall, network topology, VLAN, and Wi-Fi</li><li data-i18n="servicesPage.assessmentScopeTwo">Servers, NAS, backup, Microsoft 365, and accounts</li><li data-i18n="servicesPage.assessmentScopeThree">Endpoints, access rights, and baseline security policy</li></ul></div><div class="col-lg-4"><h3 class="h5 text-primary" data-i18n="servicesPage.assessmentDeliverables">Deliverables</h3><ul class="text-secondary service-list"><li data-i18n="servicesPage.assessmentDeliverableOne">Current state and risk register</li><li data-i18n="servicesPage.assessmentDeliverableTwo">Right-sized infrastructure diagram</li><li data-i18n="servicesPage.assessmentDeliverableThree">Prioritised recommendations</li><li data-i18n="servicesPage.assessmentDeliverableFour">Results review and action-planning session</li></ul></div></div></article>
+        <article class="card border-0 glass-card p-4 p-lg-5 service-detail"><div class="row g-4"><div class="col-lg-4"><span class="service-icon-box"><i class="fa-solid fa-network-wired"></i></span><h2 class="h3 mt-3" data-i18n="servicesPage.networkTitle">Network and security consulting</h2><p class="text-secondary" data-i18n="servicesPage.networkDescription">For new design, architecture review, or preparing delivery with internal IT and vendors.</p></div><div class="col-lg-4"><h3 class="h5 text-primary" data-i18n="servicesPage.networkScope">Consulting scope</h3><ul class="text-secondary service-list"><li data-i18n="servicesPage.networkScopeOne">Firewall policies, FortiGate, VPN, and remote access</li><li data-i18n="servicesPage.networkScopeTwo">VLAN, network segmentation, and enterprise Wi-Fi</li><li data-i18n="servicesPage.networkScopeThree">Internet redundancy, backup, and operational continuity</li></ul></div><div class="col-lg-4"><h3 class="h5 text-primary" data-i18n="servicesPage.networkDeliverables">Expected outcomes</h3><ul class="text-secondary service-list"><li data-i18n="servicesPage.networkDeliverableOne">An implementable technical approach</li><li data-i18n="servicesPage.networkDeliverableTwo">Access control and security principles</li><li data-i18n="servicesPage.networkDeliverableThree">Points to clarify with vendors before delivery</li></ul></div></div></article>
+        <article class="card border-0 glass-card p-4 p-lg-5 service-detail"><div class="row g-4"><div class="col-lg-4"><span class="service-icon-box"><i class="fa-solid fa-user-tie"></i></span><h2 class="h3 mt-3" data-i18n="servicesPage.managerTitle">Virtual IT manager</h2><p class="text-secondary" data-i18n="servicesPage.managerDescription">For organisations with internal IT staff that need periodic support on direction, evaluation, and important decisions.</p></div><div class="col-lg-4"><h3 class="h5 text-primary" data-i18n="servicesPage.managerScope">Ongoing support</h3><ul class="text-secondary service-list"><li data-i18n="servicesPage.managerScopeOne">Review systems, backups, and priority risks</li><li data-i18n="servicesPage.managerScopeTwo">Review vendor proposals, IT plans, and budgets</li><li data-i18n="servicesPage.managerScopeThree">Advise on policies and an appropriate upgrade path</li></ul></div><div class="col-lg-4"><h3 class="h5 text-primary" data-i18n="servicesPage.managerDeliverables">Working approach</h3><ul class="text-secondary service-list"><li data-i18n="servicesPage.managerDeliverableOne">Agree the scope and point of contact</li><li data-i18n="servicesPage.managerDeliverableTwo">Meet regularly at a suitable cadence</li><li data-i18n="servicesPage.managerDeliverableThree">Record decisions and the next actions</li></ul></div></div></article>
+      </div>
+    </section>
+    <section class="py-100-60" id="contact">
+      <div class="container">
+        <div class="text-center mx-auto contact-heading"><p class="section-kicker" data-i18n="contact.kicker">Contact</p><h2 class="section-title mb-3" data-i18n="contact.title">Connect to discuss the right solution</h2><p class="text-secondary mb-0" data-i18n="contact.description">Use the details below to discuss your organisation's IT infrastructure, security, and operational needs.</p></div>
+        <div class="row g-4 mt-1">
+          <div class="col-lg-6">
+            <article class="contact-panel rounded-4 h-100 p-4 p-lg-5">
+              <h3 class="h4 fw-bold mb-3" data-i18n="contact.infoTitle">Contact details</h3><p class="text-secondary mb-4" data-i18n="contact.infoDescription">Reach out via Zalo, phone, or email to discuss your needs and agree on a suitable time.</p>
+              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-phone"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.phone">Phone and Zalo</p><a class="contact-detail-value" href="tel:0977574363">097 757 4363</a></div></div>
+              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-envelope"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.email">Email</p><a class="contact-detail-value" href="mailto:thethao2710@gmail.com">thethao2710@gmail.com</a></div></div>
+              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-location-dot"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.region">Service area</p><p class="contact-detail-value mb-0" data-i18n="contact.regionValue">Ho Chi Minh City · Binh Duong · Dong Nai</p></div></div>
+              <a class="btn btn-outline-secondary rounded-pill px-4 mt-4" href="https://zalo.me/0977574363" target="_blank" rel="noopener"><i class="fa-solid fa-message me-2"></i><span data-i18n="contact.zalo">Chat via Zalo</span></a>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="contact-panel qr-card-container rounded-4 h-100 p-4 p-lg-5"><h3 class="h4 fw-bold mb-3 qr-title-custom" data-i18n="contact.quickTitle">Quick access</h3><p class="text-secondary mb-4" data-i18n="contact.quickDescription">Scan the QR code on a mobile device for quick access to the website and contact details.</p><div class="qr-wrapper"><img class="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&amp;data=https%3A%2F%2Fthaoit.id.vn%2F" alt="QR code for thaoit.id.vn" data-i18n-alt="contact.qrAlt"><span class="qr-scan-line" aria-hidden="true"></span></div><a class="btn btn-primary rounded-pill px-4 mt-4" href="https://thaoit.id.vn/" target="_blank" rel="noopener">thaoit.id.vn</a></article>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Danh sách Năng lực & Dịch vụ / Services List -->
-  <section class="services-list-section py-100-60 bg-body-tertiary" id="services">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h2 class="section-title" data-i18n="services.listTitle">DỊCH VỤ & GIẢI PHÁP TIÊU BIỂU</h2>
-          <div class="title-underline mx-auto"></div>
-          <p class="text-secondary mt-3 max-w-600 mx-auto" data-i18n="services.listDesc">
-            Các mảng năng lực chuyên sâu mà chúng tôi tự tin mang lại giá trị thiết thực và hiệu quả cao nhất cho đối tác.
-          </p>
-        </div>
-      </div>
-
-      <!-- Khung hiển thị danh sách dịch vụ -->
-      <div class="row g-4" id="services-grid-target">
-        <!-- Render động bằng JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Quy trình triển khai dự án / Workflow -->
-  <section class="workflow-section py-100-60" id="workflow">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h2 class="section-title" data-i18n="workflow.title">QUY TRÌNH LÀM VIỆC CHUYÊN NGHIỆP</h2>
-          <div class="title-underline mx-auto"></div>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-3 text-center scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="workflow-step-num bg-primary-subtle text-primary mx-auto mb-3">1</div>
-            <h3 class="h5 fw-bold mb-2" data-i18n="workflow.step1Title">Khảo sát & Tư vấn</h3>
-            <p class="text-secondary fs-7 mb-0" data-i18n="workflow.step1Desc">Tiếp nhận yêu cầu, khảo sát thực trạng hạ tầng hoặc nghiệp vụ và tư vấn giải pháp ban đầu tối ưu chi phí.</p>
-          </div>
-        </div>
-        <div class="col-md-3 text-center scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="workflow-step-num bg-primary-subtle text-primary mx-auto mb-3">2</div>
-            <h3 class="h5 fw-bold mb-2" data-i18n="workflow.step2Title">Thiết kế & Lập kế hoạch</h3>
-            <p class="text-secondary fs-7 mb-0" data-i18n="workflow.step2Desc">Xây dựng bản vẽ kỹ thuật chi tiết, đề xuất sơ đồ kiến trúc, lựa chọn thiết bị công nghệ và lên tiến độ triển khai cụ thể.</p>
-          </div>
-        </div>
-        <div class="col-md-3 text-center scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="workflow-step-num bg-primary-subtle text-primary mx-auto mb-3">3</div>
-            <h3 class="h5 fw-bold mb-2" data-i18n="workflow.step3Title">Triển khai & Kiểm thử</h3>
-            <p class="text-secondary fs-7 mb-0" data-i18n="workflow.step3Desc">Tiến hành thi công lắp đặt phần cứng hoặc lập trình phần mềm, cấu hình chi tiết và chạy thử nghiệm hệ thống.</p>
-          </div>
-        </div>
-        <div class="col-md-3 text-center scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="workflow-step-num bg-primary-subtle text-primary mx-auto mb-3">4</div>
-            <h3 class="h5 fw-bold mb-2" data-i18n="workflow.step4Title">Bàn giao & Bảo trì</h3>
-            <p class="text-secondary fs-7 mb-0" data-i18n="workflow.step4Desc">Bàn giao sơ đồ, tài liệu hướng dẫn vận hành, chuyển giao công nghệ và cung cấp dịch vụ bảo trì định kỳ hỗ trợ 24/7.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Cam kết chất lượng / SLA Section -->
-  <section class="sla-section py-100-60 bg-body-tertiary" id="sla">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h2 class="section-title" data-i18n="services.slaTitle">CAM KẾT CHẤT LƯỢNG DỊCH VỤ (SLA)</h2>
-          <div class="title-underline mx-auto"></div>
-          <p class="text-secondary mt-3 max-w-600 mx-auto" data-i18n="services.slaDesc">
-            Chúng tôi luôn đặt uy tín và hiệu quả lên hàng đầu với các cam kết kỹ thuật rõ ràng:
-          </p>
-        </div>
-      </div>
-      <div class="row g-4 justify-content-center">
-        <!-- SLA Item 1 -->
-        <div class="col-md-6 col-lg-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <span class="info-icon-wrapper text-primary"><i class="fa-solid fa-clock-rotate-left"></i></span>
-              <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill fs-8 px-2 py-1" data-i18n="services.slaItem1Badge">Tối đa 2h / 24h</span>
-            </div>
-            <h3 class="h5 fw-bold mb-2 text-primary-light" data-i18n="services.slaItem1Title">Thời gian phản hồi</h3>
-            <p class="text-secondary fs-7 mb-0 text-justify" data-i18n="services.slaItem1Desc">Phản hồi yêu cầu trong vòng 2 giờ. Khảo sát thực tế tận nơi trong vòng 24 giờ kể từ khi tiếp nhận thông tin.</p>
-          </div>
-        </div>
-
-        <!-- SLA Item 2 -->
-        <div class="col-md-6 col-lg-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <span class="info-icon-wrapper text-primary"><i class="fa-solid fa-headset"></i></span>
-              <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill fs-8 px-2 py-1" data-i18n="services.slaItem2Badge">Hỗ trợ 24/7</span>
-            </div>
-            <h3 class="h5 fw-bold mb-2 text-primary-light" data-i18n="services.slaItem2Title">Hỗ trợ sự cố khẩn cấp</h3>
-            <p class="text-secondary fs-7 mb-0 text-justify" data-i18n="services.slaItem2Desc">Hỗ trợ kỹ thuật 24/7. Có mặt trực tiếp xử lý tại hiện trường trong vòng 4 giờ đối với sự cố nghiêm trọng.</p>
-          </div>
-        </div>
-
-        <!-- SLA Item 3 -->
-        <div class="col-md-6 col-lg-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <span class="info-icon-wrapper text-primary"><i class="fa-solid fa-shield-halved"></i></span>
-              <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill fs-8 px-2 py-1" data-i18n="services.slaItem3Badge">Chính hãng 100%</span>
-            </div>
-            <h3 class="h5 fw-bold mb-2 text-primary-light" data-i18n="services.slaItem3Title">Chất lượng thiết bị</h3>
-            <p class="text-secondary fs-7 mb-0 text-justify" data-i18n="services.slaItem3Desc">100% thiết bị cung cấp chính hãng (CO/CQ đầy đủ). Bảo hành kỹ thuật tận nơi 12 tháng cho toàn hệ thống.</p>
-          </div>
-        </div>
-
-        <!-- SLA Item 4 -->
-        <div class="col-md-6 col-lg-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <span class="info-icon-wrapper text-primary"><i class="fa-solid fa-circle-check"></i></span>
-              <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill fs-8 px-2 py-1" data-i18n="services.slaItem4Badge">Uptime 99.9%</span>
-            </div>
-            <h3 class="h5 fw-bold mb-2 text-primary-light" data-i18n="services.slaItem4Title">Độ sẵn sàng hệ thống</h3>
-            <p class="text-secondary fs-7 mb-0 text-justify" data-i18n="services.slaItem4Desc">Thiết kế hạ tầng mạng đạt độ sẵn sàng tối thiểu 99.9% thông qua giải pháp dự phòng thiết bị và đường truyền.</p>
-          </div>
-        </div>
-
-        <!-- SLA Item 5 -->
-        <div class="col-md-6 col-lg-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm">
-            <div class="d-flex justify-content-between align-items-start mb-3">
-              <span class="info-icon-wrapper text-primary"><i class="fa-solid fa-wrench"></i></span>
-              <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill fs-8 px-2 py-1" data-i18n="services.slaItem5Badge">Mỗi 3 tháng</span>
-            </div>
-            <h3 class="h5 fw-bold mb-2 text-primary-light" data-i18n="services.slaItem5Title">Bảo trì định kỳ</h3>
-            <p class="text-secondary fs-7 mb-0 text-justify" data-i18n="services.slaItem5Desc">Thực hiện bảo trì, kiểm tra an ninh và tối ưu hóa hệ thống định kỳ 3 tháng/lần trong thời hạn bảo hành.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Liên hệ / Contact Section -->
-  <section class="contact-section py-100-60" id="contact">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h2 class="section-title" data-i18n="contact.title">LIÊN HỆ ĐỘI NGŨ</h2>
-          <div class="title-underline mx-auto"></div>
-          <p class="text-secondary mt-3 max-w-600 mx-auto" data-i18n="services.contactDesc">
-            Hãy kết nối trực tiếp với chúng tôi để nhận được sự tư vấn chuyên sâu và báo giá nhanh nhất.
-          </p>
-        </div>
-      </div>
-      <div class="row g-4 justify-content-center text-center">
-        <!-- Zalo / Phone -->
-        <div class="col-md-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm d-flex flex-column align-items-center justify-content-between">
-            <div>
-              <div class="contact-icon bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center mb-3 mx-auto shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" class="zalo-icon" style="width: 32px; height: 32px;">
-              </div>
-              <h3 class="h5 fw-bold mb-2" data-i18n="contact.phone">Điện thoại / Zalo</h3>
-              <p class="fw-bold fs-5 text-primary-light mb-3">097 757 4363</p>
-            </div>
-            <div class="d-flex gap-2 w-100">
-              <a href="tel:0977574363" class="btn btn-outline-primary rounded-pill w-50 py-2 fs-7 btn-sm custom-btn-outline">
-                <i class="fa-solid fa-phone me-1"></i><span data-i18n="contact.btnCall">Gọi ngay</span>
-              </a>
-              <a href="https://zalo.me/0977574363" target="_blank" class="btn btn-primary rounded-pill w-50 py-2 fs-7 btn-sm custom-btn-primary">
-                <i class="fa-solid fa-message me-1"></i><span data-i18n="contact.btnZalo">Chat Zalo</span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Email -->
-        <div class="col-md-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm d-flex flex-column align-items-center justify-content-between">
-            <div>
-              <div class="contact-icon bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center mb-3 mx-auto shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem;">
-                <i class="fa-solid fa-envelope" style="font-size: 1.5rem;"></i>
-              </div>
-              <h3 class="h5 fw-bold mb-2" data-i18n="contact.email">Thư điện tử</h3>
-              <p class="fw-bold fs-5 text-primary-light mb-3">thethao2710@gmail.com</p>
-            </div>
-            <a href="mailto:thethao2710@gmail.com" class="btn btn-primary rounded-pill w-100 py-2 fs-7 btn-sm custom-btn-primary">
-              <i class="fa-solid fa-paper-plane me-1"></i><span data-i18n="contact.btnSendEmail">Gửi email</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- Service Area -->
-        <div class="col-md-4 scroll-reveal">
-          <div class="card border-0 glass-card p-4 h-100 shadow-sm d-flex flex-column align-items-center justify-content-between">
-            <div>
-              <div class="contact-icon bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center mb-3 mx-auto shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem;">
-                <i class="fa-solid fa-map-location-dot" style="font-size: 1.5rem;"></i>
-              </div>
-              <h3 class="h5 fw-bold mb-2" data-i18n="contact.address">Khu vực hỗ trợ</h3>
-              <p class="text-secondary fs-7 mb-0 px-2" data-i18n="contact.addressDetail">TP. Hồ Chí Minh, Bình Dương, Đồng Nai & Các tỉnh lân cận</p>
-            </div>
-            <div class="w-100 pt-3">
-              <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill px-3 py-2 fs-7 w-100">
-                <i class="fa-solid fa-circle-check text-primary me-1"></i><span data-i18n="contact.badgeOnsite">Hỗ trợ tận nơi</span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-4 border-top border-secondary-subtle bg-body-tertiary">
-    <div class="container text-center">
-      <p class="mb-0 text-secondary fs-7" data-i18n="footer.copyright">&copy; 2026 Nguyễn Thế Thảo. Bảo lưu mọi quyền.</p>
-    </div>
-  </footer>
-
-  <!-- TEMPLATE CHO CARD DỊCH VỤ -->
-  <template id="service-card-template">
-    <div class="col-md-6 col-lg-4 scroll-reveal">
-      <div class="card border-0 h-100 glass-card service-profile-card shadow-sm">
-        <div class="card-body p-4 d-flex flex-column justify-content-between">
-          <div>
-            <div class="d-flex align-items-center mb-3">
-              <span class="service-icon-box bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center shadow-sm">
-                <i class="service-icon-element"></i>
-              </span>
-              <h3 class="h5 fw-bold mb-0 ms-3 service-title text-primary-light"></h3>
-            </div>
-            
-            <p class="text-secondary fs-7 service-short-desc mb-3"></p>
-            
-            <h4 class="fs-8 text-uppercase fw-bold text-muted tracking-wider mb-2" data-i18n="services.capabilitiesHeader">Năng lực chi tiết</h4>
-            <ul class="service-capabilities list-unstyled text-secondary fs-7 mb-4">
-              <!-- Render list -->
-            </ul>
-          </div>
-          
-          <div class="service-meta border-top pt-3">
-            <h4 class="fs-8 text-uppercase fw-bold text-muted tracking-wider mb-2" data-i18n="services.projectsHeader">Dự án tiêu biểu</h4>
-            <p class="text-secondary-light fs-7 service-demo-project mb-0"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </template>
-
-  <!-- Nút chuyển lên đầu trang -->
-  <button id="back-to-top" class="btn-back-to-top" data-i18n-title="button.backToTop" title="Lên đầu trang" aria-label="Lên đầu trang">
-    <i class="fa-solid fa-arrow-up"></i>
-  </button>
-
-  <!-- Bootstrap 5 JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-
-  <!-- Custom JS -->
+    </section>
+  </main>
+  <footer class="border-top py-4"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2 text-secondary fs-7"><span>© 2026 Nguyễn Thế Thảo</span><span data-i18n="footer.role">IT infrastructure and security consultant</span></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="site-controls.js"></script>
   <script src="services.js"></script>
 </body>
-
 </html>
