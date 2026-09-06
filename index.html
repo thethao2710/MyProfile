@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="vi" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="IT infrastructure and security consulting for manufacturing businesses and SMEs.">
-  <title>Nguyễn Thế Thảo | IT Infrastructure and Security Consultant</title>
+  <meta name="description" content="Nguyễn Thế Thảo chuyên tư vấn thiết kế hệ thống mạng doanh nghiệp, quản lý an toàn thông tin và tối ưu chi phí thiết bị công nghệ cho SME.">
+  <title>Nguyễn Thế Thảo | Tư vấn quản lý mạng và an toàn thông tin</title>
   <link rel="icon" type="image/png" href="logo_thaoit.png">
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#6366f1">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://thaoit.id.vn/">
-  <meta property="og:title" content="Nguyễn Thế Thảo | IT Infrastructure and Security Consultant">
-  <meta property="og:description" content="IT infrastructure and security consulting for manufacturing businesses and SMEs.">
-  <meta property="og:image" content="https://thaoit.id.vn/logo_thaoit.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
@@ -20,27 +13,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-smooth-scroll="true" tabindex="0">
   <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="main-navbar">
     <div class="container">
       <a class="navbar-brand logo-text" href="#hero"><span class="gradient-text">ThaoIT</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Open navigation" data-i18n-aria-label="controls.openNavigation"><span class="navbar-toggler-icon"></span></button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Mở menu điều hướng" data-i18n-aria-label="controls.openNavigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbar-nav">
         <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link active" href="#hero" data-i18n="nav.home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav.services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#case-studies" data-i18n="nav.capabilities">Capabilities</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#hero" data-i18n="nav.home">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav.services">Dịch vụ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process" data-i18n="nav.process">Quy trình</a></li>
+          <li class="nav-item"><a class="nav-link" href="#case-studies" data-i18n="nav.capabilities">Năng lực tư vấn</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Liên hệ</a></li>
           <li class="nav-item dropdown ms-lg-2 mt-2 mt-lg-0">
-            <button class="btn btn-link lang-btn dropdown-toggle" id="language-menu-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Choose language" data-i18n-aria-label="controls.chooseLanguage"><i class="fa-solid fa-globe me-1"></i><span id="current-language-label">English</span></button>
+            <button class="btn btn-link lang-btn dropdown-toggle" id="language-menu-button" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Chọn ngôn ngữ" data-i18n-aria-label="controls.chooseLanguage"><i class="fa-solid fa-globe me-1"></i><span id="current-language-label">Tiếng Việt</span></button>
             <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="language-menu-button">
-              <li><button class="dropdown-item rounded-2" type="button" data-language="en">English</button></li>
               <li><button class="dropdown-item rounded-2" type="button" data-language="vi">Tiếng Việt</button></li>
+              <li><button class="dropdown-item rounded-2" type="button" data-language="en">English</button></li>
               <li><button class="dropdown-item rounded-2" type="button" data-language="ja">日本語</button></li>
             </ul>
           </li>
-          <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><button class="btn-theme-toggle" id="theme-toggle-btn" type="button" aria-label="Switch to light theme"><i class="fa-solid fa-sun" id="theme-toggle-icon"></i></button></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><button class="btn-theme-toggle" id="theme-toggle-btn" type="button" aria-label="Chuyển sang giao diện sáng"><i class="fa-solid fa-sun" id="theme-toggle-icon"></i></button></li>
         </ul>
       </div>
     </div>
@@ -49,63 +43,107 @@
     <section class="hero-section consultant-hero d-flex align-items-center position-relative overflow-hidden" id="hero">
       <div class="hero-bg-shapes"><div class="shape shape-1"></div><div class="shape shape-2"></div></div>
       <div class="container position-relative z-2">
-        <div class="row align-items-center min-vh-100 py-5">
+        <div class="row align-items-center hero-row py-3 py-lg-4">
           <div class="col-lg-7 text-center text-lg-start">
-            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill mb-3" data-i18n="hero.badge">IT infrastructure and security consultant</span>
-            <h1 class="display-4 fw-extrabold mb-4"><span data-i18n="hero.titleStart">Reliable, secure, and manageable</span> <span class="gradient-text" data-i18n="hero.titleHighlight">IT infrastructure</span></h1>
-            <p class="lead text-secondary mb-4" data-i18n="hero.description">I partner with manufacturing businesses and SMEs to design, secure, and optimise IT infrastructure — from networks, firewalls, Microsoft 365, and Wi-Fi to backup and system operations.</p>
-            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start mb-5 consultant-tags">
-              <span data-i18n="hero.tagNetwork">Network and VLAN</span><span data-i18n="hero.tagFirewall">Firewall and VPN</span><span>Microsoft 365</span><span>Backup and NAS</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill consultant-hero-badge d-inline-block text-wrap" data-i18n="hero.badge">Tư vấn quản lý mạng và an toàn thông tin</span>
+            <h1 class="display-4 fw-extrabold consultant-hero-title mb-3"><span data-i18n="hero.titleStart">Thiết kế hệ thống mạng, an toàn thông tin &</span> <span class="gradient-text" data-i18n="hero.titleHighlight">tối ưu chi phí công nghệ</span></h1>
+            <p class="lead text-secondary consultant-hero-desc mb-3 mb-lg-4" data-i18n="hero.description">Đồng hành cùng doanh nghiệp và SME: Thiết kế kiến trúc mạng chịu tải, quản lý an toàn thông tin dữ liệu, và tư vấn giải pháp thiết bị công nghệ hiệu quả cao, bám sát nhu cầu với ngân sách tối ưu nhất.</p>
+            <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start mb-3 mb-lg-4 consultant-tags">
+              <span data-i18n="hero.tagNetwork">Thiết kế mạng và VLAN</span><span data-i18n="hero.tagFirewall">Tường lửa và an toàn thông tin</span><span data-i18n="hero.tagSecurity">Tối ưu chi phí công nghệ</span><span data-i18n="hero.tagBackup">Sao lưu dữ liệu tự động</span><span data-i18n="hero.tagStorage">Lưu trữ dữ liệu an toàn</span>
             </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
-              <a href="#contact" class="btn btn-primary btn-lg px-4 py-3 rounded-pill custom-btn-primary"><span data-i18n="hero.bookConsultation">Contact now</span><i class="fa-solid fa-arrow-right ms-2"></i></a>
-              <a href="https://zalo.me/0977574363" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-lg px-4 py-3 rounded-pill custom-btn-outline"><i class="fa-solid fa-message me-2"></i><span data-i18n="hero.chatZalo">Chat via Zalo</span></a>
+            <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3 consultant-hero-cta">
+              <a href="#contact" class="btn btn-primary btn-lg px-4 py-2 py-lg-3 rounded-pill custom-btn-primary"><span data-i18n="hero.bookConsultation">Liên hệ ngay</span><i class="fa-solid fa-arrow-right ms-2"></i></a>
+              <a href="https://zalo.me/0977574363" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-lg px-4 py-2 py-lg-3 rounded-pill custom-btn-outline"><i class="fa-solid fa-message me-2"></i><span data-i18n="hero.chatZalo">Chat qua Zalo</span></a>
             </div>
           </div>
-          <div class="col-lg-5 mt-5 mt-lg-0 text-center"><div class="hero-avatar-wrapper position-relative mx-auto"><div class="avatar-glow"></div><div class="avatar-border"><img src="profile_picture.jpg" alt="Nguyễn Thế Thảo" class="hero-avatar-img"></div></div></div>
+          <div class="col-lg-5 mt-4 mt-lg-0 text-center"><div class="hero-avatar-wrapper position-relative mx-auto"><div class="avatar-glow"></div><div class="avatar-border"><img src="profile_picture.jpg" alt="Nguyễn Thế Thảo" class="hero-avatar-img"></div></div></div>
         </div>
       </div>
     </section>
 
     <section class="py-100-60" id="services">
       <div class="container">
-        <div class="text-center mb-5"><p class="section-kicker" data-i18n="services.kicker">Services</p><h2 class="section-title" data-i18n="services.title">Solutions for business challenges</h2><p class="text-secondary mx-auto max-w-700" data-i18n="services.description">A clear scope focused on outcomes you can use to make decisions and deliver change.</p></div>
+        <div class="text-center mb-5"><p class="section-kicker" data-i18n="services.kicker">Dịch vụ</p><h2 class="section-title" data-i18n="services.title">Giải pháp công nghệ đúng nhu cầu, tối ưu chi phí</h2><p class="text-secondary mx-auto max-w-700" data-i18n="services.description">Tập trung vào thế mạnh cốt lõi: Thiết kế mạng doanh nghiệp, an toàn thông tin và tư vấn lựa chọn công nghệ hiệu quả.</p></div>
         <div class="row g-4" id="services-list-target"></div>
-        <div class="text-center mt-5"><a class="btn btn-outline-secondary rounded-pill px-4" href="services.html" data-i18n="services.viewDetails">View service details</a></div>
+        <div class="text-center mt-5"><a class="btn btn-outline-secondary rounded-pill px-4" href="services.html" data-i18n="services.viewDetails">Xem chi tiết dịch vụ</a></div>
+      </div>
+    </section>
+
+    <section class="py-100-60" id="process">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-kicker" data-i18n="process.kicker">Quy trình làm việc</p>
+          <h2 class="section-title" data-i18n="process.title">Quy trình tư vấn và triển khai minh bạch</h2>
+          <p class="text-secondary mx-auto max-w-700" data-i18n="process.description">Tiếp cận bài bản, linh hoạt ngoài giờ hành chính và cuối tuần, bảo đảm không gián đoạn hoạt động kinh doanh.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <article class="card border-0 glass-card h-100 p-4 process-card position-relative">
+              <span class="process-step-num">01</span>
+              <div class="process-icon-box mb-3 text-primary"><i class="fa-solid fa-comments fa-2x"></i></div>
+              <h3 class="h5 mb-2" data-i18n="process.step1Title">Khảo sát và trao đổi sơ bộ</h3>
+              <p class="text-secondary mb-0" data-i18n="process.step1Desc">Lắng nghe nhu cầu thực tế, xác định quy mô người dùng, hiện trạng mạng và các rủi ro an toàn thông tin.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="card border-0 glass-card h-100 p-4 process-card position-relative">
+              <span class="process-step-num">02</span>
+              <div class="process-icon-box mb-3 text-primary"><i class="fa-solid fa-file-shield fa-2x"></i></div>
+              <h3 class="h5 mb-2" data-i18n="process.step2Title">Đề xuất giải pháp và ngân sách</h3>
+              <p class="text-secondary mb-0" data-i18n="process.step2Desc">Lập phương án kỹ thuật, cấu hình thiết bị đúng công suất và dự toán chi phí minh bạch, tránh lãng phí mua dư.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="card border-0 glass-card h-100 p-4 process-card position-relative">
+              <span class="process-step-num">03</span>
+              <div class="process-icon-box mb-3 text-primary"><i class="fa-solid fa-screwdriver-wrench fa-2x"></i></div>
+              <h3 class="h5 mb-2" data-i18n="process.step3Title">Triển khai kỹ thuật và đo kiểm</h3>
+              <p class="text-secondary mb-0" data-i18n="process.step3Desc">Trực tiếp quy hoạch VLAN, cấu hình tường lửa, tối ưu đường truyền và thiết lập chính sách an toàn thông tin.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="card border-0 glass-card h-100 p-4 process-card position-relative">
+              <span class="process-step-num">04</span>
+              <div class="process-icon-box mb-3 text-primary"><i class="fa-solid fa-handshake-angle fa-2x"></i></div>
+              <h3 class="h5 mb-2" data-i18n="process.step4Title">Bàn giao hồ sơ và đồng hành</h3>
+              <p class="text-secondary mb-0" data-i18n="process.step4Desc">Bàn giao sơ đồ mạng hoàn công, tài liệu hướng dẫn quản trị và duy trì hỗ trợ kỹ thuật định kỳ cho doanh nghiệp.</p>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="py-100-60 bg-body-tertiary" id="case-studies">
-      <div class="container"><div class="text-center mb-5"><p class="section-kicker" data-i18n="cases.kicker">Capabilities</p><h2 class="section-title" data-i18n="cases.title">Solving enterprise-scale IT challenges</h2><p class="text-secondary mx-auto max-w-700" data-i18n="cases.description">From current-state assessment to implementation planning, risk control, and operating cost optimisation.</p></div><div class="row g-4" id="case-studies-target"></div></div>
+      <div class="container"><div class="text-center mb-5"><p class="section-kicker" data-i18n="cases.kicker">Năng lực tư vấn</p><h2 class="section-title" data-i18n="cases.title">Năng lực thiết kế mạng và quản lý an toàn thông tin</h2><p class="text-secondary mx-auto max-w-700" data-i18n="cases.description">Từ thiết kế mạng chịu tải, phòng ngừa rủi ro dữ liệu đến tối ưu hóa chi phí đầu tư thiết bị và bản quyền công nghệ.</p></div><div class="row g-4" id="case-studies-target"></div></div>
     </section>
 
     <section class="py-100-60 bg-body-tertiary" id="about">
       <div class="container">
         <article class="about-profile-panel rounded-4 overflow-hidden">
           <div class="row g-0 align-items-stretch">
-            <div class="col-lg-5"><figure class="about-visual mb-0"><img src="infrastructure-security-illustration.png" alt="Illustration of servers, networking, and IT security" data-i18n-alt="image.infrastructureAlt" loading="lazy"></figure></div>
+            <div class="col-lg-5"><figure class="about-visual mb-0"><img src="infrastructure-security-illustration.png" alt="Minh họa hệ thống máy chủ, mạng và bảo mật CNTT" data-i18n-alt="image.infrastructureAlt" loading="lazy"></figure></div>
             <div class="col-lg-7">
               <div class="about-copy p-4 p-lg-5">
-                <p class="section-kicker" data-i18n="about.kicker">About</p>
+                <p class="section-kicker" data-i18n="about.kicker">Giới thiệu</p>
                 <h2 class="section-title mb-3">Nguyễn Thế Thảo</h2>
-                <p class="h4 text-primary mb-4" data-i18n="about.role">IT infrastructure and security consultant</p>
-                <p class="text-secondary fs-5 mb-3" data-i18n="about.descriptionOne">With more than eight years of hands-on experience managing, operating, and improving IT infrastructure for manufacturing businesses, Nguyễn Thế Thảo turns complex technical issues into a clear priority roadmap aligned with budget and operational goals.</p>
-                <p class="text-secondary mb-4" data-i18n="about.descriptionTwo">Every recommendation considers system stability, data protection, total cost of ownership, and room to scale. The aim is evidence-based investment, proactive operations, and less risk of disruption.</p>
+                <p class="h4 text-primary mb-4" data-i18n="about.role">Tư vấn quản lý mạng và an toàn thông tin</p>
+                <p class="text-secondary fs-5 mb-3" data-i18n="about.descriptionOne">Với hơn 8 năm kinh nghiệm thực chiến trong quản trị, thiết kế hệ thống mạng và an toàn thông tin cho doanh nghiệp sản xuất và SME, Nguyễn Thế Thảo giúp doanh nghiệp xây dựng hạ tầng mạng vững chắc, bảo mật dữ liệu an toàn với chi phí đầu tư hợp lý nhất.</p>
+                <p class="text-secondary mb-4" data-i18n="about.descriptionTwo">Mỗi giải pháp đều được đánh giá kỹ lưỡng dựa trên tính hiệu quả kỹ thuật, độ ổn định lâu dài và khả năng tối ưu ngân sách. Doanh nghiệp sẽ có được hệ thống chuẩn mực mà không cần lãng phí vào những thiết bị hay bản quyền vượt quá nhu cầu.</p>
                 <div class="about-highlights">
-                  <div class="about-highlight"><span class="about-highlight-icon"><i class="fa-solid fa-industry"></i></span><div><h3 class="h6 mb-1" data-i18n="about.highlightOneTitle">Understanding manufacturing environments</h3><p class="text-secondary mb-0" data-i18n="about.highlightOneText">Connect the requirements of offices, production floors, and business-critical applications.</p></div></div>
-                  <div class="about-highlight"><span class="about-highlight-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></span><div><h3 class="h6 mb-1" data-i18n="about.highlightTwoTitle">Advice grounded in current reality</h3><p class="text-secondary mb-0" data-i18n="about.highlightTwoText">Prioritise action by impact, risk, and available resources.</p></div></div>
-                  <div class="about-highlight"><span class="about-highlight-icon"><i class="fa-solid fa-people-group"></i></span><div><h3 class="h6 mb-1" data-i18n="about.highlightThreeTitle">Collaboration through implementation</h3><p class="text-secondary mb-0" data-i18n="about.highlightThreeText">Work with internal IT and vendors to move the plan into practice.</p></div></div>
+                  <div class="about-highlight"><span class="about-highlight-icon"><i class="fa-solid fa-network-wired"></i></span><div><h3 class="h6 mb-1" data-i18n="about.highlightOneTitle">Thiết kế mạng chuyên sâu</h3><p class="text-secondary mb-0" data-i18n="about.highlightOneText">Quy hoạch kiến trúc mạng chịu tải, phân tách VLAN, định tuyến và phủ sóng Wi-Fi doanh nghiệp ổn định.</p></div></div>
+                  <div class="about-highlight"><span class="about-highlight-icon"><i class="fa-solid fa-shield-halved"></i></span><div><h3 class="h6 mb-1" data-i18n="about.highlightTwoTitle">Quản lý an toàn thông tin</h3><p class="text-secondary mb-0" data-i18n="about.highlightTwoText">Chính sách bảo mật chặt chẽ, kiểm soát truy cập và bảo vệ dữ liệu chống mã độc tống tiền (Ransomware).</p></div></div>
+                  <div class="about-highlight"><span class="about-highlight-icon"><i class="fa-solid fa-chart-line"></i></span><div><h3 class="h6 mb-1" data-i18n="about.highlightThreeTitle">Tối ưu hóa chi phí và thiết bị</h3><p class="text-secondary mb-0" data-i18n="about.highlightThreeText">Lựa chọn đúng thiết bị, đúng cấu hình công nghệ, giúp tiết kiệm ngân sách đầu tư ban đầu và chi phí vận hành.</p></div></div>
                 </div>
               </div>
             </div>
           </div>
         </article>
         <div class="mt-5 pt-lg-4">
-          <div class="text-center mx-auto max-w-700"><p class="section-kicker" data-i18n="about.capabilitiesKicker">Professional capabilities</p><h3 class="h2 section-title mb-3" data-i18n="about.capabilitiesTitle">Solve IT infrastructure through operational and investment insight</h3><p class="text-secondary mb-0" data-i18n="about.capabilitiesDescription">From assessing the current state to organising delivery, the focus is always on a suitable solution that can operate for the long term and create clear business value.</p></div>
+          <div class="text-center mx-auto max-w-700"><p class="section-kicker" data-i18n="about.capabilitiesKicker">Năng lực chuyên môn</p><h3 class="h2 section-title mb-3" data-i18n="about.capabilitiesTitle">Giải quyết bài toán CNTT bằng kiến thức mạng và tư duy tối ưu chi phí</h3><p class="text-secondary mb-0" data-i18n="about.capabilitiesDescription">Trọng tâm luôn là giải pháp hiệu quả cao, vận hành bền bỉ và tạo ra giá trị kinh tế thiết thực cho doanh nghiệp.</p></div>
           <div class="row g-4 mt-1">
-            <div class="col-md-4"><article class="card border-0 glass-card capability-card h-100 p-4 p-lg-5"><i class="fa-solid fa-network-wired feature-icon"></i><h4 class="h4 mt-4" data-i18n="about.capabilityOneTitle">Fit-for-purpose infrastructure architecture</h4><p class="text-secondary mb-0" data-i18n="about.capabilityOneText">Design networks, Wi-Fi, firewalls, servers, and contingency measures around users, factory operations, and critical systems.</p></article></div>
-            <div class="col-md-4"><article class="card border-0 glass-card capability-card h-100 p-4 p-lg-5"><i class="fa-solid fa-shield-halved feature-icon"></i><h4 class="h4 mt-4" data-i18n="about.capabilityTwoTitle">Proactive security, ready recovery</h4><p class="text-secondary mb-0" data-i18n="about.capabilityTwoText">Review access, VPNs, firewalls, Microsoft 365, endpoints, and backups to reduce risk and keep the business operating.</p></article></div>
-            <div class="col-md-4"><article class="card border-0 glass-card capability-card h-100 p-4 p-lg-5"><i class="fa-solid fa-chart-line feature-icon"></i><h4 class="h4 mt-4" data-i18n="about.capabilityThreeTitle">Right-sized investment, optimised cost</h4><p class="text-secondary mb-0" data-i18n="about.capabilityThreeText">Advise on equipment, servers or cloud, application editions, and license quantities to control cost while keeping room to grow.</p></article></div>
+            <div class="col-md-4"><article class="card border-0 glass-card capability-card h-100 p-4 p-lg-5"><i class="fa-solid fa-network-wired feature-icon"></i><h4 class="h4 mt-4" data-i18n="about.capabilityOneTitle">Kiến trúc mạng doanh nghiệp vững chắc</h4><p class="text-secondary mb-0" data-i18n="about.capabilityOneText">Thiết kế network, core/access switch, VLAN, Wi-Fi chuyên dụng và phương án dự phòng mạng cho văn phòng, nhà xưởng.</p></article></div>
+            <div class="col-md-4"><article class="card border-0 glass-card capability-card h-100 p-4 p-lg-5"><i class="fa-solid fa-shield-halved feature-icon"></i><h4 class="h4 mt-4" data-i18n="about.capabilityTwoTitle">Quản lý an toàn thông tin và lưu trữ dữ liệu</h4><p class="text-secondary mb-0" data-i18n="about.capabilityTwoText">Thiết lập tường lửa chuyên dụng, bảo vệ endpoint, chuẩn hóa hệ thống sao lưu và lưu trữ dữ liệu an toàn theo chiến lược 3-2-1.</p></article></div>
+            <div class="col-md-4"><article class="card border-0 glass-card capability-card h-100 p-4 p-lg-5"><i class="fa-solid fa-chart-line feature-icon"></i><h4 class="h4 mt-4" data-i18n="about.capabilityThreeTitle">Tư vấn thiết bị công nghệ đúng nhu cầu</h4><p class="text-secondary mb-0" data-i18n="about.capabilityThreeText">Thẩm định cấu hình thiết bị, lựa chọn giải pháp đám mây hoặc máy chủ và tối ưu số lượng license để không lãng phí ngân sách.</p></article></div>
           </div>
         </div>
       </div>
@@ -113,27 +151,27 @@
 
     <section class="py-100-60" id="contact">
       <div class="container">
-        <div class="text-center mx-auto contact-heading"><p class="section-kicker" data-i18n="contact.kicker">Contact</p><h2 class="section-title mb-3" data-i18n="contact.title">Connect to discuss the right solution</h2><p class="text-secondary mb-0" data-i18n="contact.description">Use the details below to discuss your organisation's IT infrastructure, security, and operational needs.</p></div>
+        <div class="text-center mx-auto contact-heading"><p class="section-kicker" data-i18n="contact.kicker">Liên hệ</p><h2 class="section-title mb-3" data-i18n="contact.title">Kết nối để trao đổi giải pháp phù hợp</h2><p class="text-secondary mb-0" data-i18n="contact.description">Thông tin liên hệ trực tiếp để trao đổi về nhu cầu thiết kế mạng, an toàn thông tin và tối ưu chi phí CNTT của doanh nghiệp.</p></div>
         <div class="row g-4 mt-1">
           <div class="col-lg-6">
             <article class="contact-panel rounded-4 h-100 p-4 p-lg-5">
-              <h3 class="h4 fw-bold mb-3" data-i18n="contact.infoTitle">Contact details</h3><p class="text-secondary mb-4" data-i18n="contact.infoDescription">Reach out via Zalo, phone, or email to discuss your needs and agree on a suitable time.</p>
-              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-phone"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.phone">Phone and Zalo</p><a class="contact-detail-value" href="tel:0977574363">097 757 4363</a></div></div>
-              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-envelope"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.email">Email</p><a class="contact-detail-value" href="mailto:thethao2710@gmail.com">thethao2710@gmail.com</a></div></div>
-              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-location-dot"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.region">Service area</p><p class="contact-detail-value mb-0" data-i18n="contact.regionValue">Ho Chi Minh City · Binh Duong · Dong Nai</p></div></div>
-              <a class="btn btn-outline-secondary rounded-pill px-4 mt-4" href="https://zalo.me/0977574363" target="_blank" rel="noopener"><i class="fa-solid fa-message me-2"></i><span data-i18n="contact.zalo">Chat via Zalo</span></a>
+              <h3 class="h4 fw-bold mb-3" data-i18n="contact.infoTitle">Thông tin liên hệ</h3><p class="text-secondary mb-4" data-i18n="contact.infoDescription">Kết nối qua Zalo, điện thoại hoặc email để trao đổi nhu cầu và thống nhất thời gian phù hợp.</p>
+              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-phone"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.phone">Điện thoại và Zalo</p><a class="contact-detail-value" href="tel:0977574363">097 757 4363</a></div></div>
+              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-envelope"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.email">Thư điện tử</p><a class="contact-detail-value" href="mailto:thethao2710@gmail.com">thethao2710@gmail.com</a></div></div>
+              <div class="contact-detail"><span class="contact-icon rounded-3 text-primary"><i class="fa-solid fa-location-dot"></i></span><div><p class="contact-detail-label mb-1" data-i18n="contact.region">Khu vực hỗ trợ</p><p class="contact-detail-value mb-0" data-i18n="contact.regionValue">TP. Hồ Chí Minh · Bình Dương · Đồng Nai</p></div></div>
+              <a class="btn btn-outline-secondary rounded-pill px-4 mt-4" href="https://zalo.me/0977574363" target="_blank" rel="noopener"><i class="fa-solid fa-message me-2"></i><span data-i18n="contact.zalo">Trao đổi qua Zalo</span></a>
             </article>
           </div>
           <div class="col-lg-6">
-            <article class="contact-panel qr-card-container rounded-4 h-100 p-4 p-lg-5"><h3 class="h4 fw-bold mb-3 qr-title-custom" data-i18n="contact.quickTitle">Quick access</h3><p class="text-secondary mb-4" data-i18n="contact.quickDescription">Scan the QR code on a mobile device for quick access to the website and contact details.</p><div class="qr-wrapper"><img class="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&amp;data=https%3A%2F%2Fthaoit.id.vn%2F" alt="QR code for thaoit.id.vn" data-i18n-alt="contact.qrAlt"><span class="qr-scan-line" aria-hidden="true"></span></div><a class="btn btn-primary rounded-pill px-4 mt-4" href="https://thaoit.id.vn/" target="_blank" rel="noopener">thaoit.id.vn</a></article>
+            <article class="contact-panel qr-card-container rounded-4 h-100 p-4 p-lg-5"><h3 class="h4 fw-bold mb-3 qr-title-custom" data-i18n="contact.quickTitle">Kết nối nhanh</h3><p class="text-secondary mb-4" data-i18n="contact.quickDescription">Quét mã QR bằng thiết bị di động để truy cập nhanh website và lưu thông tin liên hệ.</p><div class="qr-wrapper"><img class="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&amp;data=https%3A%2F%2Fthaoit.id.vn%2F" alt="Mã QR dẫn đến thaoit.id.vn" data-i18n-alt="contact.qrAlt"><span class="qr-scan-line" aria-hidden="true"></span></div><a class="btn btn-primary rounded-pill px-4 mt-4" href="https://thaoit.id.vn/" target="_blank" rel="noopener">thaoit.id.vn</a></article>
           </div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="border-top py-4"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2 text-secondary fs-7"><span>© 2026 Nguyễn Thế Thảo</span><span data-i18n="footer.role">IT infrastructure and security consultant</span></div></footer>
-  <button class="btn-back-to-top" id="back-to-top" aria-label="Back to top" data-i18n-aria-label="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
-  <template id="service-card-template"><div class="col-lg-4"><article class="card border-0 glass-card h-100 p-4 service-card"><div class="d-flex align-items-center gap-3"><span class="service-icon-box"><i class="service-icon"></i></span><h3 class="h4 mb-0 service-title"></h3></div><p class="text-secondary mt-4 service-description"></p><h4 class="h6 text-primary service-deliverables-heading">What you receive</h4><ul class="service-deliverables text-secondary mb-0"></ul></article></div></template>
+  <footer class="border-top py-4"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2 text-secondary fs-7"><span>© 2026 Nguyễn Thế Thảo</span><span data-i18n="footer.role">Tư vấn quản lý mạng và an toàn thông tin</span></div></footer>
+  <button class="btn-back-to-top" id="back-to-top" aria-label="Lên đầu trang" data-i18n-aria-label="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+  <template id="service-card-template"><div class="col-md-6 col-xl-3"><article class="card border-0 glass-card h-100 p-4 service-card"><div class="d-flex align-items-center gap-3"><span class="service-icon-box"><i class="service-icon"></i></span><h3 class="h4 mb-0 service-title"></h3></div><p class="text-secondary mt-4 service-description"></p><h4 class="h6 text-primary service-deliverables-heading">Khách hàng nhận được</h4><ul class="service-deliverables text-secondary mb-0"></ul></article></div></template>
   <template id="case-study-template"><div class="col-lg-4"><article class="card border-0 glass-card h-100 p-4 case-card"><span class="case-label"></span><h3 class="h4 mt-3 case-title"></h3><div class="case-content text-secondary"></div></article></div></template>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="site-controls.js"></script>

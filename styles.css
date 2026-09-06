@@ -105,13 +105,44 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.consultant-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.98rem !important;
+  font-weight: 600;
+  padding: 0.55rem 1.35rem !important;
+  letter-spacing: 0.01em;
+  border-width: 1.5px !important;
+  margin-bottom: 1.65rem !important;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.12);
+}
+
+.consultant-hero-desc {
+  font-size: 1.22rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
 .consultant-tags span {
   background: var(--primary-subtle);
   border: 1px solid var(--border-color);
   border-radius: 999px;
   color: var(--text-secondary);
-  font-size: 0.85rem;
-  padding: 0.45rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.55rem 1.15rem;
+  transition: var(--transition-fast);
+}
+
+.consultant-tags span:hover {
+  color: var(--primary-light);
+  border-color: var(--primary-color);
+}
+
+.consultant-hero-cta .btn {
+  font-size: 1.12rem;
+  padding: 0.85rem 2rem;
+  font-weight: 600;
 }
 
 .service-icon-box,
@@ -476,6 +507,52 @@ a.contact-detail-value:hover {
 
 .hero-section {
   background-color: var(--bg-base);
+  padding-top: 72px;
+}
+
+.hero-row {
+  min-height: calc(100vh - 72px);
+}
+
+@media (min-width: 992px) {
+  .hero-section.consultant-hero.d-flex {
+    align-items: flex-start !important;
+  }
+
+  .consultant-hero {
+    padding-top: 80px !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  .consultant-hero .hero-row {
+    min-height: auto !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 2.5rem !important;
+    align-items: center;
+  }
+
+  .consultant-hero-title {
+    font-size: clamp(2.35rem, 3.3vw, 3.45rem) !important;
+    line-height: 1.22;
+    letter-spacing: -0.025em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .consultant-hero .hero-row {
+    padding-top: 1.25rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  .consultant-hero-title {
+    font-size: clamp(2.6rem, 3.5vw, 3.75rem) !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-section {
+    padding-top: 75px;
+  }
 }
 
 .hero-bg-shapes .shape {
@@ -531,8 +608,14 @@ a.contact-detail-value:hover {
 }
 @media (min-width: 992px) {
   .hero-avatar-wrapper {
-    width: 380px;
-    height: 380px;
+    width: 370px;
+    height: 370px;
+  }
+}
+@media (min-width: 1400px) {
+  .hero-avatar-wrapper {
+    width: 420px;
+    height: 420px;
   }
 }
 
@@ -919,3 +1002,54 @@ a.contact-detail-value:hover {
     font-size: 1rem;
   }
 }
+
+/* ==========================================================================
+   WORKING PROCESS CARDS
+   ========================================================================== */
+.process-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: var(--transition-smooth);
+}
+
+.process-step-num {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--primary-light);
+  opacity: 0.15;
+  pointer-events: none;
+  transition: var(--transition-fast);
+}
+
+.process-card:hover .process-step-num {
+  opacity: 0.35;
+  transform: scale(1.1);
+}
+
+.process-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: var(--primary-subtle);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: var(--transition-smooth);
+}
+
+.process-card:hover .process-icon-box {
+  background: var(--gradient-hero);
+  color: #ffffff !important;
+  box-shadow: 0 8px 16px rgba(99, 102, 241, 0.25);
+  transform: translateY(-2px);
+}
+
