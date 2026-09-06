@@ -2,72 +2,75 @@ const localizedContent = {
   en: {
     services: [
       {
-        icon: "fa-solid fa-network-wired",
-        title: "Enterprise network design and optimization",
-        description: "Design high-capacity, resilient network architectures, VLAN segmentation, core/access switching, and enterprise Wi-Fi for demanding office and factory environments.",
+        icon: "fa-solid fa-clipboard-check",
+        title: "IT Health Check for businesses",
+        description: "Assess the current infrastructure of businesses with 20–200 staff before planning upgrades or major technology investments.",
         deliverables: [
-          "Complete logical and physical network topology diagrams",
-          "VLAN segmentation policy and routing matrix",
-          "Network administration manual and incident troubleshooting runbook"
+          "Current-state assessment and prioritized risk register",
+          "Network diagram and list of operational bottlenecks",
+          "30 / 90 / 180-day improvement roadmap"
         ]
       },
       {
         icon: "fa-solid fa-shield-halved",
-        title: "Information security, backup and data storage",
-        description: "Establish robust cybersecurity defenses, enterprise firewall policies, user access governance, and automated 3-2-1 backup and secure data storage systems.",
+        title: "Business network and information security",
+        description: "Design and improve network, Wi-Fi, firewall, access control, and backup architecture for offices and manufacturing environments.",
         deliverables: [
-          "Information security posture and risk assessment report",
-          "Firewall security policies and secure remote VPN access",
-          "Centralized data storage plan and automated 3-2-1 backup runbook"
+          "Logical and physical network architecture",
+          "Network segmentation, firewall, and remote access policies",
+          "Centralized storage and 3-2-1 backup plan"
         ]
       },
       {
-        icon: "fa-solid fa-chart-line",
-        title: "Right-sized technology and hardware advisory",
-        description: "Survey real operational demand to recommend cost-effective hardware, servers, cloud services, and software licenses with maximum ROI.",
+        icon: "fa-solid fa-cloud-arrow-up",
+        title: "Microsoft 365 and data governance",
+        description: "Structure SharePoint, OneDrive, access permissions, multi-factor authentication, and account lifecycle processes to reduce data exposure.",
         deliverables: [
-          "Technology option comparison with Total Cost of Ownership (TCO)",
-          "Independent vendor quote screening and negotiation support",
-          "Optimized software licensing and cloud storage cost reduction"
+          "Shared data structure and access permission matrix",
+          "Multi-factor authentication and secure remote access plan",
+          "User onboarding and offboarding procedure"
         ]
       },
       {
         icon: "fa-solid fa-user-tie",
-        title: "Fractional IT management and integrated solutions",
-        description: "Serve as a fractional IT director for SMEs, bridging network architecture, information security governance, and peripheral infrastructure integration.",
+        title: "Fractional IT management and cost optimization",
+        description: "Support management teams with vendor reviews, technology planning, security oversight, and IT budget decisions without requiring a full-time IT Manager.",
         deliverables: [
-          "Periodic network health and security audit reports",
-          "Annual technology roadmap and IT budget plan",
-          "Advisory on peripheral infrastructure integration (CCTV, access control when needed)"
+          "Independent vendor quote and total cost review",
+          "Annual budget, asset, license, and risk tracking",
+          "Periodic management review and technology roadmap"
         ]
       }
     ],
     caseStudies: [
       {
-        label: "Capability 01",
-        title: "High-capacity enterprise network architecture and VLAN design",
+        label: "Situation 01",
+        title: "Factory network segmentation and traffic control",
         sections: [
-          ["Scope", "Assess office and factory operations, concurrent connected devices, ERP traffic, and inter-departmental security requirements."],
-          ["Approach", "Deploy redundant Internet routing, enterprise firewall, core/access switches, isolated VLANs, and seamless enterprise Wi-Fi roaming."],
-          ["Value delivered", "Rock-solid 24/7 network availability, zero traffic bottlenecks, and strict isolation between office, factory, and guest networks."]
+          ["Context", "Office computers, servers, cameras, production equipment, and guest Wi-Fi share the same internal network."],
+          ["Objective", "Limit unnecessary connections between operational areas and improve visibility of network traffic."],
+          ["Approach", "Separate office, server, guest, camera, and production zones using VLANs, then allow only required traffic through firewall policies."],
+          ["Expected value", "Reduce the scope of incidents, simplify troubleshooting, and make access rules easier to manage."]
         ]
       },
       {
-        label: "Capability 02",
-        title: "Information security governance and secure backup storage",
+        label: "Situation 02",
+        title: "Multi-layer backup for business data",
         sections: [
-          ["Scope", "Audit existing network vulnerabilities, privileged account access, internal file permissions, and accounting/operational data loss risks."],
-          ["Approach", "Implement next-gen enterprise firewall policies, multi-factor authentication (MFA), endpoint protection, and automated multi-tier NAS/cloud backup."],
-          ["Value delivered", "Eliminated ransomware threats, protected core financial/ERP databases, and ensured zero data loss with automated daily backup."]
+          ["Context", "Accounting and operational data is stored on a local NAS with no independent recovery copy."],
+          ["Objective", "Reduce dependence on a single storage device and improve recovery readiness after an incident."],
+          ["Approach", "Apply the 3-2-1 principle with primary storage, an isolated local backup, an encrypted offsite copy, and scheduled restore testing."],
+          ["Expected value", "Reduce single points of failure and provide a clearer, testable recovery process."]
         ]
       },
       {
-        label: "Capability 03",
-        title: "Right-sized technology advisory and operational IT cost reduction",
+        label: "Situation 03",
+        title: "Security license and recurring cost review",
         sections: [
-          ["Scope", "Review existing ISP leased line contracts, hardware upgrade proposals, server specifications, and software licensing expenses."],
-          ["Advisory approach", "Right-size equipment specs to actual workload demand, eliminate redundant software licenses, and independently verify vendor quotes."],
-          ["Value delivered", "Saved 25% to 30% in upfront capital and recurring IT operating costs while maximizing overall system performance."]
+          ["Context", "The business maintains separate firewall, endpoint, web filtering, and remote access subscriptions from multiple vendors."],
+          ["Objective", "Preserve required security controls while removing overlapping features and licenses."],
+          ["Approach", "Map business requirements against current features, compare renewal options, and recommend a right-sized licensing structure."],
+          ["Expected value", "Improve budget transparency and reduce recurring costs caused by duplicate subscriptions."]
         ]
       }
     ]
@@ -75,72 +78,75 @@ const localizedContent = {
   vi: {
     services: [
       {
-        icon: "fa-solid fa-network-wired",
-        title: "Thiết kế và tối ưu hệ thống mạng doanh nghiệp",
-        description: "Quy hoạch kiến trúc mạng chịu tải cao, phân tách VLAN, thiết bị chuyển mạch Core/Access và hệ thống Wi-Fi chuyên dụng cho văn phòng, nhà xưởng.",
+        icon: "fa-solid fa-clipboard-check",
+        title: "Đánh giá tổng thể hệ thống CNTT",
+        description: "Khảo sát hiện trạng hạ tầng cho doanh nghiệp từ 20–200 nhân sự trước khi lập kế hoạch nâng cấp hoặc đầu tư công nghệ.",
         deliverables: [
-          "Sơ đồ kiến trúc mạng logic và vật lý hoàn chỉnh",
-          "Chính sách phân tách VLAN và định tuyến băng thông",
-          "Tài liệu bàn giao quản trị và quy trình xử lý sự cố"
+          "Báo cáo hiện trạng và danh sách rủi ro theo mức độ ưu tiên",
+          "Sơ đồ mạng và danh sách điểm nghẽn vận hành",
+          "Lộ trình cải tiến theo các mốc 30, 90 và 180 ngày"
         ]
       },
       {
         icon: "fa-solid fa-shield-halved",
-        title: "Quản lý an toàn thông tin, sao lưu và lưu trữ dữ liệu",
-        description: "Thiết lập hệ thống phòng thủ an ninh mạng, cấu hình tường lửa chuyên dụng, kiểm soát quyền truy cập và tự động hóa sao lưu, lưu trữ dữ liệu an toàn.",
+        title: "Mạng doanh nghiệp và an toàn thông tin",
+        description: "Thiết kế và cải thiện mạng, Wi-Fi, tường lửa, kiểm soát truy cập và kiến trúc sao lưu cho văn phòng và môi trường sản xuất.",
         deliverables: [
-          "Báo cáo đánh giá rủi ro an toàn thông tin",
-          "Chính sách bảo mật tường lửa và VPN làm việc từ xa",
-          "Quy hoạch lưu trữ tập trung và quy trình sao lưu dữ liệu 3-2-1"
+          "Sơ đồ kiến trúc mạng logic và vật lý",
+          "Chính sách phân tách mạng, tường lửa và truy cập từ xa",
+          "Phương án lưu trữ tập trung và sao lưu dữ liệu 3-2-1"
         ]
       },
       {
-        icon: "fa-solid fa-chart-line",
-        title: "Tư vấn thiết bị và công nghệ tối ưu chi phí",
-        description: "Khảo sát thực tế để tư vấn lựa chọn thiết bị phần cứng, máy chủ, dịch vụ đám mây và bản quyền phần mềm đạt hiệu quả cao nhất với chi phí hợp lý.",
+        icon: "fa-solid fa-cloud-arrow-up",
+        title: "Microsoft 365 và quản trị dữ liệu",
+        description: "Quy hoạch SharePoint, OneDrive, quyền truy cập, xác thực đa yếu tố và vòng đời tài khoản để giảm nguy cơ lộ lọt dữ liệu.",
         deliverables: [
-          "Bảng phân tích phương án công nghệ và chi phí sở hữu (TCO)",
-          "Thẩm định báo giá kỹ thuật từ nhà cung cấp",
-          "Tối ưu hóa chi phí bản quyền phần mềm và lưu trữ đám mây"
+          "Cấu trúc dữ liệu dùng chung và ma trận phân quyền",
+          "Kế hoạch xác thực đa yếu tố và truy cập từ xa",
+          "Quy trình cấp phát và thu hồi tài khoản người dùng"
         ]
       },
       {
         icon: "fa-solid fa-user-tie",
-        title: "Quản trị CNTT đồng hành và giải pháp tích hợp",
-        description: "Đóng vai trò Trưởng phòng CNTT bán thời gian cho SME, kết nối chiến lược mạng, an toàn thông tin và tích hợp đồng bộ các hạ tầng phụ trợ.",
+        title: "Quản lý CNTT đồng hành và tối ưu chi phí",
+        description: "Hỗ trợ ban lãnh đạo đánh giá nhà cung cấp, hoạch định công nghệ, kiểm soát rủi ro và ra quyết định ngân sách khi chưa cần IT Manager toàn thời gian.",
         deliverables: [
-          "Rà soát định kỳ hệ thống mạng và an toàn thông tin",
-          "Kế hoạch ngân sách và lộ trình công nghệ hàng năm",
-          "Tư vấn tích hợp hạ tầng phụ trợ (camera, chấm công khi có nhu cầu)"
+          "Đánh giá độc lập báo giá và tổng chi phí sở hữu",
+          "Theo dõi ngân sách, tài sản, giấy phép và rủi ro",
+          "Rà soát định kỳ và xây dựng lộ trình công nghệ"
         ]
       }
     ],
     caseStudies: [
       {
-        label: "Năng lực 01",
-        title: "Quy hoạch kiến trúc mạng doanh nghiệp và VLAN chịu tải cao",
+        label: "Tình huống 01",
+        title: "Phân tách mạng nhà máy và kiểm soát lưu lượng",
         sections: [
-          ["Phạm vi", "Khảo sát mặt bằng nhà xưởng, văn phòng, số lượng thiết bị kết nối đồng thời, lưu lượng ERP và yêu cầu bảo mật giữa các phòng ban."],
-          ["Cách tiếp cận", "Thiết kế đấu nối đa đường truyền Internet, tường lửa chuyên dụng, switch Core/Access phân tách VLAN và Wi-Fi roaming chuyên dụng."],
-          ["Giá trị mang lại", "Hệ thống mạng vận hành ổn định 24/7, triệt tiêu tình trạng nghẽn sóng và cách ly an toàn giữa khối văn phòng, nhà máy và khách vãng lai."]
+          ["Bối cảnh", "Máy tính văn phòng, máy chủ, camera, thiết bị sản xuất và Wi-Fi khách dùng chung một mạng nội bộ."],
+          ["Mục tiêu", "Giới hạn các kết nối không cần thiết giữa từng khu vực và tăng khả năng quan sát lưu lượng."],
+          ["Phương án", "Phân tách mạng văn phòng, máy chủ, khách, camera và sản xuất bằng VLAN; chỉ cho phép các luồng cần thiết qua chính sách tường lửa."],
+          ["Giá trị kỳ vọng", "Thu hẹp phạm vi ảnh hưởng khi có sự cố, dễ khoanh vùng lỗi và quản lý quyền truy cập rõ ràng hơn."]
         ]
       },
       {
-        label: "Năng lực 02",
-        title: "Quản lý an toàn thông tin và giải pháp sao lưu, lưu trữ dữ liệu an toàn",
+        label: "Tình huống 02",
+        title: "Thiết kế phương án sao lưu dữ liệu nhiều lớp",
         sections: [
-          ["Phạm vi", "Rà soát lỗ hổng an ninh mạng, quyền tài khoản quản trị, chia sẻ dữ liệu nội bộ và các nguy cơ mất mát dữ liệu kế toán/vận hành."],
-          ["Cách tiếp cận", "Thiết lập chính sách tường lửa chuyên dụng thế hệ mới, xác thực đa yếu tố, bảo vệ thiết bị đầu cuối và sao lưu, lưu trữ dữ liệu tự động nhiều lớp lên NAS/Cloud."],
-          ["Giá trị mang lại", "Ngăn chặn nguy cơ thất thoát dữ liệu, bảo vệ an toàn toàn bộ cơ sở dữ liệu kinh doanh cốt lõi với hệ thống sao lưu dự phòng tự động hàng ngày."]
+          ["Bối cảnh", "Dữ liệu kế toán và vận hành được lưu trên NAS nội bộ nhưng chưa có bản sao phục hồi độc lập."],
+          ["Mục tiêu", "Giảm phụ thuộc vào một thiết bị lưu trữ và nâng cao khả năng phục hồi sau sự cố."],
+          ["Phương án", "Áp dụng nguyên tắc 3-2-1 gồm dữ liệu chính, bản sao nội bộ cách ly, bản sao ngoài địa điểm được mã hóa và lịch kiểm tra khôi phục."],
+          ["Giá trị kỳ vọng", "Giảm điểm lỗi đơn và hình thành quy trình phục hồi rõ ràng, có thể kiểm tra định kỳ."]
         ]
       },
       {
-        label: "Năng lực 03",
-        title: "Tư vấn thiết bị công nghệ đúng nhu cầu và tối ưu chi phí",
+        label: "Tình huống 03",
+        title: "Rà soát giấy phép bảo mật và chi phí định kỳ",
         sections: [
-          ["Phạm vi", "Đánh giá toàn bộ hợp đồng dịch vụ viễn thông, đề xuất mua sắm máy chủ, hạ tầng mạng và chi phí bản quyền phần mềm hiện tại."],
-          ["Giải pháp tư vấn", "Tính toán cấu hình thiết bị đúng tải trọng thực tế, cắt giảm bản quyền phần mềm dư thừa và thẩm định độc lập báo giá của các đơn vị bán hàng."],
-          ["Giá trị mang lại", "Tiết kiệm 25% - 30% ngân sách đầu tư ban đầu và chi phí duy trì hàng năm, đạt hiệu năng tối đa mà không bị lãng phí nguồn lực."]
+          ["Bối cảnh", "Doanh nghiệp duy trì riêng các gói tường lửa, bảo vệ thiết bị đầu cuối, lọc web và truy cập từ xa từ nhiều nhà cung cấp."],
+          ["Mục tiêu", "Duy trì các lớp kiểm soát cần thiết nhưng loại bỏ tính năng và giấy phép bị trùng lặp."],
+          ["Phương án", "Đối chiếu yêu cầu vận hành với tính năng đang sử dụng, so sánh phương án gia hạn và đề xuất cơ cấu giấy phép phù hợp."],
+          ["Giá trị kỳ vọng", "Minh bạch ngân sách và giảm chi phí định kỳ phát sinh từ các gói dịch vụ chồng chéo."]
         ]
       }
     ]
@@ -148,72 +154,75 @@ const localizedContent = {
   ja: {
     services: [
       {
-        icon: "fa-solid fa-network-wired",
-        title: "企業ネットワーク設計・最適化",
-        description: "基幹システムの負荷に耐える VLAN 分割、Core/Access スイッチ、業務用 Wi-Fi ローミング環境を設計・構築します。",
+        icon: "fa-solid fa-clipboard-check",
+        title: "企業向け IT ヘルスチェック",
+        description: "20〜200 名規模の企業を対象に、更新投資や大規模な技術導入を計画する前に IT 基盤の現状を評価します。",
         deliverables: [
-          "論理および物理ネットワーク構成図一式",
-          "VLAN 分割とルーティング設計書",
-          "ネットワーク管理マニュアルと障害対応手順"
+          "現状評価レポートと優先度別リスク一覧",
+          "ネットワーク構成図と運用上のボトルネック一覧",
+          "30 / 90 / 180 日の改善ロードマップ"
         ]
       },
       {
         icon: "fa-solid fa-shield-halved",
-        title: "情報セキュリティ管理・データストレージ保護",
-        description: "専用ファイアウォール、ユーザーアクセス権の適正化、3-2-1 ルールに基づく自動バックアップと安全なデータストレージ体制を整備します。",
+        title: "企業ネットワークと情報セキュリティ",
+        description: "オフィスや製造環境向けに、ネットワーク、Wi-Fi、ファイアウォール、アクセス制御、バックアップ構成を設計・改善します。",
         deliverables: [
-          "セキュリティリスク評価レポート",
-          "ファイアウォールポリシーとセキュア VPN 設定書",
-          "安全な集中データストレージ設計と 3-2-1 自動バックアップ手順書"
+          "論理・物理ネットワーク構成図",
+          "ネットワーク分離、ファイアウォール、リモートアクセス方針",
+          "集中ストレージと 3-2-1 バックアップ計画"
         ]
       },
       {
-        icon: "fa-solid fa-chart-line",
-        title: "機器選定・テクノロジーコスト最適化",
-        description: "実業務の負荷要件を精査し、過剰投資を排除して最もコストパフォーマンスの高いハードウェア、サーバー、クラウドを選定します。",
+        icon: "fa-solid fa-cloud-arrow-up",
+        title: "Microsoft 365 とデータガバナンス",
+        description: "SharePoint、OneDrive、アクセス権限、多要素認証、アカウント管理を整備し、情報漏洩リスクを低減します。",
         deliverables: [
-          "総保有コスト (TCO) を考慮した技術比較表",
-          "外部ベンダー見積書の技術審査と価格妥当性確認",
-          "ソフトウェアライセンスとクラウドストレージの適正化計画"
+          "共有データ構成とアクセス権限マトリクス",
+          "多要素認証とリモートアクセス計画",
+          "ユーザーアカウントの発行・回収手順"
         ]
       },
       {
         icon: "fa-solid fa-user-tie",
-        title: "非常勤 IT 顧問・統合インフラ支援",
-        description: "非常勤 IT マネージャーとして、ネットワーク戦略、情報セキュリティ管理、付帯インフラの統合を伴走支援します。",
+        title: "伴走型 IT 管理とコスト最適化",
+        description: "専任 IT マネージャーを置かない企業向けに、ベンダー評価、技術計画、リスク管理、予算判断を支援します。",
         deliverables: [
-          "ネットワーク・セキュリティの定期監査",
-          "年間 IT 予算と改善ロードマップ策定",
-          "付帯設備（必要に応じた監視カメラ・入退室管理等）の統合支援"
+          "ベンダー見積書と総保有コストの第三者評価",
+          "予算、資産、ライセンス、リスクの管理",
+          "定期レビューと技術ロードマップ"
         ]
       }
     ],
     caseStudies: [
       {
-        label: "専門性 01",
-        title: "高負荷に耐える企業ネットワーク基盤と VLAN 設計",
+        label: "事例 01",
+        title: "工場ネットワークの分離と通信制御",
         sections: [
-          ["支援範囲", "工場・オフィスの端末台数、ERP 通信要件、部門間アクセス制御要件を調査。"],
-          ["進め方", "回線冗長化、専用ファイアウォール、Core/Access スイッチ、分離 VLAN、業務用 Wi-Fi を設計・構築。"],
-          ["提供価値", "通信ボトルネックを完全解消し、24 時間 365 日の安定稼働と強固な部門間分離を実現。"]
+          ["背景", "オフィス PC、サーバー、カメラ、製造設備、ゲスト Wi-Fi が同一ネットワークを共有している。"],
+          ["目的", "各業務領域間の不要な通信を制限し、ネットワーク通信の可視性を高める。"],
+          ["対応方針", "オフィス、サーバー、ゲスト、カメラ、製造領域を VLAN で分離し、必要な通信のみをファイアウォールで許可する。"],
+          ["期待効果", "障害やインシデントの影響範囲を抑え、原因調査とアクセス管理を容易にする。"]
         ]
       },
       {
-        label: "専門性 02",
-        title: "情報セキュリティ管理と自動バックアップ・データストレージ",
+        label: "事例 02",
+        title: "業務データの多層バックアップ設計",
         sections: [
-          ["支援範囲", "ネットワークの脆弱性、管理者権限、ファイル共有環境、基幹データ消失リスクの点検。"],
-          ["進め方", "次世代専用ファイアウォール、MFA 認証、エンドポイント保護、NAS/クラウドによる多層自動バックアップとデータストレージを導入。"],
-          ["提供価値", "ランサムウェアやデータ消失リスクを排除し、重要業務データを確実に保護・自動バックアップする体制を確立。"]
+          ["背景", "会計・業務データを社内 NAS に保管しているが、独立した復旧用コピーがない。"],
+          ["目的", "単一ストレージへの依存を減らし、障害発生後の復旧準備を改善する。"],
+          ["対応方針", "本番データ、隔離したローカルバックアップ、暗号化した遠隔地コピー、定期復元テストによる 3-2-1 方針を適用する。"],
+          ["期待効果", "単一障害点を減らし、定期的に確認できる明確な復旧プロセスを整備する。"]
         ]
       },
       {
-        label: "専門性 03",
-        title: "機器選定の適正化と IT コストの最適削減",
+        label: "事例 03",
+        title: "セキュリティライセンスと継続費用の見直し",
         sections: [
-          ["支援範囲", "利用中の回線費用、サーバーリプレイス提案、ソフトウェアライセンス契約の見直し。"],
-          ["助言内容", "実負荷に見合った適正スペックの算出、不要ライセンスの解約、ベンダー見積もりの精査。"],
-          ["提供価値", "システム性能と安全性を向上させながら、初期投資および年間維持コストを最大 30% 削減。"]
+          ["背景", "複数ベンダーからファイアウォール、端末保護、Web フィルタリング、リモートアクセスを個別契約している。"],
+          ["目的", "必要なセキュリティ対策を維持しながら、重複する機能とライセンスを整理する。"],
+          ["対応方針", "業務要件と既存機能を照合し、更新案を比較したうえで適切なライセンス構成を提案する。"],
+          ["期待効果", "予算の透明性を高め、重複契約による継続費用を抑える。"]
         ]
       }
     ]
@@ -227,7 +236,7 @@ const deliverablesHeadings = {
 };
 
 function getContent(language) {
-  return localizedContent[language] || localizedContent.vi;
+  return localizedContent[language] || localizedContent.en;
 }
 
 function renderServices(language) {
@@ -246,7 +255,7 @@ function renderServices(language) {
     fragment.querySelector(".service-icon").className = service.icon;
     fragment.querySelector(".service-title").textContent = service.title;
     fragment.querySelector(".service-description").textContent = service.description;
-    fragment.querySelector(".service-deliverables-heading").textContent = deliverablesHeadings[language] || deliverablesHeadings.vi;
+    fragment.querySelector(".service-deliverables-heading").textContent = deliverablesHeadings[language] || deliverablesHeadings.en;
 
     service.deliverables.forEach((item) => {
       const listItem = document.createElement("li");
@@ -312,16 +321,16 @@ document.addEventListener("DOMContentLoaded", () => {
   window.SiteControls.init({
     metadata: {
       en: {
-        title: "Nguyen The Thao | Network Management and Information Security Consultant",
-        description: "Nguyen The Thao provides expert consulting in enterprise network architecture, information security governance, and right-sized cost-effective technology solutions for SMEs."
+        title: "Nguyen The Thao | IT Infrastructure & Security Consultant for SMEs",
+        description: "IT infrastructure, information security, Microsoft 365, backup, and fractional IT management consulting for manufacturers and SMEs."
       },
       vi: {
-        title: "Nguyễn Thế Thảo | Tư vấn quản lý mạng và an toàn thông tin",
-        description: "Nguyễn Thế Thảo chuyên tư vấn thiết kế hệ thống mạng doanh nghiệp, quản lý an toàn thông tin và tối ưu chi phí thiết bị công nghệ cho SME."
+        title: "Nguyễn Thế Thảo | Tư vấn hạ tầng CNTT và an toàn thông tin",
+        description: "Tư vấn hạ tầng CNTT, an toàn thông tin, Microsoft 365, sao lưu và quản lý CNTT đồng hành cho doanh nghiệp sản xuất và SME."
       },
       ja: {
-        title: "Nguyễn Thế Thảo | ネットワーク管理・情報セキュリティ顧問",
-        description: "中小企業向け企業ネットワーク設計、情報セキュリティ管理、IT 設備コスト最適化コンサルティング。"
+        title: "Nguyễn Thế Thảo | IT インフラ・情報セキュリティ顧問",
+        description: "製造業・中小企業向け IT インフラ、情報セキュリティ、Microsoft 365、バックアップ、伴走型 IT 管理支援。"
       }
     },
     onLanguageChange: (language) => {
