@@ -301,19 +301,83 @@ function renderCaseStudies(language) {
 function setupNavigation() {
   const navbar = document.getElementById("main-navbar");
   const backToTop = document.getElementById("back-to-top");
+  const navMenu = document.getElementById("navbar-nav");
+  const anchorLinks = Array.from(navbar?.querySelectorAll("a[href^='#']") || []);
+  const navigationLinks = Array.from(navbar?.querySelectorAll(".nav-link[href^='#']") || []);
 
   if (!navbar || !backToTop) {
     return;
   }
 
-  window.addEventListener("scroll", () => {
+  const updatePageState = () => {
     navbar.classList.toggle("scrolled", window.scrollY > 30);
     backToTop.classList.toggle("show", window.scrollY > 500);
+
+    const offset = navbar.getBoundingClientRect().height + 24;
+    const visibleSection = navigationLinks
+      .map((link) => document.querySelector(link.getAttribute("href")))
+      .filter(Boolean)
+      .filter((section) => section.getBoundingClientRect().top <= offset)
+      .at(-1);
+
+    if (visibleSection) {
+      const activeLink = navigationLinks.find((link) => link.getAttribute("href") === `#${visibleSection.id}`);
+      navigationLinks.forEach((link) => {
+        const isActive = link === activeLink;
+        link.classList.toggle("active", isActive);
+        link.toggleAttribute("aria-current", isActive);
+      });
+    }
+  };
+
+  const scrollToSection = (hash, behavior = "smooth") => {
+    const target = document.querySelector(hash);
+
+    if (!target) {
+      return false;
+    }
+
+    const offset = navbar.getBoundingClientRect().height + 16;
+    const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+
+    window.scrollTo({ top: targetPosition, behavior });
+    return true;
+  };
+
+  anchorLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const hash = link.getAttribute("href");
+
+      if (!hash || !scrollToSection(hash)) {
+        return;
+      }
+
+      event.preventDefault();
+      window.history.pushState(null, "", hash);
+      navigationLinks.forEach((navigationLink) => {
+        const isActive = navigationLink.getAttribute("href") === hash;
+        navigationLink.classList.toggle("active", isActive);
+        navigationLink.toggleAttribute("aria-current", isActive);
+      });
+
+      if (navMenu?.classList.contains("show") && window.bootstrap) {
+        window.bootstrap.Collapse.getOrCreateInstance(navMenu).hide();
+      }
+    });
+  });
+
+  window.addEventListener("scroll", updatePageState, { passive: true });
+
+  window.addEventListener("hashchange", () => {
+    scrollToSection(window.location.hash);
   });
 
   backToTop.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.history.pushState(null, "", "#hero");
+    scrollToSection("#hero");
   });
+
+  updatePageState();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
